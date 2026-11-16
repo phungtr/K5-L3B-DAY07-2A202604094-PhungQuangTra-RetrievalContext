@@ -1,0 +1,110 @@
+{
+  "config": "A1_dense_k5_b4000",
+  "retrieval": "dense",
+  "top_k": 5,
+  "budget_chars": 4000,
+  "policy": "relevance",
+  "max_searches": 4,
+  "role": "Cải thiện context",
+  "hypothesis": "Budget 800 làm context chỉ có 1 chunk và lượt search sau không thêm được evidence; tăng budget và ưu tiên theo hạng giúp agent thấy evidence -> nhiều câu đúng hơn, ít từ chối nhầm hơn.",
+  "split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "provider": "openai",
+  "complete": true,
+  "embedding_model": "openai/text-embedding-3-small",
+  "run_at": "2026-11-16T11:27:59",
+  "model_usage": {
+    "requests": 94,
+    "prompt_tokens": 116694,
+    "completion_tokens": 3809,
+    "cost_usd": 0.019789499999999998
+  },
+  "rerank_usage": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost_usd": 0.0
+  },
+  "embedding_usage": {
+    "requests": 56,
+    "prompt_tokens": 613,
+    "cost_usd": 1.2260000000000003e-05
+  },
+  "cases": 26,
+  "errors": 0,
+  "status": {
+    "answered": 16,
+    "abstain": 10
+  },
+  "tool_use": {
+    "n": 26,
+    "N": 26,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 12,
+    "2": 4,
+    "3": 4,
+    "4": 6
+  },
+  "model_calls_distribution": {
+    "2": 12,
+    "5": 14
+  },
+  "context_evidence_rate": {
+    "n": 19,
+    "N": 22,
+    "rate": 0.864
+  },
+  "context_evidence_single": {
+    "n": 17,
+    "N": 20,
+    "rate": 0.85
+  },
+  "context_evidence_multi_hop": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "auto_cited_evidence": {
+    "n": 16,
+    "N": 22,
+    "rate": 0.727
+  },
+  "auto_all_points": {
+    "n": 16,
+    "N": 22,
+    "rate": 0.727
+  },
+  "abstain_on_unanswerable": {
+    "n": 4,
+    "N": 4,
+    "rate": 1.0
+  },
+  "abstain_on_answerable": {
+    "n": 6,
+    "N": 22,
+    "rate": 0.273
+  },
+  "latency_s": {
+    "mean": 31.26,
+    "median": 8.86,
+    "max": 134.53
+  },
+  "cost_usd_per_question": {
+    "mean": 0.0,
+    "median": 0.0,
+    "max": 0.0
+  },
+  "cost_usd_total": 0.019801,
+  "tokens_per_question": {
+    "mean": 4634.73,
+    "median": 6081.0,
+    "max": 7730
+  },
+  "final_context_chars": {
+    "mean": 3715.42,
+    "median": 3762.5,
+    "max": 4000
+  }
+}

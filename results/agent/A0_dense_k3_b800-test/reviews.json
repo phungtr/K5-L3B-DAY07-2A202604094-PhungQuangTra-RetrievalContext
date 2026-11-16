@@ -1,0 +1,92 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại. Filter 2017-12 được áp đúng.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: context chỉ có đoạn xuất khẩu 10 tháng 2017 (dầu thô +26%, sai kỳ); chunk evidence tr.22 dài hơn budget 800 ký tự bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 17 năm so với 14 năm (Úc) và khoảng 35% quãng đường xe tải chạy rỗng; chunk tr.50 là gold (đã đối chiếu ảnh trang gốc).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t07",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng chênh lệch tới 5 lần; ý 'do mua sắm phân cấp' có trong chunk tr.46; ghi đúng bản 12/2017.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t08",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại. Context chỉ còn đoạn US$650 triệu đầu tư cổ phần (tr.26 para 2).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: khoảng 80% thu ngân sách tập trung ở 1/4 số tỉnh; ý cơ chế chuyển giao giúp tỉnh nghèo có trong chunk tr.53.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t10",
+  "citation_support": [],
+  "reason": "Từ chối câu multi-hop có đáp án: context (budget 800) không có đoạn 18,5% (12/2017) lẫn 14% (06/2018).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t11",
+  "citation_support": [],
+  "reason": "Từ chối (insufficient_evidence) dù nêu đúng 21,3% của 2017: context thiếu đoạn 19,2% của bản 06/2018. Từ chối câu có đáp án chấm 0.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "n05",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không lấy dự báo 2020 (6,5%) thay cho 2021.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n06",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không suy ra số tiền từ câu 'significant privatization proceeds'.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n07",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không dùng số tăng lương bình quân thay cho lương tối thiểu.",
+  "abstention_correct": true
+ }
+]

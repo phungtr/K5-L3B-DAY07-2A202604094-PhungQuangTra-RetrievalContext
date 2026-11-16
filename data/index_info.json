@@ -1,0 +1,17 @@
+{
+  "exported_at": "2026-11-16T09:28:25",
+  "vector_store": "PostgreSQL 16.16 (Debian 16.16-1.pgdg12+1) + pgvector 0.8.7",
+  "table": "chunks",
+  "strategy_rows": "B",
+  "note": "Day 6 cấu hình C = vector strategy B + lọc edition lúc truy vấn; Day 7 dùng lại nguyên vector, không embed lại.",
+  "embedding_model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "metric": "cosine (exact search, <=>)",
+  "chunks": 374,
+  "by_source": {
+    "ts-2017-12": 192,
+    "ts-2018-06": 182
+  },
+  "pages": 98,
+  "chunks_sha1": "7e893045ec1b889b821facff28390466f905e72a"
+}

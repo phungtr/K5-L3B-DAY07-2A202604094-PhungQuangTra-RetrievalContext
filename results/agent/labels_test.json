@@ -1,0 +1,347 @@
+{
+ "t01|650b79f7": {
+  "query_id": "t01",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t01|1b2f8dc4": {
+  "query_id": "t01",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng 1,6 triệu việc làm chế tạo ròng, chủ yếu ngành hướng xuất khẩu (dệt may, điện tử); ý phụ 700.000 việc làm và 80% tổng việc làm có trong chunk tr.18; tr.11 cũng chứa evidence.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t02|2a18db24": {
+  "query_id": "t02",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t02|294874b0": {
+  "query_id": "t02",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng 3% (khu vực công) so với 8,4% (tư nhân trong nước và FDI), do Chính phủ kìm quỹ lương khu vực công (tr.19); ý cầu lao động và tăng lương mạnh có trong Overview tr.11.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t03|a428e0ed": {
+  "query_id": "t03",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại. Filter 2017-12 được áp đúng.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t03|11eb9bd6": {
+  "query_id": "t03",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng: giảm 25 điểm cơ bản xuống 4,25% (tái chiết khấu) và 6,25% (tái cấp vốn), lần điều chỉnh đầu tiên sau ba năm; bối cảnh nới lỏng khi lạm phát vừa phải có trong chunk tr.22; tr.10 cũng là gold. Đúng kỳ 12/2017.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t04|753ead16": {
+  "query_id": "t04",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t04|63a87f59": {
+  "query_id": "t04",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng 2,3% (chính thức, 12/2017) và khoảng 7,36% khi tính nợ do VAMC nắm và nợ xấu tiềm ẩn; chunk tr.22 là gold (đã đối chiếu ảnh trang gốc).",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t05|43c11570": {
+  "query_id": "t05",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu có đáp án: context chỉ có đoạn xuất khẩu 10 tháng 2017 (dầu thô +26%, sai kỳ); chunk evidence tr.22 dài hơn budget 800 ký tự bị loại.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t05|8873be67": {
+  "query_id": "t05",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng: sản lượng giảm mạnh do giới hạn kỹ thuật của các mỏ dầu già; giá dầu +26,3% nhưng doanh thu xuất khẩu -27% trong 4 tháng đầu 2018; chunk tr.22 là gold (đã đối chiếu ảnh trang gốc).",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t06|a8642070": {
+  "query_id": "t06",
+  "runs": [
+   "A0_dense_k3_b800",
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng 17 năm so với 14 năm (Úc) và khoảng 35% quãng đường xe tải chạy rỗng; chunk tr.50 là gold (đã đối chiếu ảnh trang gốc).",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t07|42402f47": {
+  "query_id": "t07",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng chênh lệch tới 5 lần; ý 'do mua sắm phân cấp' có trong chunk tr.46; ghi đúng bản 12/2017.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t07|f9c191c3": {
+  "query_id": "t07",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng chênh lệch giá tới 5 lần cho cùng loại thuốc; chunk tr.46 là gold.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t08|646bf6ea": {
+  "query_id": "t08",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu có đáp án: context cuối (budget 800 ký tự) không có evidence vì chunk evidence dài hơn budget bị loại. Context chỉ còn đoạn US$650 triệu đầu tư cổ phần (tr.26 para 2).",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t08|9b92475f": {
+  "query_id": "t08",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng mức kỷ lục US$17,5 tỷ năm 2017, đúng bản 06/2018 (filter); chunk tr.26 là gold.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t09|e5629988": {
+  "query_id": "t09",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng: khoảng 80% thu ngân sách tập trung ở 1/4 số tỉnh; ý cơ chế chuyển giao giúp tỉnh nghèo có trong chunk tr.53.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t09|1bd2c762": {
+  "query_id": "t09",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng: khoảng 80% thu ngân sách tập trung ở 1/4 số tỉnh; ý cơ chế chuyển giao giúp tỉnh nghèo có trong chunk tr.53.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t10|8bf09c4e": {
+  "query_id": "t10",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối câu multi-hop có đáp án: context (budget 800) không có đoạn 18,5% (12/2017) lẫn 14% (06/2018).",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t10|82b69eca": {
+  "query_id": "t10",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng khoảng 18,5% (y/y, 10/2017, bản 12/2017 tr.10) và khoảng 14% (y/y, quý 1/2018, bản 06/2018 tr.21); đủ hai nhóm evidence, ghi đúng kỳ báo cáo.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t11|e264ba99": {
+  "query_id": "t11",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": 0,
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": "Từ chối (insufficient_evidence) dù nêu đúng 21,3% của 2017: context thiếu đoạn 19,2% của bản 06/2018. Từ chối câu có đáp án chấm 0.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "t11|4ea7e286": {
+  "query_id": "t11",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "answered",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "abstention_correct": null,
+  "reason": "Đúng 21,3% (1-10/2017, bản 12/2017 tr.23) và 19,2% (4 tháng đầu 2018, bản 06/2018 tr.22); đủ hai nhóm evidence.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "n05|1cad6d07": {
+  "query_id": "n05",
+  "runs": [
+   "A0_dense_k3_b800",
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "abstain",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; không lấy dự báo 2020 (6,5%) thay cho 2021.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "n06|f52d6c1f": {
+  "query_id": "n06",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; không suy ra số tiền từ câu 'significant privatization proceeds'.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "n06|06844004": {
+  "query_id": "n06",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "abstain",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; không suy ra số tiền từ câu 'significant privatization proceeds'.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "n07|bf8b8272": {
+  "query_id": "n07",
+  "runs": [
+   "A0_dense_k3_b800"
+  ],
+  "status": "abstain",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; không dùng số tăng lương bình quân thay cho lương tối thiểu.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ },
+ "n07|03baa271": {
+  "query_id": "n07",
+  "runs": [
+   "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "status": "abstain",
+  "answer_grade": null,
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; không dùng số tăng lương bình quân thay cho lương tối thiểu.",
+  "labeler": "Claude Code đề xuất; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)"
+ }
+}

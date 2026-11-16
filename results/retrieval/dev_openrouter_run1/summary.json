@@ -1,0 +1,641 @@
+{
+  "configs": {
+    "R0_dense_k3_b800": {
+      "method": "dense",
+      "role": "Baseline",
+      "top_k": 3,
+      "budget_chars": 800,
+      "policy": "first",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "evidence_hit3": {
+          "n": 15,
+          "N": 20,
+          "rate": 0.75
+        },
+        "hit5": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "hit10": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "mrr10": 0.769,
+        "context_evidence_rate": {
+          "n": 5,
+          "N": 20,
+          "rate": 0.25
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 5,
+          "N": 22,
+          "rate": 0.227
+        }
+      },
+      "context_chunks_mean": 0.82,
+      "context_chars_mean": 541,
+      "latency_ms_median": 2379.5,
+      "latency_ms_mean": 4677.1,
+      "cost_usd_total": 0.0,
+      "missed_hit3": [
+        "q03",
+        "q05",
+        "q16",
+        "q18",
+        "q19"
+      ],
+      "missed_context": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q07",
+        "q08",
+        "q09",
+        "q11",
+        "q12",
+        "q14",
+        "q15",
+        "q16",
+        "q18",
+        "q19",
+        "q21",
+        "q22"
+      ],
+      "hypothesis": "Baseline = cấu hình C Day 6 (dense pgvector + filter edition), top-3, budget mặc định của starter 800 ký tự.",
+      "run_at": "2026-11-16T09:44:20"
+    },
+    "R1_bm25_k3_b800": {
+      "method": "bm25",
+      "role": "Phương pháp 2 (lexical)",
+      "top_k": 3,
+      "budget_chars": 800,
+      "policy": "first",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 16,
+          "N": 20,
+          "rate": 0.8
+        },
+        "evidence_hit3": {
+          "n": 18,
+          "N": 20,
+          "rate": 0.9
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.86,
+        "context_evidence_rate": {
+          "n": 8,
+          "N": 20,
+          "rate": 0.4
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 8,
+          "N": 22,
+          "rate": 0.364
+        }
+      },
+      "context_chunks_mean": 0.64,
+      "context_chars_mean": 428,
+      "latency_ms_median": 0.8,
+      "latency_ms_mean": 0.9,
+      "cost_usd_total": 0.0,
+      "missed_hit3": [
+        "q05",
+        "q11"
+      ],
+      "missed_context": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q07",
+        "q08",
+        "q09",
+        "q11",
+        "q12",
+        "q14",
+        "q15",
+        "q21",
+        "q22"
+      ],
+      "hypothesis": "Câu trượt ở Day 6 chứa từ khóa/số đặc thù (inspection report, US$42 billion, proper incentives) nên BM25 bắt được chỗ dense bỏ sót; nhưng có thể thua ở câu diễn đạt lại.",
+      "run_at": "2026-11-16T09:44:20"
+    },
+    "R1b_bm25raw_k3_b800": {
+      "method": "bm25_raw",
+      "role": "Ablation tách từ",
+      "top_k": 3,
+      "budget_chars": 800,
+      "policy": "first",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "evidence_hit3": {
+          "n": 18,
+          "N": 20,
+          "rate": 0.9
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.887,
+        "context_evidence_rate": {
+          "n": 7,
+          "N": 20,
+          "rate": 0.35
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 7,
+          "N": 22,
+          "rate": 0.318
+        }
+      },
+      "context_chunks_mean": 0.59,
+      "context_chars_mean": 408,
+      "latency_ms_median": 1.6,
+      "latency_ms_mean": 1.7,
+      "cost_usd_total": 0.0,
+      "missed_hit3": [
+        "q05",
+        "q11"
+      ],
+      "missed_context": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q07",
+        "q08",
+        "q09",
+        "q11",
+        "q12",
+        "q14",
+        "q15",
+        "q17",
+        "q21",
+        "q22"
+      ],
+      "hypothesis": "BM25 không bỏ stopword, không stemming: đo ảnh hưởng của cách tách từ (corpus tiếng Anh).",
+      "run_at": "2026-11-16T09:44:20"
+    },
+    "R2_hybrid_k3_b800": {
+      "method": "hybrid",
+      "role": "Phương pháp 3 (hybrid RRF)",
+      "top_k": 3,
+      "budget_chars": 800,
+      "policy": "first",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "evidence_hit3": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.792,
+        "context_evidence_rate": {
+          "n": 7,
+          "N": 20,
+          "rate": 0.35
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 7,
+          "N": 22,
+          "rate": 0.318
+        }
+      },
+      "context_chunks_mean": 0.77,
+      "context_chars_mean": 518,
+      "latency_ms_median": 2380.7,
+      "latency_ms_mean": 4678.3,
+      "cost_usd_total": 0.0,
+      "missed_hit3": [
+        "q05",
+        "q11",
+        "q16"
+      ],
+      "missed_context": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q07",
+        "q08",
+        "q09",
+        "q11",
+        "q12",
+        "q14",
+        "q15",
+        "q16",
+        "q21",
+        "q22"
+      ],
+      "hypothesis": "RRF (k=60, top-50 mỗi bên) kết hợp được hai loại tín hiệu: Evidence Hit@3 >= max(dense, BM25).",
+      "run_at": "2026-11-16T09:44:20"
+    },
+    "R3_hybrid_k5_b4000": {
+      "method": "hybrid",
+      "role": "Cải thiện 1 (context)",
+      "top_k": 5,
+      "budget_chars": 4000,
+      "policy": "relevance",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "evidence_hit3": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.792,
+        "context_evidence_rate": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 21,
+          "N": 22,
+          "rate": 0.955
+        }
+      },
+      "context_chunks_mean": 4.18,
+      "context_chars_mean": 3516,
+      "latency_ms_median": 2380.3,
+      "latency_ms_mean": 4678.2,
+      "cost_usd_total": 0.0,
+      "missed_hit3": [
+        "q05",
+        "q11",
+        "q16"
+      ],
+      "missed_context": [
+        "q11"
+      ],
+      "hypothesis": "Budget 800 ký tự chỉ vừa khoảng 1 chunk (trung vị 750 ký tự + header) nên Context Evidence Rate ~ Hit@1. Top-5 + budget 4000 ký tự giữ được evidence ở hạng 2-5.",
+      "run_at": "2026-11-16T09:44:20"
+    },
+    "R4_hybrid_rerank_k5_b4000": {
+      "method": "hybrid_rerank",
+      "role": "Cải thiện 2 / Phương pháp 4 (rerank)",
+      "top_k": 5,
+      "budget_chars": 4000,
+      "policy": "relevance",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "evidence_hit3": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit5": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit10": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "mrr10": 0.912,
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 22,
+          "N": 22,
+          "rate": 1.0
+        }
+      },
+      "context_chunks_mean": 4.14,
+      "context_chars_mean": 3532,
+      "latency_ms_median": 7977.8,
+      "latency_ms_mean": 10034.8,
+      "cost_usd_total": 0.015243,
+      "missed_hit3": [
+        "q11"
+      ],
+      "missed_context": [],
+      "hypothesis": "Chunk đúng thường ở hạng 4-20 (Day 6: hạng 5-13). LLM rerank top-20 của hybrid đưa nó lên top-3, tăng Hit@1/Hit@3; đổi lại thêm 1 lần gọi LLM mỗi câu.",
+      "run_at": "2026-11-16T09:46:18"
+    },
+    "R5_dense_rerank_k5_b4000": {
+      "method": "dense_rerank",
+      "role": "Ablation rerank",
+      "top_k": 5,
+      "budget_chars": 4000,
+      "policy": "relevance",
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "evidence_hit3": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit5": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit10": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "mrr10": 0.975,
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "all_answerable": {
+        "N": 22,
+        "context_evidence_rate": {
+          "n": 22,
+          "N": 22,
+          "rate": 1.0
+        }
+      },
+      "context_chunks_mean": 4.18,
+      "context_chars_mean": 3555,
+      "latency_ms_median": 8301.9,
+      "latency_ms_mean": 11419.1,
+      "cost_usd_total": 0.015532,
+      "missed_hit3": [],
+      "missed_context": [],
+      "hypothesis": "Tách tác động của rerank khỏi hybrid: rerank trên top-20 của dense.",
+      "run_at": "2026-11-16T09:48:47"
+    }
+  },
+  "split": "dev",
+  "embedding_model": "openai/text-embedding-3-small",
+  "rerank_model": "openai/gpt-4o-mini",
+  "embedding_usage": {
+    "requests": 22,
+    "prompt_tokens": 555,
+    "cost_usd": 1.1099999999999999e-05
+  },
+  "rerank_usage": {
+    "requests": 44,
+    "prompt_tokens": 164608,
+    "completion_tokens": 10621,
+    "cost_usd": 0.030775799999999992
+  },
+  "eval_top": 10,
+  "updated_at": "2026-11-16T09:48:47"
+}

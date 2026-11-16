@@ -1,0 +1,336 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "How much did Vietnam's real GDP grow, year on year, during the first nine months of 2017?",
+    "answerable": true,
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "How did the share of public investment in total government spending in the first nine months of 2017 compare with its 2012-2016 average?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Which prices are excluded from the core inflation measure the report uses for Vietnam?",
+    "answerable": true,
+    "type": "ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "According to the report, what is needed so that deciding a large share of investment at the sub-national level does not lead to fragmentation and lower investment efficiency?",
+    "answerable": true,
+    "type": "dieu_kien",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What precondition does the report set before socialization policies for public services are expanded?",
+    "answerable": true,
+    "type": "dieu_kien",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "How does the amount of time Vietnamese teachers spend teaching compare with teachers in other ASEAN countries?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "How do Vietnam's road maintenance unit costs compare with those in Laos and Cambodia?",
+    "answerable": true,
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What was Vietnam's real GDP growth rate in the first quarter of 2018?",
+    "answerable": true,
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Under what assumption does the report project Vietnam's poverty rate (US$3.2/day line) to fall to 7.4 percent in 2018?",
+    "answerable": true,
+    "type": "dieu_kien",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "According to the World Economic Forum estimate cited in the report, what would happen to global GDP and world trade if all countries reduced supply chain barriers halfway to Singapore's level?",
+    "answerable": true,
+    "type": "dieu_kien",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Which part of the import process accounts for the largest share of the money spent on importing goods into Vietnam?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What system does the report recommend developing to address the lack of reliable logistics statistics in Vietnam?",
+    "answerable": true,
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "According to the December 2017 Taking Stock report, what GDP growth rate was projected for Vietnam in 2017?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2017-12"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "According to the June 2018 Taking Stock report, what real GDP growth rate is projected for Vietnam in 2018?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2018-06"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "According to the June 2018 Taking Stock report, how large was Vietnam's overall fiscal deficit in 2017?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2018-06"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "According to the December 2017 Taking Stock report, what level did Vietnam's gross international reserves reach, and how many months of imports did they cover?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2017-12"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "According to the June 2018 Taking Stock report, what was Vietnam's year-on-year consumer price inflation in early 2018, and what drove it?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2018-06"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "Which trade document cannot be submitted electronically in Vietnam, and do traders still need paper copies of their documents?",
+    "answerable": true,
+    "type": "ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "What could happen to Vietnam's poorer provinces if proper incentives are not put in place?",
+    "answerable": true,
+    "type": "dieu_kien",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "question": "How many hours does it take to complete the paperwork for importing goods into Vietnam, compared with the average of the ASEAN-4 economies?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "How did the 2017 GDP growth rate projected for Vietnam in the December 2017 Taking Stock report compare with the 2017 growth rate recorded according to the June 2018 report?",
+    "answerable": true,
+    "type": "multi_hop",
+    "filter": null
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "How did Vietnam's gross international reserves reported in the June 2018 Taking Stock report compare with the level reported in the December 2017 report, both in US dollars and in months of imports?",
+    "answerable": true,
+    "type": "multi_hop",
+    "filter": null
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "How many net new manufacturing jobs did Vietnam add over the past three years, and in what kind of sectors were these jobs mainly created?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "How fast did average wages in Vietnam's public sector grow compared with the domestic and FDI private sector between Q1 2014 and Q1 2017, and what explains the difference?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "According to the December 2017 Taking Stock report, how did the State Bank of Vietnam change its rediscount and refinancing rates in July 2017?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2017-12"
+    }
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "What share of outstanding loans did Vietnam officially report as non-performing in December 2017, and what is the estimated share once NPLs held by VAMC and potential bad debts are included?",
+    "answerable": true,
+    "type": "ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Why did Vietnam's oil export earnings fall in the first four months of 2018 even though oil prices were higher?",
+    "answerable": true,
+    "type": "ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "How old is Vietnam's active trucking fleet on average compared with Australia's, and what share of truck miles are driven empty?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "According to 2010 claims data from the Vietnam Social Security Fund, how much did procurement prices for the same drug vary across public hospitals?",
+    "answerable": true,
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "According to the June 2018 Taking Stock report, how much foreign direct investment did foreign investors disburse in Vietnam in 2017?",
+    "answerable": true,
+    "type": "metadata_filter",
+    "filter": {
+      "edition": "2018-06"
+    }
+  },
+  {
+    "id": "t09",
+    "split": "test",
+    "question": "How unevenly is Vietnam's national budget revenue distributed across provinces?",
+    "answerable": true,
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "t10",
+    "split": "test",
+    "question": "How did Vietnam's year-on-year credit growth reported for October 2017 in the December 2017 Taking Stock report compare with the year-on-year rate estimated for the first quarter of 2018 in the June 2018 report?",
+    "answerable": true,
+    "type": "multi_hop",
+    "filter": null
+  },
+  {
+    "id": "t11",
+    "split": "test",
+    "question": "Compare Vietnam's merchandise export growth in January-October 2017, as reported in the December 2017 Taking Stock report, with export growth over the first four months of 2018 reported in the June 2018 report.",
+    "answerable": true,
+    "type": "multi_hop",
+    "filter": null
+  },
+  {
+    "id": "n01",
+    "split": "dev",
+    "question": "What was Vietnam's unemployment rate in 2017 according to the Taking Stock reports?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  },
+  {
+    "id": "n02",
+    "split": "dev",
+    "question": "How much official development assistance (ODA) did Japan commit to Vietnam in 2017?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  },
+  {
+    "id": "n03",
+    "split": "dev",
+    "question": "What real GDP growth rate did Vietnam record in the third quarter of 2018?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  },
+  {
+    "id": "n04",
+    "split": "dev",
+    "question": "What was the average export price of Vietnamese rice per tonne in 2017?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  },
+  {
+    "id": "n05",
+    "split": "test",
+    "question": "What GDP growth rate does the World Bank forecast for Vietnam in 2021?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  },
+  {
+    "id": "n06",
+    "split": "test",
+    "question": "How much money did the government raise from selling its stake in Sabeco?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  },
+  {
+    "id": "n07",
+    "split": "test",
+    "question": "By how much did Vietnam raise its regional minimum wage for 2018?",
+    "answerable": false,
+    "type": "thieu_evidence",
+    "filter": null
+  }
+]

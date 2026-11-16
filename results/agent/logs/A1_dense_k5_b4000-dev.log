@@ -1,0 +1,77 @@
+q01  answered searches=1  33.0s $0.00036  "Vietnam's real GDP grew by 6.4 percent year on year during the first nine months of 2017 ["
+q02  answered searches=1  26.4s $0.00038  'In the first nine months of 2017, the share of public investment in total government spend'
+q03  abstain  searches=2  14.3s $0.00108  'The reports do not specify which prices are excluded from the core inflation measure used '
+q04  answered searches=1   6.3s $0.00036  'To prevent fragmentation and lower investment efficiency from a large share of investment '
+q05  answered searches=4  88.1s $0.00104  'The report states that any expansion of socialization policies should be conditional on ha'
+Lỗi mạng (<urlopen error [Errno 11001] getaddrinfo failed>), thử lại sau 1 giây
+Lỗi mạng (<urlopen error [Errno 11001] getaddrinfo failed>), thử lại sau 2 giây
+q06  answered searches=4 134.5s $0.00114  'Vietnamese teachers spend an average of 1,015 hours teaching per year, which is the lowest'
+q07  answered searches=4  73.0s $0.00099  "Vietnam's routine road maintenance costs are approximately USD 3,000 per km per year, whic"
+q08  answered searches=1   4.5s $0.00036  "Vietnam's real GDP growth rate in the first quarter of 2018 was nearly 7.4 percent year-on"
+q09  answered searches=4  64.7s $0.00116  "The report projects Vietnam's poverty rate (US$3.2/day line) to fall to 7.4 percent in 201"
+q10  abstain  searches=1   5.6s $0.00039  'Không đủ bằng chứng để trả lời.'
+q11  abstain  searches=4  59.3s $0.00116  'Không đủ bằng chứng để trả lời.'
+q12  answered searches=1   4.2s $0.00038  'The report recommends developing the Vietnam Logistics Statistical System (VLSS) to collec'
+q13  answered searches=1   6.5s $0.00036  'The GDP growth rate projected for Vietnam in 2017 was 6.7 percent according to the Decembe'
+q14  abstain  searches=1   6.2s $0.00039  'Không đủ bằng chứng để trả lời.'
+q15  answered searches=1  26.8s $0.00039  "According to the June 2018 Taking Stock report, Vietnam's overall fiscal deficit in 2017 w"
+q16  abstain  searches=2  16.3s $0.00123  "The evidence regarding the specific level of Vietnam's gross international reserves and th"
+q17  answered searches=1   5.9s $0.00041  "According to the June 2018 Taking Stock report, Vietnam's year-on-year consumer price infl"
+q18  answered searches=3   9.1s $0.00101  'In Vietnam, the inspection report is the trade document that cannot be submitted electroni'
+q19  abstain  searches=3   8.7s $0.00098  "The evidence does not specify the consequences for Vietnam's poorer provinces if proper in"
+q20  answered searches=1   7.7s $0.00039  'It takes 76 hours to complete the paperwork for importing goods into Vietnam, compared to '
+q21  answered searches=4 128.6s $0.00109  "In the December 2017 Taking Stock report, Vietnam's GDP growth rate for 2017 was projected"
+q22  answered searches=1   4.7s $0.00045  "In the June 2018 report, Vietnam's gross international reserves were reported at approxima"
+n01  abstain  searches=2   7.2s $0.00103  'The reports do not provide a specific unemployment rate for Vietnam in 2017.'
+n02  abstain  searches=3  58.1s $0.00109  'The evidence does not provide information on the amount of official development assistance'
+n03  abstain  searches=2   6.3s $0.00103  'The reports do not provide the real GDP growth rate for Vietnam in the third quarter of 20'
+n04  abstain  searches=3   6.8s $0.00116  'The reports do not provide the average export price of Vietnamese rice per tonne for 2017.'
+{
+ "status": {
+  "answered": 16,
+  "abstain": 10
+ },
+ "tool_use": {
+  "n": 26,
+  "N": 26,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 12,
+  "2": 4,
+  "3": 4,
+  "4": 6
+ },
+ "context_evidence_rate": {
+  "n": 19,
+  "N": 22,
+  "rate": 0.864
+ },
+ "auto_cited_evidence": {
+  "n": 16,
+  "N": 22,
+  "rate": 0.727
+ },
+ "auto_all_points": {
+  "n": 16,
+  "N": 22,
+  "rate": 0.727
+ },
+ "abstain_on_unanswerable": {
+  "n": 4,
+  "N": 4,
+  "rate": 1.0
+ },
+ "abstain_on_answerable": {
+  "n": 6,
+  "N": 22,
+  "rate": 0.273
+ },
+ "latency_s": {
+  "mean": 31.26,
+  "median": 8.86,
+  "max": 134.53
+ },
+ "cost_usd_total": 0.019801
+}
+Trace: C:\Users\ADMIN\Documents\res1\K5-L3B-DAY07-2A202604094-PhungQuangTra-RetrievalContext\results\agent\A1_dense_k5_b4000-dev\traces.json

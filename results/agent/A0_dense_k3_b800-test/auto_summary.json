@@ -1,0 +1,110 @@
+{
+  "config": "A0_dense_k3_b800",
+  "retrieval": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "max_searches": 4,
+  "role": "Baseline agent",
+  "hypothesis": "Mặc định của starter (top-3, budget 800, giữ chunk cũ) trên dense Day 6.",
+  "split": "test",
+  "model": "openai/gpt-4o-mini",
+  "provider": "openai",
+  "complete": true,
+  "embedding_model": "openai/text-embedding-3-small",
+  "run_at": "2026-11-16T12:08:08",
+  "model_usage": {
+    "requests": 61,
+    "prompt_tokens": 44060,
+    "completion_tokens": 2019,
+    "cost_usd": 0.0078204
+  },
+  "rerank_usage": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost_usd": 0.0
+  },
+  "embedding_usage": {
+    "requests": 36,
+    "prompt_tokens": 476,
+    "cost_usd": 9.52e-06
+  },
+  "cases": 14,
+  "errors": 0,
+  "status": {
+    "abstain": 11,
+    "answered": 3
+  },
+  "tool_use": {
+    "n": 14,
+    "N": 14,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 3,
+    "2": 3,
+    "3": 5,
+    "4": 3
+  },
+  "model_calls_distribution": {
+    "2": 3,
+    "5": 11
+  },
+  "context_evidence_rate": {
+    "n": 3,
+    "N": 11,
+    "rate": 0.273
+  },
+  "context_evidence_single": {
+    "n": 3,
+    "N": 9,
+    "rate": 0.333
+  },
+  "context_evidence_multi_hop": {
+    "n": 0,
+    "N": 2,
+    "rate": 0.0
+  },
+  "auto_cited_evidence": {
+    "n": 3,
+    "N": 11,
+    "rate": 0.273
+  },
+  "auto_all_points": {
+    "n": 3,
+    "N": 11,
+    "rate": 0.273
+  },
+  "abstain_on_unanswerable": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "abstain_on_answerable": {
+    "n": 8,
+    "N": 11,
+    "rate": 0.727
+  },
+  "latency_s": {
+    "mean": 33.83,
+    "median": 23.99,
+    "max": 162.22
+  },
+  "cost_usd_per_question": {
+    "mean": 0.000559,
+    "median": 0.000627,
+    "max": 0.000708
+  },
+  "cost_usd_total": 0.00783,
+  "tokens_per_question": {
+    "mean": 3291.36,
+    "median": 3731.0,
+    "max": 4103
+  },
+  "final_context_chars": {
+    "mean": 489.29,
+    "median": 595.5,
+    "max": 712
+  }
+}

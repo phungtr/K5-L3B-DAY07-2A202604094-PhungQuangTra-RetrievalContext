@@ -1,0 +1,106 @@
+{
+ "scale": "0 = không có evidence; 1 = có nhưng thiếu điều kiện/nhóm evidence hoặc nguồn; 2 = đủ evidence và nguồn",
+ "labeler": "Claude Code đề xuất sau khi đọc context; học viên Phùng Quang Trà đã đọc lại và xác nhận (2026-11-16)",
+ "R0_dense_k3_b800": {
+  "t01": {
+   "grade": 0,
+   "reason": "context rỗng: cả 3 chunk tìm được đều dài hơn budget 800 ký tự (kể cả chunk evidence ở hạng 1)"
+  },
+  "t02": {
+   "grade": 0,
+   "reason": "context rỗng: cả 3 chunk tìm được đều dài hơn budget 800 ký tự (kể cả chunk evidence ở hạng 3)"
+  },
+  "t03": {
+   "grade": 0,
+   "reason": "chỉ giữ được 1 chunk ngắn (ts-2017-12:p029:para:002 về tỷ giá và dự trữ ngoại hối) không chứa evidence; chunk evidence ở hạng 1 bị loại vì dài hơn budget"
+  },
+  "t04": {
+   "grade": 0,
+   "reason": "chỉ giữ được 1 chunk ngắn (ts-2017-12:p038:para:002 về nợ đọng của chính quyền địa phương với doanh nghiệp xây dựng) không chứa evidence; chunk evidence (tr.22 bản 06/2018) ở hạng 1 bị loại vì dài hơn budget"
+  },
+  "t05": {
+   "grade": 0,
+   "reason": "chỉ giữ được 1 chunk ngắn (ts-2017-12:p023:para:003 về xuất khẩu 10 tháng 2017, có câu 'dầu thô tăng 26%' - sai kỳ so với câu hỏi về 4 tháng 2018); chunk evidence ở hạng 1 bị loại vì dài hơn budget"
+  },
+  "t06": {
+   "grade": 2,
+   "reason": "chunk tr.50 chứa đủ 17 năm/14 năm Úc/35% xe chạy rỗng, header có nguồn và trang"
+  },
+  "t07": {
+   "grade": 2,
+   "reason": "chunk tr.46 chứa nguyên câu 'up to a fivefold difference', header có nguồn và trang"
+  },
+  "t08": {
+   "grade": 0,
+   "reason": "chỉ giữ được 1 chunk ngắn (ts-2018-06:p026:para:002 về US$650 triệu đầu tư cổ phần) không chứa evidence; chunk evidence ở hạng 1 bị loại vì dài hơn budget"
+  },
+  "t09": {
+   "grade": 2,
+   "reason": "chunk tr.53 chứa '80 percent ... a quarter of provinces', header có nguồn và trang"
+  },
+  "t10": {
+   "grade": 0,
+   "reason": "context rỗng (multi-hop): cả 3 chunk đều dài hơn 800 ký tự"
+  },
+  "t11": {
+   "grade": 1,
+   "reason": "chỉ có nhóm A (21,3% Jan-Oct 2017, tr.23); thiếu nhóm B (19,2% 4 tháng 2018, bản 06/2018)"
+  }
+ },
+ "R5_dense_rerank_k5_b4000": {
+  "t01": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.18 và Overview tr.11 đều chứa 1,6 triệu việc làm"
+  },
+  "t02": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.19 chứa 8,4% và 3% kèm lý do quỹ lương"
+  },
+  "t03": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.22 và tr.10 (bản 12/2017, đúng filter)"
+  },
+  "t04": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.22 chứa cả 2,3% và 7,36%"
+  },
+  "t05": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.22 chứa giá +26,3% và doanh thu -27% do sản lượng giảm"
+  },
+  "t06": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.50"
+  },
+  "t07": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.46"
+  },
+  "t08": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.26 (US$17.5 billion, bản 06/2018)"
+  },
+  "t09": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; tr.53 (hạng 2 sau rerank, vẫn trong top-5)"
+  },
+  "t10": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; đủ nhóm A (18,5%, tr.10/tr.22) và nhóm B (14%, tr.21)"
+  },
+  "t11": {
+   "grade": 2,
+   "reason": "context chứa chunk evidence đúng kỳ, kèm header nguồn/trang; đủ nhóm A (tr.23, tr.10) và nhóm B (tr.22)"
+  }
+ },
+ "R0_dense_k3_b800_counts": {
+  "0": 7,
+  "1": 1,
+  "2": 3
+ },
+ "R5_dense_rerank_k5_b4000_counts": {
+  "0": 0,
+  "1": 0,
+  "2": 11
+ }
+}

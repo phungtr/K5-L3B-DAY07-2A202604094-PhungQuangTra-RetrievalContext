@@ -1,0 +1,608 @@
+{
+  "chosen_agent_config": "A4_dense_rerank_k5_b4000_repair",
+  "chosen_retrieval_config": "R5_dense_rerank_k5_b4000",
+  "baseline_agent_config": "A0_dense_k3_b800",
+  "baseline_retrieval_config": "R0_dense_k3_b800",
+  "test_agent_configs": [
+    "A0_dense_k3_b800",
+    "A4_dense_rerank_k5_b4000_repair"
+  ],
+  "test_retrieval_configs": [
+    "R0_dense_k3_b800",
+    "R5_dense_rerank_k5_b4000"
+  ],
+  "agent_config": {
+    "retrieval": "dense_rerank",
+    "top_k": 5,
+    "budget_chars": 4000,
+    "policy": "relevance",
+    "max_searches": 4,
+    "citation_repair": true,
+    "role": "Cải thiện citation (theo lỗi dev)",
+    "hypothesis": "Giữ nguyên luật kiểm tra citation nhưng cho model nộp lại MỘT lần với phản hồi cụ thể (ID sai, danh sách ID hợp lệ): các câu bị loại vì định dạng sẽ thành câu trả lời hợp lệ, không làm tăng trả lời bừa ở câu thiếu evidence; tốn thêm khoảng 1 lần gọi model ở các câu đó."
+  },
+  "criterion": "Chốt 2026-11-16 trước khi chạy dev. Chọn cấu hình agent: (1) tổng điểm grounded answer (0/1/2, chấm tay, đọc citation) trên các câu dev có đáp án cao nhất; (2) ràng buộc: số câu dev thiếu evidence được từ chối đúng không thấp hơn baseline A0, vi phạm thì loại; (3) hòa ở (1) thì xét Context Evidence Rate dev, rồi chi phí trung bình/câu thấp hơn, rồi thời gian trung vị/câu thấp hơn. Bảng retrieval: so sánh theo Evidence Hit@3, rồi Hit@1, rồi MRR@10, rồi chi phí/thời gian.",
+  "reason": "Theo tiêu chí chốt trước: A4 có tổng điểm grounded dev cao nhất (40/44; A1 32, A3 28, A2 27, A0 11) và từ chối đúng 4/4 câu thiếu evidence, bằng baseline A0. Retrieval R5 (dense + LLM rerank top-20) dùng trong A4 có Evidence Hit@3 dev 20/20 và Hit@1 19-20/20 qua 3 lần chạy, cao nhất trong các phương pháp. Đánh đổi chấp nhận: chi phí ~0,0022 USD/câu (gấp ~2,9 lần A1) và độ trễ trung vị ~20 giây.",
+  "decided_at": "2026-11-16T11:58:14",
+  "dev_agent_summaries": {
+    "A0_dense_k3_b800": {
+      "grounded_answer": {
+        "0": 16,
+        "1": 1,
+        "2": 5,
+        "N": 22,
+        "mean": 0.5
+      },
+      "grounded_total_points": 11,
+      "abstention": {
+        "n": 4,
+        "N": 4
+      },
+      "false_abstention": {
+        "n": 15,
+        "N": 22
+      },
+      "citation_validity": {
+        "n": 6,
+        "N": 7
+      },
+      "context_evidence_rate": {
+        "n": 5,
+        "N": 22,
+        "rate": 0.227
+      },
+      "latency_s": {
+        "mean": 33.03,
+        "median": 24.75,
+        "max": 102.98
+      },
+      "cost_usd_per_question": {
+        "mean": 0.000567,
+        "median": 0.000609,
+        "max": 0.00074
+      }
+    },
+    "A1_dense_k5_b4000": {
+      "grounded_answer": {
+        "0": 6,
+        "1": 0,
+        "2": 16,
+        "N": 22,
+        "mean": 1.4545454545454546
+      },
+      "grounded_total_points": 32,
+      "abstention": {
+        "n": 4,
+        "N": 4
+      },
+      "false_abstention": {
+        "n": 6,
+        "N": 22
+      },
+      "citation_validity": {
+        "n": 20,
+        "N": 20
+      },
+      "context_evidence_rate": {
+        "n": 19,
+        "N": 22,
+        "rate": 0.864
+      },
+      "latency_s": {
+        "mean": 31.26,
+        "median": 8.86,
+        "max": 134.53
+      },
+      "cost_usd_per_question": {
+        "mean": 0.000762,
+        "median": 0.000984,
+        "max": 0.001227
+      }
+    },
+    "A2_hybrid_rerank_k5_b4000": {
+      "grounded_answer": {
+        "0": 8,
+        "1": 1,
+        "2": 13,
+        "N": 22,
+        "mean": 1.2272727272727273
+      },
+      "grounded_total_points": 27,
+      "abstention": {
+        "n": 4,
+        "N": 4
+      },
+      "false_abstention": {
+        "n": 8,
+        "N": 22
+      },
+      "citation_validity": {
+        "n": 21,
+        "N": 22
+      },
+      "context_evidence_rate": {
+        "n": 21,
+        "N": 22,
+        "rate": 0.955
+      },
+      "latency_s": {
+        "mean": 50.63,
+        "median": 35.03,
+        "max": 202.02
+      },
+      "cost_usd_per_question": {
+        "mean": 0.002101,
+        "median": 0.001739,
+        "max": 0.004121
+      }
+    },
+    "A3_dense_rerank_k5_b4000": {
+      "grounded_answer": {
+        "0": 8,
+        "1": 0,
+        "2": 14,
+        "N": 22,
+        "mean": 1.2727272727272727
+      },
+      "grounded_total_points": 28,
+      "abstention": {
+        "n": 4,
+        "N": 4
+      },
+      "false_abstention": {
+        "n": 7,
+        "N": 22
+      },
+      "citation_validity": {
+        "n": 19,
+        "N": 21
+      },
+      "context_evidence_rate": {
+        "n": 21,
+        "N": 22,
+        "rate": 0.955
+      },
+      "latency_s": {
+        "mean": 50.02,
+        "median": 35.5,
+        "max": 193.97
+      },
+      "cost_usd_per_question": {
+        "mean": 0.00188,
+        "median": 0.001146,
+        "max": 0.004113
+      }
+    },
+    "A4_dense_rerank_k5_b4000_repair": {
+      "grounded_answer": {
+        "0": 2,
+        "1": 0,
+        "2": 20,
+        "N": 22,
+        "mean": 1.8181818181818181
+      },
+      "grounded_total_points": 40,
+      "abstention": {
+        "n": 4,
+        "N": 4
+      },
+      "false_abstention": {
+        "n": 1,
+        "N": 22
+      },
+      "citation_validity": {
+        "n": 26,
+        "N": 28
+      },
+      "context_evidence_rate": {
+        "n": 21,
+        "N": 22,
+        "rate": 0.955
+      },
+      "latency_s": {
+        "mean": 25.71,
+        "median": 20.31,
+        "max": 94.65
+      },
+      "cost_usd_per_question": {
+        "mean": 0.002175,
+        "median": 0.00136,
+        "max": 0.004168
+      }
+    }
+  },
+  "dev_retrieval_summaries": {
+    "R0_dense_k3_b800": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "evidence_hit3": {
+          "n": 15,
+          "N": 20,
+          "rate": 0.75
+        },
+        "hit5": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "hit10": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "mrr10": 0.769,
+        "context_evidence_rate": {
+          "n": 5,
+          "N": 20,
+          "rate": 0.25
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "latency_ms_median": 2053.8,
+      "cost_usd_total": 0.0
+    },
+    "R1_bm25_k3_b800": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 16,
+          "N": 20,
+          "rate": 0.8
+        },
+        "evidence_hit3": {
+          "n": 18,
+          "N": 20,
+          "rate": 0.9
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.86,
+        "context_evidence_rate": {
+          "n": 8,
+          "N": 20,
+          "rate": 0.4
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "latency_ms_median": 0.7,
+      "cost_usd_total": 0.0
+    },
+    "R1b_bm25raw_k3_b800": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "evidence_hit3": {
+          "n": 18,
+          "N": 20,
+          "rate": 0.9
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.887,
+        "context_evidence_rate": {
+          "n": 7,
+          "N": 20,
+          "rate": 0.35
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "latency_ms_median": 1.3,
+      "cost_usd_total": 0.0
+    },
+    "R2_hybrid_k3_b800": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "evidence_hit3": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.792,
+        "context_evidence_rate": {
+          "n": 7,
+          "N": 20,
+          "rate": 0.35
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "latency_ms_median": 2055.6,
+      "cost_usd_total": 0.0
+    },
+    "R3_hybrid_k5_b4000": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "evidence_hit3": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "hit5": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "hit10": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "mrr10": 0.792,
+        "context_evidence_rate": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "latency_ms_median": 2058.2,
+      "cost_usd_total": 0.0
+    },
+    "R4_hybrid_rerank_k5_b4000": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "evidence_hit3": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit5": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit10": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "mrr10": 0.917,
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "latency_ms_median": 8064.2,
+      "cost_usd_total": 0.015513
+    },
+    "R5_dense_rerank_k5_b4000": {
+      "single_evidence": {
+        "N": 20,
+        "hit1": {
+          "n": 19,
+          "N": 20,
+          "rate": 0.95
+        },
+        "evidence_hit3": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit5": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "hit10": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "mrr10": 0.975,
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "latency_ms_median": 13321.0,
+      "cost_usd_total": 0.01558
+    }
+  }
+}

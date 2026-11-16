@@ -1,0 +1,182 @@
+{
+  "configs": {
+    "R0_dense_k3_b800": {
+      "method": "dense",
+      "role": "Baseline",
+      "top_k": 3,
+      "budget_chars": 800,
+      "policy": "first",
+      "single_evidence": {
+        "N": 9,
+        "hit1": {
+          "n": 7,
+          "N": 9,
+          "rate": 0.778
+        },
+        "evidence_hit3": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        },
+        "hit5": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        },
+        "hit10": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        },
+        "mrr10": 0.87,
+        "context_evidence_rate": {
+          "n": 3,
+          "N": 9,
+          "rate": 0.333
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 0,
+          "N": 2,
+          "rate": 0.0
+        }
+      },
+      "all_answerable": {
+        "N": 11,
+        "context_evidence_rate": {
+          "n": 3,
+          "N": 11,
+          "rate": 0.273
+        }
+      },
+      "context_chunks_mean": 0.73,
+      "context_chars_mean": 415,
+      "latency_ms_median": 609.9,
+      "latency_ms_mean": 1418.9,
+      "cost_usd_total": 0.0,
+      "missed_hit3": [],
+      "missed_context": [
+        "t01",
+        "t02",
+        "t03",
+        "t04",
+        "t05",
+        "t08",
+        "t10",
+        "t11"
+      ],
+      "hypothesis": "Baseline = cấu hình C Day 6 (dense pgvector + filter edition), top-3, budget mặc định của starter 800 ký tự.",
+      "run_at": "2026-11-16T11:58:39"
+    },
+    "R5_dense_rerank_k5_b4000": {
+      "method": "dense_rerank",
+      "role": "Ablation rerank",
+      "top_k": 5,
+      "budget_chars": 4000,
+      "policy": "relevance",
+      "single_evidence": {
+        "N": 9,
+        "hit1": {
+          "n": 8,
+          "N": 9,
+          "rate": 0.889
+        },
+        "evidence_hit3": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        },
+        "hit5": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        },
+        "hit10": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        },
+        "mrr10": 0.944,
+        "context_evidence_rate": {
+          "n": 9,
+          "N": 9,
+          "rate": 1.0
+        }
+      },
+      "multi_hop": {
+        "N": 2,
+        "any_group_hit3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full3": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "full10": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "context_full": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        }
+      },
+      "all_answerable": {
+        "N": 11,
+        "context_evidence_rate": {
+          "n": 11,
+          "N": 11,
+          "rate": 1.0
+        }
+      },
+      "context_chunks_mean": 4.09,
+      "context_chars_mean": 3455,
+      "latency_ms_median": 6423.6,
+      "latency_ms_mean": 8974.9,
+      "cost_usd_total": 0.007955,
+      "missed_hit3": [],
+      "missed_context": [],
+      "hypothesis": "Tách tác động của rerank khỏi hybrid: rerank trên top-20 của dense.",
+      "run_at": "2026-11-16T12:00:02"
+    }
+  },
+  "split": "test",
+  "provider": "openai",
+  "embedding_model": "openai/text-embedding-3-small",
+  "rerank_model": "openai/gpt-4o-mini",
+  "embedding_usage": {
+    "requests": 11,
+    "prompt_tokens": 353,
+    "cost_usd": 7.06e-06
+  },
+  "rerank_usage": {
+    "requests": 11,
+    "prompt_tokens": 42299,
+    "completion_tokens": 2684,
+    "cost_usd": 0.007955249999999999
+  },
+  "eval_top": 10,
+  "updated_at": "2026-11-16T12:00:02"
+}

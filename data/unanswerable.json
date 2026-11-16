@@ -1,0 +1,93 @@
+[
+  {
+    "human_verified": true,
+    "id": "n01",
+    "split": "dev",
+    "question": "What was Vietnam's unemployment rate in 2017 according to the Taking Stock reports?",
+    "near_topic": "Thị trường lao động: tạo việc làm, tăng lương (ts-2017-12 tr.18-19; ts-2018-06 tr.18).",
+    "absence_reason": "Không có tỷ lệ thất nghiệp. Regex /unemploy/ trên toàn văn 124 trang PDF (cả trang không index) chỉ khớp nhãn 'Unemployment payments' và 'unemployment benefits' trong hình 2.17-2.18 (ts-2017-12 tr.54-55); /jobless/ không khớp.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  },
+  {
+    "human_verified": true,
+    "id": "n02",
+    "split": "dev",
+    "question": "How much official development assistance (ODA) did Japan commit to Vietnam in 2017?",
+    "near_topic": "Japan xuất hiện 13 lần: đối tác thương mại, FTA, tăng trưởng (ts-2017-12 tr.15, 27; ts-2018-06 tr.17, 30-31).",
+    "absence_reason": "Regex /\\bODA\\b|development assistance/ chỉ khớp danh mục viết tắt ts-2017-12 tr.5 (trang không index). Không có số liệu ODA nào, của Nhật Bản hay nước khác.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  },
+  {
+    "human_verified": true,
+    "id": "n03",
+    "split": "dev",
+    "question": "What real GDP growth rate did Vietnam record in the third quarter of 2018?",
+    "near_topic": "Tăng trưởng Q1/2018 7,4% và dự báo cả năm 2018 6,8% (ts-2018-06 tr.9-10, 16, 31).",
+    "absence_reason": "Bản mới nhất phát hành 06/2018, số liệu thực tế tới Q1/2018 và 4-5 tháng đầu năm. Regex /third quarter of 2018|Q3[- ]?2018|q3-18|2018 Q3/ không khớp trang nào.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  },
+  {
+    "human_verified": true,
+    "id": "n04",
+    "split": "dev",
+    "question": "What was the average export price of Vietnamese rice per tonne in 2017?",
+    "near_topic": "Bảng 1.2 (ts-2017-12 tr.24) có tỷ trọng và tăng trưởng giá trị xuất khẩu gạo (+23,2% 10 tháng 2017); bảng 2.3 (tr.48) có sản lượng USD/ha.",
+    "absence_reason": "Regex /tonne|\\btons?\\b/ chỉ khớp tấn hàng qua cảng và kích thước sà lan (ts-2018-06 tr.49-50). /\\brice\\b/ khớp 23 lần (sản xuất, tưới tiêu, bảng xuất khẩu) nhưng không có giá gạo theo tấn.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  },
+  {
+    "human_verified": true,
+    "id": "n05",
+    "split": "test",
+    "question": "What GDP growth rate does the World Bank forecast for Vietnam in 2021?",
+    "near_topic": "Dự báo 2018-2020 (6,8%, 6,6%, 6,5%; ts-2018-06 tr.10, 15, 31) và bảng chỉ tiêu ts-2017-12 tr.12.",
+    "absence_reason": "Dự báo chỉ tới năm 2020. Regex /2021/ không khớp trang nào trong hai PDF.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  },
+  {
+    "human_verified": true,
+    "id": "n06",
+    "split": "test",
+    "question": "How much money did the government raise from selling its stake in Sabeco?",
+    "near_topic": "Thoái vốn Vinamilk/Sabeco hỗ trợ thị trường chứng khoán (ts-2017-12 tr.23); 'significant privatization proceeds' giúp giảm nợ công (ts-2018-06 tr.9, 29).",
+    "absence_reason": "Regex /Sabeco/ chỉ khớp ts-2017-12 tr.23 (không có số tiền); /proceeds/ chỉ khớp ts-2018-06 tr.9 và 29, không nêu số tiền hay tên doanh nghiệp.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  },
+  {
+    "human_verified": true,
+    "id": "n07",
+    "split": "test",
+    "question": "By how much did Vietnam raise its regional minimum wage for 2018?",
+    "near_topic": "Tăng trưởng lương bình quân 8%, 8,4% và 3% (ts-2017-12 tr.19), lương thực tế tăng 5% năm 2017 (ts-2018-06 tr.18).",
+    "absence_reason": "Regex /minimum wage|wage floor|basic salary/ không khớp trang nào; /minimum/ chỉ khớp 'minimum quality standards' (ts-2018-06 tr.17); 'base wage' chỉ có trong tiêu đề hình 2.4 về quỹ lương khu vực công (ts-2017-12 tr.42), không phải lương tối thiểu vùng. Báo cáo chỉ nêu tăng trưởng lương bình quân.",
+    "verified_by": "Phùng Quang Trà (học viên)",
+    "verified_at": "2026-11-16",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "origin": "day7-new"
+  }
+]

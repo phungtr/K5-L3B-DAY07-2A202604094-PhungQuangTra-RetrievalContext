@@ -1,0 +1,111 @@
+{
+  "config": "A2_hybrid_rerank_k5_b4000",
+  "retrieval": "hybrid_rerank",
+  "top_k": 5,
+  "budget_chars": 4000,
+  "policy": "relevance",
+  "max_searches": 4,
+  "role": "Cải thiện retrieval",
+  "hypothesis": "Retrieval tốt hơn (hybrid + rerank) đưa evidence vào context sớm hơn: Context Evidence Rate và grounded answer tăng, có thể giảm số lượt search; chi phí/độ trễ mỗi lượt tăng.",
+  "split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "provider": "openai",
+  "complete": true,
+  "embedding_model": "openai/text-embedding-3-small",
+  "run_at": "2026-11-16T11:36:22",
+  "model_usage": {
+    "requests": 89,
+    "prompt_tokens": 105477,
+    "completion_tokens": 3943,
+    "cost_usd": 0.017188949999999995
+  },
+  "rerank_usage": {
+    "requests": 54,
+    "prompt_tokens": 197335,
+    "completion_tokens": 13025,
+    "cost_usd": 0.03741525
+  },
+  "embedding_usage": {
+    "requests": 54,
+    "prompt_tokens": 587,
+    "cost_usd": 1.1740000000000003e-05
+  },
+  "cases": 26,
+  "errors": 0,
+  "status": {
+    "abstain": 12,
+    "answered": 14
+  },
+  "tool_use": {
+    "n": 26,
+    "N": 26,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 13,
+    "2": 4,
+    "3": 3,
+    "4": 6
+  },
+  "model_calls_distribution": {
+    "2": 13,
+    "4": 2,
+    "5": 11
+  },
+  "context_evidence_rate": {
+    "n": 21,
+    "N": 22,
+    "rate": 0.955
+  },
+  "context_evidence_single": {
+    "n": 19,
+    "N": 20,
+    "rate": 0.95
+  },
+  "context_evidence_multi_hop": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "auto_cited_evidence": {
+    "n": 14,
+    "N": 22,
+    "rate": 0.636
+  },
+  "auto_all_points": {
+    "n": 13,
+    "N": 22,
+    "rate": 0.591
+  },
+  "abstain_on_unanswerable": {
+    "n": 4,
+    "N": 4,
+    "rate": 1.0
+  },
+  "abstain_on_answerable": {
+    "n": 8,
+    "N": 22,
+    "rate": 0.364
+  },
+  "latency_s": {
+    "mean": 50.63,
+    "median": 35.03,
+    "max": 202.02
+  },
+  "cost_usd_per_question": {
+    "mean": 0.0,
+    "median": 0.0,
+    "max": 0.0
+  },
+  "cost_usd_total": 0.054616,
+  "tokens_per_question": {
+    "mean": 4208.46,
+    "median": 3833.0,
+    "max": 7115
+  },
+  "final_context_chars": {
+    "mean": 3632.04,
+    "median": 3649.5,
+    "max": 3976
+  }
+}

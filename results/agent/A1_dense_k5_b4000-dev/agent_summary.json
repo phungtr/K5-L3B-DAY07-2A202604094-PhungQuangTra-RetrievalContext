@@ -1,0 +1,84 @@
+{
+  "run": "A1_dense_k5_b4000",
+  "split": "dev",
+  "cases": 26,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 26,
+    "N": 26
+  },
+  "grounded_answer": {
+    "0": 6,
+    "1": 0,
+    "2": 16,
+    "N": 22,
+    "mean": 1.4545454545454546
+  },
+  "citation_validity": {
+    "n": 20,
+    "N": 20
+  },
+  "answer_citation_coverage": {
+    "n": 16,
+    "N": 16
+  },
+  "abstention": {
+    "n": 4,
+    "N": 4
+  },
+  "false_abstention": {
+    "n": 6,
+    "N": 22
+  },
+  "grounded_by_type": {
+    "single": {
+      "N": 20,
+      "sum": 28,
+      "grade2": 14
+    },
+    "multi_hop": {
+      "N": 2,
+      "sum": 4,
+      "grade2": 2
+    }
+  },
+  "grounded_total_points": 32,
+  "context_evidence_rate": {
+    "n": 19,
+    "N": 22,
+    "rate": 0.864
+  },
+  "context_evidence_multi_hop": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 12,
+    "2": 4,
+    "3": 4,
+    "4": 6
+  },
+  "model_calls_distribution": {
+    "2": 12,
+    "5": 14
+  },
+  "citation_repairs": 0,
+  "latency_s": {
+    "mean": 31.26,
+    "median": 8.86,
+    "max": 134.53
+  },
+  "cost_usd_per_question": {
+    "mean": 0.000762,
+    "median": 0.000984,
+    "max": 0.001227
+  },
+  "cost_usd_total": 0.019801,
+  "tokens_per_question": {
+    "mean": 4634.73,
+    "median": 6081.0,
+    "max": 7730
+  },
+  "labeler": "Nhãn do Claude Code đề xuất sau khi đọc citation; học viên Phùng Quang Trà đã đọc lại và xác nhận toàn bộ (2026-11-16)."
+}

@@ -1,0 +1,65 @@
+Lỗi mạng (<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>), thử lại sau 1 giây
+t01  abstain  searches=3  62.1s $0.00057  'There is no evidence in the reports regarding the number of net new manufacturing jobs add'
+t02  abstain  searches=3  24.6s $0.00063  'There is no evidence in the reports regarding the growth rates of average wages in Vietnam'
+t03  abstain  searches=4  36.7s $0.00064  'The evidence regarding changes made by the State Bank of Vietnam to its rediscount and ref'
+t04  abstain  searches=3  20.5s $0.00068  'The evidence does not provide the official share of outstanding loans reported as non-perf'
+t05  abstain  searches=3  38.8s $0.00065  "The evidence does not provide specific reasons for the fall in Vietnam's oil export earnin"
+t06  answered searches=1  11.5s $0.00028  "Vietnam's active trucking fleet has an average age of 17 years, compared to 14 years in Au"
+t07  answered searches=1   7.4s $0.00027  'According to 2010 claims data from the Vietnam Social Security Fund, procurement prices fo'
+t08  abstain  searches=4  27.6s $0.00063  'The evidence does not provide the total amount of foreign direct investment disbursed by f'
+t09  answered searches=1  23.4s $0.00026  "Vietnam's national budget revenue is unevenly distributed across provinces, with about 80 "
+t10  abstain  searches=3  26.6s $0.00068  "The evidence for Vietnam's year-on-year credit growth for October 2017 and the estimated r"
+Lỗi mạng (The read operation timed out), thử lại sau 1 giây
+t11  abstain  searches=2 162.2s $0.00071  "The evidence for Vietnam's merchandise export growth in the first four months of 2018 is m"
+n05  abstain  searches=2   7.4s $0.00062  'The reports do not provide a GDP growth rate forecast for Vietnam in 2021.'
+n06  abstain  searches=4   8.9s $0.00061  'The evidence does not provide information on the amount of money raised by the government '
+n07  abstain  searches=2  16.0s $0.00060  'The evidence does not provide information on the specific amount by which Vietnam raised i'
+{
+ "status": {
+  "abstain": 11,
+  "answered": 3
+ },
+ "tool_use": {
+  "n": 14,
+  "N": 14,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 3,
+  "2": 3,
+  "3": 5,
+  "4": 3
+ },
+ "context_evidence_rate": {
+  "n": 3,
+  "N": 11,
+  "rate": 0.273
+ },
+ "auto_cited_evidence": {
+  "n": 3,
+  "N": 11,
+  "rate": 0.273
+ },
+ "auto_all_points": {
+  "n": 3,
+  "N": 11,
+  "rate": 0.273
+ },
+ "abstain_on_unanswerable": {
+  "n": 3,
+  "N": 3,
+  "rate": 1.0
+ },
+ "abstain_on_answerable": {
+  "n": 8,
+  "N": 11,
+  "rate": 0.727
+ },
+ "latency_s": {
+  "mean": 33.83,
+  "median": 23.99,
+  "max": 162.22
+ },
+ "cost_usd_total": 0.00783
+}
+Trace: C:\Users\ADMIN\Documents\res1\K5-L3B-DAY07-2A202604094-PhungQuangTra-RetrievalContext\results\agent\A0_dense_k3_b800-test\traces.json

@@ -1,0 +1,112 @@
+{
+  "config": "A4_dense_rerank_k5_b4000_repair",
+  "retrieval": "dense_rerank",
+  "top_k": 5,
+  "budget_chars": 4000,
+  "policy": "relevance",
+  "max_searches": 4,
+  "citation_repair": true,
+  "role": "Cải thiện citation (theo lỗi dev)",
+  "hypothesis": "Giữ nguyên luật kiểm tra citation nhưng cho model nộp lại MỘT lần với phản hồi cụ thể (ID sai, danh sách ID hợp lệ): các câu bị loại vì định dạng sẽ thành câu trả lời hợp lệ, không làm tăng trả lời bừa ở câu thiếu evidence; tốn thêm khoảng 1 lần gọi model ở các câu đó.",
+  "split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "provider": "openai",
+  "complete": true,
+  "embedding_model": "openai/text-embedding-3-small",
+  "run_at": "2026-11-16T11:48:14",
+  "model_usage": {
+    "requests": 94,
+    "prompt_tokens": 115403,
+    "completion_tokens": 4533,
+    "cost_usd": 0.019435050000000006
+  },
+  "rerank_usage": {
+    "requests": 53,
+    "prompt_tokens": 195715,
+    "completion_tokens": 12932,
+    "cost_usd": 0.03711645000000001
+  },
+  "embedding_usage": {
+    "requests": 53,
+    "prompt_tokens": 592,
+    "cost_usd": 1.184e-05
+  },
+  "cases": 26,
+  "errors": 0,
+  "status": {
+    "answered": 21,
+    "abstain": 5
+  },
+  "tool_use": {
+    "n": 26,
+    "N": 26,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 14,
+    "2": 2,
+    "3": 5,
+    "4": 5
+  },
+  "model_calls_distribution": {
+    "2": 8,
+    "3": 6,
+    "5": 12
+  },
+  "context_evidence_rate": {
+    "n": 21,
+    "N": 22,
+    "rate": 0.955
+  },
+  "context_evidence_single": {
+    "n": 19,
+    "N": 20,
+    "rate": 0.95
+  },
+  "context_evidence_multi_hop": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "auto_cited_evidence": {
+    "n": 20,
+    "N": 22,
+    "rate": 0.909
+  },
+  "auto_all_points": {
+    "n": 20,
+    "N": 22,
+    "rate": 0.909
+  },
+  "abstain_on_unanswerable": {
+    "n": 4,
+    "N": 4,
+    "rate": 1.0
+  },
+  "abstain_on_answerable": {
+    "n": 1,
+    "N": 22,
+    "rate": 0.045
+  },
+  "latency_s": {
+    "mean": 25.71,
+    "median": 20.31,
+    "max": 94.65
+  },
+  "cost_usd_per_question": {
+    "mean": 0.002175,
+    "median": 0.00136,
+    "max": 0.004168
+  },
+  "cost_usd_total": 0.056563,
+  "tokens_per_question": {
+    "mean": 4612.92,
+    "median": 4092.5,
+    "max": 7371
+  },
+  "final_context_chars": {
+    "mean": 3594.58,
+    "median": 3575.5,
+    "max": 3974
+  }
+}

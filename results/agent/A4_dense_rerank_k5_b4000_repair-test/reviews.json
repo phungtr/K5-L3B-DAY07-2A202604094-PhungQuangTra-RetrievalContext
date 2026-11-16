@@ -1,0 +1,113 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 1,6 triệu việc làm chế tạo ròng, chủ yếu ngành hướng xuất khẩu (dệt may, điện tử); ý phụ 700.000 việc làm và 80% tổng việc làm có trong chunk tr.18; tr.11 cũng chứa evidence.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 3% (khu vực công) so với 8,4% (tư nhân trong nước và FDI), do Chính phủ kìm quỹ lương khu vực công (tr.19); ý cầu lao động và tăng lương mạnh có trong Overview tr.11.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng: giảm 25 điểm cơ bản xuống 4,25% (tái chiết khấu) và 6,25% (tái cấp vốn), lần điều chỉnh đầu tiên sau ba năm; bối cảnh nới lỏng khi lạm phát vừa phải có trong chunk tr.22; tr.10 cũng là gold. Đúng kỳ 12/2017.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 2,3% (chính thức, 12/2017) và khoảng 7,36% khi tính nợ do VAMC nắm và nợ xấu tiềm ẩn; chunk tr.22 là gold (đã đối chiếu ảnh trang gốc).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: sản lượng giảm mạnh do giới hạn kỹ thuật của các mỏ dầu già; giá dầu +26,3% nhưng doanh thu xuất khẩu -27% trong 4 tháng đầu 2018; chunk tr.22 là gold (đã đối chiếu ảnh trang gốc).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 17 năm so với 14 năm (Úc) và khoảng 35% quãng đường xe tải chạy rỗng; chunk tr.50 là gold (đã đối chiếu ảnh trang gốc).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t07",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng chênh lệch giá tới 5 lần cho cùng loại thuốc; chunk tr.46 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t08",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng mức kỷ lục US$17,5 tỷ năm 2017, đúng bản 06/2018 (filter); chunk tr.26 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: khoảng 80% thu ngân sách tập trung ở 1/4 số tỉnh; ý cơ chế chuyển giao giúp tỉnh nghèo có trong chunk tr.53.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t10",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng khoảng 18,5% (y/y, 10/2017, bản 12/2017 tr.10) và khoảng 14% (y/y, quý 1/2018, bản 06/2018 tr.21); đủ hai nhóm evidence, ghi đúng kỳ báo cáo.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t11",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 21,3% (1-10/2017, bản 12/2017 tr.23) và 19,2% (4 tháng đầu 2018, bản 06/2018 tr.22); đủ hai nhóm evidence.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "n05",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không lấy dự báo 2020 (6,5%) thay cho 2021.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n06",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không suy ra số tiền từ câu 'significant privatization proceeds'.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n07",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không dùng số tăng lương bình quân thay cho lương tối thiểu.",
+  "abstention_correct": true
+ }
+]

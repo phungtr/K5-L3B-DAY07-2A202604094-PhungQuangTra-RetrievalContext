@@ -1,0 +1,2837 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "type": "truc_tiep",
+  "multi_hop": false,
+  "question": "How much did Vietnam's real GDP grow, year on year, during the first nine months of 2017?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p010:para:001",
+    "score": 28.216137,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "Vietnam's economy also gathered momentum in 2017, reflecting strong domestic demand, robust export-oriented manufacturing, and a gradual rebound of agriculture."
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p018:para:000",
+    "score": 21.580475,
+    "source_id": "ts-2017-12",
+    "page": 18,
+    "edition": "2017-12",
+    "text_preview": "1.6. The agricultural sector also rebounded gradually from the severe drought last year. Agricultural output expanded by 2.8 percent (y/y) in the first nine mon"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p027:para:000",
+    "score": 20.244986,
+    "source_id": "ts-2017-12",
+    "page": 27,
+    "edition": "2017-12",
+    "text_preview": "1.19. imports rebounded significantly in 2017 after sluggish growth in 2016. Imports, especially of capital and intermediate goods, continued to surge, reflecti"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p011:para:001",
+    "score": 20.197449,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "Fiscal consolidation is underway, but the quality and sustainability of the adjustment could be improved. The budget deficit narrowed significantly to less than"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p017:para:003",
+    "score": 18.145237,
+    "source_id": "ts-2017-12",
+    "page": 17,
+    "edition": "2017-12",
+    "text_preview": "1.5. on the production side, growth was led by a pick-up in manufacturing. Vietnam's industrial production expanded by 8.6 percent (y/y) during the first ten mo"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p017:para:001",
+    "score": 18.110229,
+    "source_id": "ts-2017-12",
+    "page": 17,
+    "edition": "2017-12",
+    "text_preview": "Recent Economic Developments in Vietnam Aided by favorable external and domestic conditions, Vietnam's economy gathered momentum\n1.4. Vietnam's economy gathered"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p030:para:001",
+    "score": 17.194603,
+    "source_id": "ts-2017-12",
+    "page": 30,
+    "edition": "2017-12",
+    "text_preview": "1.24. The budget deficit narrowed significantly in 2017. The budget deficit for the first 9 months of 2017 is estimated to less than 2 percent of GDP (annualize"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2017-12:p031:para:001",
+    "score": 16.352867,
+    "source_id": "ts-2017-12",
+    "page": 31,
+    "edition": "2017-12",
+    "text_preview": "resources tax Env.\nprotection tax 2007 2009 2011 2013 2015 9M-17 Share of CIT/ total taxes (%) Share of CIT/ total revenue (%) Trillion dong 9M-2016 Current Inv"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p030:para:002",
+    "score": 16.330911,
+    "source_id": "ts-2017-12",
+    "page": 30,
+    "edition": "2017-12",
+    "text_preview": "1.25. Revenue performance improved in the first nine months of 2017. Nominal revenue growth in the first nine months of 2017 is estimated at 13.9 percent (y/y) "
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p011:para:000",
+    "score": 16.01519,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "Bolstered by a robust foreign exchange inflows, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal U.S."
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p010:para:001",
+   "ts-2017-12:p017:para:001"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2017-12:p010:para:001",
+   "ts-2017-12:p018:para:000",
+   "ts-2017-12:p027:para:000"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 1.4,
+  "timing": {
+   "search_ms": 1.3978999922983348
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "multi_hop": false,
+  "question": "How did the share of public investment in total government spending in the first nine months of 2017 compare with its 2012-2016 average?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p031:para:001",
+    "score": 37.33459,
+    "source_id": "ts-2017-12",
+    "page": 31,
+    "edition": "2017-12",
+    "text_preview": "resources tax Env.\nprotection tax 2007 2009 2011 2013 2015 9M-17 Share of CIT/ total taxes (%) Share of CIT/ total revenue (%) Trillion dong 9M-2016 Current Inv"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p030:para:001",
+    "score": 29.827938,
+    "source_id": "ts-2017-12",
+    "page": 30,
+    "edition": "2017-12",
+    "text_preview": "1.24. The budget deficit narrowed significantly in 2017. The budget deficit for the first 9 months of 2017 is estimated to less than 2 percent of GDP (annualize"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p011:para:001",
+    "score": 24.233641,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "Fiscal consolidation is underway, but the quality and sustainability of the adjustment could be improved. The budget deficit narrowed significantly to less than"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p030:para:002",
+    "score": 23.428628,
+    "source_id": "ts-2017-12",
+    "page": 30,
+    "edition": "2017-12",
+    "text_preview": "1.25. Revenue performance improved in the first nine months of 2017. Nominal revenue growth in the first nine months of 2017 is estimated at 13.9 percent (y/y) "
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p024:para:001",
+    "score": 17.149635,
+    "source_id": "ts-2017-12",
+    "page": 24,
+    "edition": "2017-12",
+    "text_preview": "1.18. Despite improved export performance of the domestic sector in 2017, exports continue to be dominated by the FDi sector. Vietnam's exports continue to gain"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p009:para:004",
+    "score": 16.857496,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "After public debt stabilized in 2017, maintaining fiscal discipline remains a priority. An expenditure-led adjustment reduced the overall fiscal deficit to 4.5 "
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p042:para:002",
+    "score": 16.468412,
+    "source_id": "ts-2017-12",
+    "page": 42,
+    "edition": "2017-12",
+    "text_preview": "2.18. The administrative wage bill has been expanding significantly, accounting on average for 20 percent of total budget spending. Although base salaries have "
+   },
+   {
+    "rank": 8,
+    "id": "ts-2017-12:p037:para:002",
+    "score": 16.442858,
+    "source_id": "ts-2017-12",
+    "page": 37,
+    "edition": "2017-12",
+    "text_preview": "Strengthening efficiency of public investment as a major driver of growth\n2.4. state budget capital spending, including investment financed by off-budget govern"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p038:para:000",
+    "score": 15.821574,
+    "source_id": "ts-2017-12",
+    "page": 38,
+    "edition": "2017-12",
+    "text_preview": "2.6. While devolution of public spending was intended to promote local governments to become stronger drivers of growth, the limited remaining share of central "
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p021:para:001",
+    "score": 15.158972,
+    "source_id": "ts-2017-12",
+    "page": 21,
+    "edition": "2017-12",
+    "text_preview": "1.12. investment growth is recovering gradually with rebalancing towards private investment. In the first 9M of 2017, total investment expanded by 12.1 percent "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p031:para:001",
+   "ts-2017-12:p030:para:001",
+   "ts-2017-12:p011:para:001"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2017-12:p031:para:001",
+   "ts-2017-12:p030:para:001",
+   "ts-2017-12:p011:para:001"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 1.6,
+  "timing": {
+   "search_ms": 1.6035999869927764
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "type": "ngoai_le",
+  "multi_hop": false,
+  "question": "Which prices are excluded from the core inflation measure the report uses for Vietnam?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p021:para:002",
+    "score": 15.19489,
+    "source_id": "ts-2017-12",
+    "page": 21,
+    "edition": "2017-12",
+    "text_preview": "Figure 1.12: investment composition (% gDP) Figure 1.13: investment and saving (% of gDP) Amidst muted prices pressures, looser monetary conditions continue to "
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p020:para:001",
+    "score": 14.243433,
+    "source_id": "ts-2018-06",
+    "page": 20,
+    "edition": "2018-06",
+    "text_preview": "8. Despite a recent uptick in headline inflation, price pressures remain subdued. Vietnam's consumer price index has been ticking up slightly in the first four "
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p035:para:000",
+    "score": 11.832338,
+    "source_id": "ts-2017-12",
+    "page": 35,
+    "edition": "2017-12",
+    "text_preview": "on the account of soft global energy and food prices before rebounding somewhat in the medium term, as rapid wage and credit growth lift core inflation. The tra"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p011:para:005",
+    "score": 10.915284,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1."
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p038:para:001",
+    "score": 10.911285,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "11. This report uses the indicator \"trade across borders\" from the World Bank's 2018 Doing Business (DB) to compare Vietnam's trade competitiveness with other c"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p029:para:004",
+    "score": 9.815628,
+    "source_id": "ts-2018-06",
+    "page": 29,
+    "edition": "2018-06",
+    "text_preview": "4 The Government definition includes borrowings from government sources, including from the cash balance in the treasury account and the sinking fund. Since thi"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p040:para:002",
+    "score": 9.358382,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "16. Documentary compliance reflects data including the entire time and cost of obtaining, preparing, processing, presenting and submitting all required document"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p031:para:003",
+    "score": 9.292509,
+    "source_id": "ts-2018-06",
+    "page": 31,
+    "edition": "2018-06",
+    "text_preview": "2017. Reflecting stronger than expected momentum especially of export oriented manufacturing and agriculture, we revised our forecast upwards with real GDP now "
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p010:para:000",
+    "score": 9.248891,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has "
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p046:para:000",
+    "score": 9.179027,
+    "source_id": "ts-2017-12",
+    "page": 46,
+    "edition": "2017-12",
+    "text_preview": "comprise 60 percent of total reimbursements from health insurance. Decentralized procurement has led to a variation in prices across provinces. For instance, cl"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p021:para:002"
+  ],
+  "context_ids": [
+   "ts-2017-12:p035:para:000"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p021:para:002",
+   "ts-2018-06:p020:para:001"
+  ],
+  "context_chars": 652,
+  "context_hit": false,
+  "latency_ms": 1.1,
+  "timing": {
+   "search_ms": 1.074300002073869
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "type": "dieu_kien",
+  "multi_hop": false,
+  "question": "According to the report, what is needed so that deciding a large share of investment at the sub-national level does not lead to fragmentation and lower investment efficiency?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p038:para:000",
+    "score": 30.222543,
+    "source_id": "ts-2017-12",
+    "page": 38,
+    "edition": "2017-12",
+    "text_preview": "2.6. While devolution of public spending was intended to promote local governments to become stronger drivers of growth, the limited remaining share of central "
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p050:para:001",
+    "score": 16.149561,
+    "source_id": "ts-2017-12",
+    "page": 50,
+    "edition": "2017-12",
+    "text_preview": "2.32. These arrangements have made recurrent spending largely pro-poor and equitable while capital spending balances equity and efficiency considerations. Sub-n"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p043:para:001",
+    "score": 15.189774,
+    "source_id": "ts-2017-12",
+    "page": 43,
+    "edition": "2017-12",
+    "text_preview": "2.20. average public sector wages in Vietnam do not seem particularly low compared with earnings elsewhere in the economy. The ratio of average government emplo"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p059:para:000",
+    "score": 14.805677,
+    "source_id": "ts-2017-12",
+    "page": 59,
+    "edition": "2017-12",
+    "text_preview": "2.49. Various concerns about equity in the health sector highlight how costs are a barrier to equal access to high quality care. Health financing policy in Viet"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p013:para:002",
+    "score": 14.356541,
+    "source_id": "ts-2017-12",
+    "page": 13,
+    "edition": "2017-12",
+    "text_preview": "• Public Investment prioritization and efficiency: Greater selectivity and stricter selection mechanisms could contribute to reducing the existing high levels o"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p045:para:000",
+    "score": 14.209165,
+    "source_id": "ts-2017-12",
+    "page": 45,
+    "edition": "2017-12",
+    "text_preview": "2.23. There is still a mismatch between personnel quotas and qualifications and actual needs. Personnel quota setting and actual employment are not well coordin"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p039:para:000",
+    "score": 13.880675,
+    "source_id": "ts-2017-12",
+    "page": 39,
+    "edition": "2017-12",
+    "text_preview": "improvement in contract recording practices. Greater selectivity and stricter selection mechanisms will contribute to reducing the existing high levels of fragm"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p051:para:000",
+    "score": 13.528833,
+    "source_id": "ts-2018-06",
+    "page": 51,
+    "edition": "2018-06",
+    "text_preview": "38. In order for a truck brokerage sector to emerge, it is necessary for the asset-based portion of the trucking industry to improve service levels across the b"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p051:para:000",
+    "score": 13.45143,
+    "source_id": "ts-2017-12",
+    "page": 51,
+    "edition": "2017-12",
+    "text_preview": "Provincial Poverty Rate Provincial Poverty Rate Log of Total Provincial Recurrent Spending Per Capita Provincial Capital Spending Budget Share Provincial Povert"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p025:para:001",
+    "score": 13.380443,
+    "source_id": "ts-2017-12",
+    "page": 25,
+    "edition": "2017-12",
+    "text_preview": "In Vietnam, there is evidence that these linkages remain underdeveloped due to various constraints associated with the demand and supply side, quality, access t"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p038:para:000"
+  ],
+  "context_ids": [
+   "ts-2017-12:p050:para:001"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p038:para:000",
+   "ts-2017-12:p043:para:001"
+  ],
+  "context_chars": 783,
+  "context_hit": false,
+  "latency_ms": 2.2,
+  "timing": {
+   "search_ms": 2.2056000016164035
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "type": "dieu_kien",
+  "multi_hop": false,
+  "question": "What precondition does the report set before socialization policies for public services are expanded?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p014:para:003",
+    "score": 17.666876,
+    "source_id": "ts-2017-12",
+    "page": 14,
+    "edition": "2017-12",
+    "text_preview": "Reduced budget financing to pro-poor services therefore entails a risk of widening inequities in access to basic services. Vietnam is actively pursuing a set of"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p056:para:001",
+    "score": 16.712056,
+    "source_id": "ts-2017-12",
+    "page": 56,
+    "edition": "2017-12",
+    "text_preview": "2.44. There is a risk of widening inequities in access to basic services if budget financing to pro -poor services is reduced. Vietnam is actively pursuing a se"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p056:para:002",
+    "score": 11.855338,
+    "source_id": "ts-2017-12",
+    "page": 56,
+    "edition": "2017-12",
+    "text_preview": "However, this important reform agenda is facing several challenges and posing a risk of widening inequity in access to basic services despite the proactive effo"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p060:para:000",
+    "score": 11.352631,
+    "source_id": "ts-2017-12",
+    "page": 60,
+    "edition": "2017-12",
+    "text_preview": "2.52. as Vietnam moves further towards market-based service pricing, improved and timely targeting practices should be adopted to mitigate the risk of increasin"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p054:para:000",
+    "score": 9.543022,
+    "source_id": "ts-2017-12",
+    "page": 54,
+    "edition": "2017-12",
+    "text_preview": "Figure 2.16: concentration and incidence of direct cash transfers and subsidies by quintile\nFigure 2.17: net fiscal cash contribution by quintile\nSource: Author"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p040:para:002",
+    "score": 9.358382,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "16. Documentary compliance reflects data including the entire time and cost of obtaining, preparing, processing, presenting and submitting all required document"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p014:para:002",
+    "score": 9.343579,
+    "source_id": "ts-2017-12",
+    "page": 14,
+    "edition": "2017-12",
+    "text_preview": "• In the science and technology area: (a) Gradually change from budget allocation for regular operations to competitive state contracting, ordering of services "
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p012:para:001",
+    "score": 8.890414,
+    "source_id": "ts-2018-06",
+    "page": 12,
+    "edition": "2018-06",
+    "text_preview": "Pillar 3: Building a competitive logistics service sector. Vietnam's logistics service providers (LSPs) often lack the scale, skills and technology to provide r"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p045:para:000",
+    "score": 8.782338,
+    "source_id": "ts-2018-06",
+    "page": 45,
+    "edition": "2018-06",
+    "text_preview": "high number of legal documents, measures, procedures, and forms to be processed - more than double compared with a selected set of peer countries10 (Figure 12)."
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p040:para:000",
+    "score": 8.748996,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "What and How Do Regulatory Compliance and Logistical Process Cost Vietnam's Traders?\n14. A detailed analysis of related indicators further breaking down the tim"
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 0.25,
+  "first_hit_rank": 4,
+  "hit_ids_top10": [
+   "ts-2017-12:p060:para:000"
+  ],
+  "context_ids": [
+   "ts-2017-12:p014:para:003"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p056:para:001",
+   "ts-2017-12:p056:para:002"
+  ],
+  "context_chars": 777,
+  "context_hit": false,
+  "latency_ms": 1.0,
+  "timing": {
+   "search_ms": 0.9900000004563481
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "multi_hop": false,
+  "question": "How does the amount of time Vietnamese teachers spend teaching compare with teachers in other ASEAN countries?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p013:para:003",
+    "score": 19.589405,
+    "source_id": "ts-2017-12",
+    "page": 13,
+    "edition": "2017-12",
+    "text_preview": "• In the education sector: (a) Review teachers working hours and consider increasing them to an internationally comparable level in association with education a"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p043:para:003",
+    "score": 19.489781,
+    "source_id": "ts-2017-12",
+    "page": 43,
+    "edition": "2017-12",
+    "text_preview": "2.22. The efficiency of deployment of human resources in several sectors of public service delivery is not satisfactory, most notably in education and health. A"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p038:para:000",
+    "score": 13.814352,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p044:para:000",
+    "score": 13.747966,
+    "source_id": "ts-2017-12",
+    "page": 44,
+    "edition": "2017-12",
+    "text_preview": "country grade 5 Teaching hours Vietnam 1,015 Indonesia 1,120 Lao PDR 1,160 Cambodia 1,200 Malaysia 1,320 Myanmar 1,400 Singapore 1,470 Thailand 1,500 Philippine"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p056:para:000",
+    "score": 13.025904,
+    "source_id": "ts-2018-06",
+    "page": 56,
+    "edition": "2018-06",
+    "text_preview": "Figure 24. LPI 2016: ASEAN Overall Scores and Ranks\nSource: LPI 2016.\n50. In Vietnam, as in most countries, the infrastructure score is lower than the overall s"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p038:para:001",
+    "score": 11.929282,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "11. This report uses the indicator \"trade across borders\" from the World Bank's 2018 Doing Business (DB) to compare Vietnam's trade competitiveness with other c"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p045:para:003",
+    "score": 11.051166,
+    "source_id": "ts-2017-12",
+    "page": 45,
+    "edition": "2017-12",
+    "text_preview": "• In the education sector, there are signs of inefficiencies in the deployment of human resources. There should be a human resource adjustment plan to increase "
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p039:para:001",
+    "score": 10.212141,
+    "source_id": "ts-2018-06",
+    "page": 39,
+    "edition": "2018-06",
+    "text_preview": "12. Vietnam's trade competitiveness in terms of time to trade remains behind peer economies in the region, particularly compared with the average of the ASEAN-4"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p039:para:002",
+    "score": 10.058678,
+    "source_id": "ts-2018-06",
+    "page": 39,
+    "edition": "2018-06",
+    "text_preview": "13. While it also lags the ASEAN-4 average, Vietnam's trade competitiveness in terms of its monetary cost to trade is better than for its time cost to trade. Do"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p054:para:001",
+    "score": 9.849866,
+    "source_id": "ts-2018-06",
+    "page": 54,
+    "edition": "2018-06",
+    "text_preview": "47. Doing Business reports can also be used to benchmark Vietnam against peer countries, and therefore support a monitoring of the performance gaps between Viet"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p013:para:003",
+   "ts-2017-12:p043:para:003"
+  ],
+  "context_ids": [
+   "ts-2017-12:p013:para:003"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p043:para:003",
+   "ts-2018-06:p038:para:000"
+  ],
+  "context_chars": 583,
+  "context_hit": true,
+  "latency_ms": 1.3,
+  "timing": {
+   "search_ms": 1.2346000003162771
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "type": "truc_tiep",
+  "multi_hop": false,
+  "question": "How do Vietnam's road maintenance unit costs compare with those in Laos and Cambodia?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p014:para:000",
+    "score": 27.974106,
+    "source_id": "ts-2017-12",
+    "page": 14,
+    "edition": "2017-12",
+    "text_preview": "care and health care delivery at grassroots level; and (d) Gradually move from the fee-for-service payment system to other health financing methods (including c"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p047:para:000",
+    "score": 27.567746,
+    "source_id": "ts-2017-12",
+    "page": 47,
+    "edition": "2017-12",
+    "text_preview": "Between 2009 and 2013 there was a 68 percent increase in the already high overall maintenance costs per km which led to under maintenance. Unit Maintenance cost"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p046:para:003",
+    "score": 18.750792,
+    "source_id": "ts-2017-12",
+    "page": 46,
+    "edition": "2017-12",
+    "text_preview": "• In the transport sector, high unit costs of construction and maintenance are amongst the issues that have hindered the overall value for money of the road sub"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p038:para:000",
+    "score": 17.845879,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p047:para:002",
+    "score": 15.384602,
+    "source_id": "ts-2017-12",
+    "page": 47,
+    "edition": "2017-12",
+    "text_preview": "In recent years, tremendous progress has been made in developing Vietnam's road network. The proportion of paved roads increased from 19 percent in 2004 to more"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p039:para:002",
+    "score": 14.864713,
+    "source_id": "ts-2017-12",
+    "page": 39,
+    "edition": "2017-12",
+    "text_preview": "Whilst Vietnam has a complete road network with a relatively high road density (of about 0.87 km of road per km2), the full potential of such a network is hinde"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p039:para:001",
+    "score": 12.772322,
+    "source_id": "ts-2017-12",
+    "page": 39,
+    "edition": "2017-12",
+    "text_preview": "2.11. a long-standing issue in Vietnam related to investment efficiency is the lack of connection between capital investment and recurrent operational and maint"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2017-12:p040:para:001",
+    "score": 11.428264,
+    "source_id": "ts-2017-12",
+    "page": 40,
+    "edition": "2017-12",
+    "text_preview": "• In the transport sector: it is recommended to re-allocate capital and recurrent expenditure in the annual and medium-term frameworks to increase road maintena"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p040:para:000",
+    "score": 10.159727,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "What and How Do Regulatory Compliance and Logistical Process Cost Vietnam's Traders?\n14. A detailed analysis of related indicators further breaking down the tim"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p040:para:004",
+    "score": 9.600773,
+    "source_id": "ts-2017-12",
+    "page": 40,
+    "edition": "2017-12",
+    "text_preview": "• In the transport sector, road transport represents approximately 89 percent of the overall public transport budget. There is relatively low spending on mariti"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p014:para:000",
+   "ts-2017-12:p047:para:000"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2017-12:p014:para:000",
+   "ts-2017-12:p047:para:000",
+   "ts-2017-12:p046:para:003"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 1.2,
+  "timing": {
+   "search_ms": 1.1525000154506415
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "type": "truc_tiep",
+  "multi_hop": false,
+  "question": "What was Vietnam's real GDP growth rate in the first quarter of 2018?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p016:para:000",
+    "score": 20.289294,
+    "source_id": "ts-2018-06",
+    "page": 16,
+    "edition": "2018-06",
+    "text_preview": "Recent Economic Developments in Vietnam Coming off strong momentum in 2017, growth accelerated further in the first quarter of 2018\n4. Propelled by favorable do"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p021:para:001",
+    "score": 18.599933,
+    "source_id": "ts-2018-06",
+    "page": 21,
+    "edition": "2018-06",
+    "text_preview": "10. Despite a slight deceleration in the first quarter 2018, credit growth remains elevated. Total banking sector lending is estimated to expand 3.6 percent (ye"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p009:para:000",
+    "score": 16.948624,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "OVERVIEW Recent Economic Developments The external environment remains broadly favorable but risks are rising. Global demand and trade growth remain robust but "
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p026:para:001",
+    "score": 15.91587,
+    "source_id": "ts-2018-06",
+    "page": 26,
+    "edition": "2018-06",
+    "text_preview": "19. Reflecting positive investor sentiment, foreign direct investment inflows accelerated in 2017 and in the first quarter of 2018. Recently concluded trade agr"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p009:para:002",
+    "score": 15.821962,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "Vietnam's external position continued to improve owing to strong trade performance and FDI inflows. Thanks to robust manufacturing and agricultural exports outp"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p019:para:001",
+    "score": 15.344948,
+    "source_id": "ts-2018-06",
+    "page": 19,
+    "edition": "2018-06",
+    "text_preview": "Source:GSO and WB estimates.\n2011 2012 2013 2014 2015 2016 2017e\nBox 2: Unleashing the full potential of Vietnam's Agriculture Sector After relatively weak agri"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p029:para:002",
+    "score": 15.063684,
+    "source_id": "ts-2018-06",
+    "page": 29,
+    "edition": "2018-06",
+    "text_preview": "24. Preliminary fiscal outturns in the first quarter of 2018 suggest sustained fiscal discipline despite relatively soft revenue performance. Despite exceptiona"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2017-12:p017:para:001",
+    "score": 13.477973,
+    "source_id": "ts-2017-12",
+    "page": 17,
+    "edition": "2017-12",
+    "text_preview": "Recent Economic Developments in Vietnam Aided by favorable external and domestic conditions, Vietnam's economy gathered momentum\n1.4. Vietnam's economy gathered"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p017:para:005",
+    "score": 13.371598,
+    "source_id": "ts-2018-06",
+    "page": 17,
+    "edition": "2018-06",
+    "text_preview": "Figure 6. Manufacturing exports (percent of GDP)\n5. On the demand side, domestic demand remained resilient, underpinned by buoyant investment and consumption gr"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p021:para:000",
+    "score": 12.200424,
+    "source_id": "ts-2018-06",
+    "page": 21,
+    "edition": "2018-06",
+    "text_preview": "real short-term interest rates are effectively zero or even negative (figure 15). Abundant liquidity could exacerbate volatility in Vietnam's financial markets,"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p016:para:000",
+   "ts-2018-06:p009:para:000"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2018-06:p016:para:000",
+   "ts-2018-06:p021:para:001",
+   "ts-2018-06:p009:para:000"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 1.3,
+  "timing": {
+   "search_ms": 1.2208999833092093
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "type": "dieu_kien",
+  "multi_hop": false,
+  "question": "Under what assumption does the report project Vietnam's poverty rate (US$3.2/day line) to fall to 7.4 percent in 2018?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p032:para:001",
+    "score": 33.187685,
+    "source_id": "ts-2018-06",
+    "page": 32,
+    "edition": "2018-06",
+    "text_preview": "Table 5. Selected macroeconomic indicators 2016 2017e 2018f 2019f GDP growth (percent) 6.2 6.8 6.8 6.6 Consumer price index (annual average, percent) 2.7 3.5 4."
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p011:para:005",
+    "score": 19.853679,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1."
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p020:para:001",
+    "score": 17.475149,
+    "source_id": "ts-2017-12",
+    "page": 20,
+    "edition": "2017-12",
+    "text_preview": "While the working age population and labor force will continue to expand for another two decades, the rate of increase has slowed to about 1 percent per annum -"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p027:para:003",
+    "score": 15.621725,
+    "source_id": "ts-2018-06",
+    "page": 27,
+    "edition": "2018-06",
+    "text_preview": "• Distributional impacts: CPTPP is projected to reduce poverty by 0.6 million at poverty line $5.50 a day relative to baseline conditions in 2030. Although all "
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p051:para:000",
+    "score": 10.572323,
+    "source_id": "ts-2017-12",
+    "page": 51,
+    "edition": "2017-12",
+    "text_preview": "Provincial Poverty Rate Provincial Poverty Rate Log of Total Provincial Recurrent Spending Per Capita Provincial Capital Spending Budget Share Provincial Povert"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p031:para:002",
+    "score": 10.547195,
+    "source_id": "ts-2018-06",
+    "page": 31,
+    "edition": "2018-06",
+    "text_preview": "Over the medium term, further tariff reductions are planned under commitments in various other FTAs. These include ASEAN - Korea, ASEAN - Japan (AJCEP), ASEAN -"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p026:para:001",
+    "score": 10.283169,
+    "source_id": "ts-2018-06",
+    "page": 26,
+    "edition": "2018-06",
+    "text_preview": "19. Reflecting positive investor sentiment, foreign direct investment inflows accelerated in 2017 and in the first quarter of 2018. Recently concluded trade agr"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p026:para:003",
+    "score": 10.28237,
+    "source_id": "ts-2018-06",
+    "page": 26,
+    "edition": "2018-06",
+    "text_preview": "21. Supported by favorable external balances and a more flexible exchange-rate regime, the nominal exchange rate has been relatively stable and Vietnam's foreig"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p019:para:002",
+    "score": 10.080977,
+    "source_id": "ts-2018-06",
+    "page": 19,
+    "edition": "2018-06",
+    "text_preview": "2018. Export value of agriculture key products (rice, cashew nut, vegetables, fruits and aquacultures) is estimated to increase 8.4 percent (y/y) in q1-2018 and"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p029:para:002",
+    "score": 10.055063,
+    "source_id": "ts-2017-12",
+    "page": 29,
+    "edition": "2017-12",
+    "text_preview": "1.23. Bolstered by the strong external position, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal US$"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p032:para:001"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2018-06:p032:para:001",
+   "ts-2017-12:p011:para:005",
+   "ts-2017-12:p020:para:001"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 1.7,
+  "timing": {
+   "search_ms": 1.6921999922487885
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "type": "dieu_kien",
+  "multi_hop": false,
+  "question": "According to the World Economic Forum estimate cited in the report, what would happen to global GDP and world trade if all countries reduced supply chain barriers halfway to Singapore's level?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p036:para:003",
+    "score": 56.606283,
+    "source_id": "ts-2018-06",
+    "page": 36,
+    "edition": "2018-06",
+    "text_preview": "4. Inefficient trade facilitation undermines a country's comparative advantage and its ability to participate in global value chains. Global trends show that ga"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p011:para:000",
+    "score": 51.962063,
+    "source_id": "ts-2018-06",
+    "page": 11,
+    "edition": "2018-06",
+    "text_preview": "Special Focus: Reform Priorities for Reducing Trade Costs and Enhancing Competitiveness in Vietnam Efficient trade facilitation and logistics are lynchpin of ov"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p036:para:000",
+    "score": 23.224039,
+    "source_id": "ts-2018-06",
+    "page": 36,
+    "edition": "2018-06",
+    "text_preview": "Strategic Context Why Are Trade Costs and Competitiveness Reform Priorities?\n1. Vietnam's economy stands at a critical juncture. The country's consistent policy"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p046:para:001",
+    "score": 17.045455,
+    "source_id": "ts-2018-06",
+    "page": 46,
+    "edition": "2018-06",
+    "text_preview": "29. International practice shows that the concept of controlling flows of trade across borders are changing from according priority to control to a balance betw"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p010:para:000",
+    "score": 15.26947,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has "
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p046:para:002",
+    "score": 13.890356,
+    "source_id": "ts-2017-12",
+    "page": 46,
+    "edition": "2017-12",
+    "text_preview": "Strengthening spending on preventive health care and health care delivery at the grassroots level could also be considered to improve patient examination and tr"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p017:para:003",
+    "score": 13.868664,
+    "source_id": "ts-2018-06",
+    "page": 17,
+    "edition": "2018-06",
+    "text_preview": "Third, relentless focus on competitiveness and the ease of doing business. Vietnam has made steady progress in improving its investment climate, as evidenced by"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p017:para:000",
+    "score": 13.826851,
+    "source_id": "ts-2018-06",
+    "page": 17,
+    "edition": "2018-06",
+    "text_preview": "the age of 35 and Vietnam has large and growing workforce. The country is also politically stable and geographically close to major global supply chains.\nBut th"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p014:para:001",
+    "score": 13.72918,
+    "source_id": "ts-2018-06",
+    "page": 14,
+    "edition": "2018-06",
+    "text_preview": "The investment-led recovery in advanced economies has provided tailwind to global trade growth which is estimated to have reached a stronger-than-expected 4.8 p"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p037:para:001",
+    "score": 12.951732,
+    "source_id": "ts-2018-06",
+    "page": 37,
+    "edition": "2018-06",
+    "text_preview": "8. Trade costs, a critical indicator of competitiveness, are broadly defined to include policy barriers costs (tariff and non-tariff barriers) and logistics cos"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p036:para:003",
+   "ts-2018-06:p011:para:000"
+  ],
+  "context_ids": [
+   "ts-2018-06:p036:para:003"
+  ],
+  "dropped_from_context": [
+   "ts-2018-06:p011:para:000",
+   "ts-2018-06:p036:para:000"
+  ],
+  "context_chars": 601,
+  "context_hit": true,
+  "latency_ms": 1.9,
+  "timing": {
+   "search_ms": 1.8370999896433204
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "multi_hop": false,
+  "question": "Which part of the import process accounts for the largest share of the money spent on importing goods into Vietnam?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p024:para:001",
+    "score": 14.386844,
+    "source_id": "ts-2017-12",
+    "page": 24,
+    "edition": "2017-12",
+    "text_preview": "1.18. Despite improved export performance of the domestic sector in 2017, exports continue to be dominated by the FDi sector. Vietnam's exports continue to gain"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p046:para:000",
+    "score": 13.703187,
+    "source_id": "ts-2018-06",
+    "page": 46,
+    "edition": "2018-06",
+    "text_preview": "27. Customs is responsible for the last intervention for goods clearance at border. However, compliance costs depend not only on Customs, but also on specialize"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p040:para:004",
+    "score": 11.773667,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "18. For imports, regulatory compliance time consisting documentary compliance time (the time to comply with specialized controls outside the border), and custom"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p027:para:000",
+    "score": 11.771267,
+    "source_id": "ts-2017-12",
+    "page": 27,
+    "edition": "2017-12",
+    "text_preview": "1.19. imports rebounded significantly in 2017 after sluggish growth in 2016. Imports, especially of capital and intermediate goods, continued to surge, reflecti"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p036:para:004",
+    "score": 11.676718,
+    "source_id": "ts-2018-06",
+    "page": 36,
+    "edition": "2018-06",
+    "text_preview": "5. Integrating into global value chains can assist the move towards more sophisticated products. For this, enhancing connectivity is a must. Connectivity reflec"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p023:para:001",
+    "score": 11.332369,
+    "source_id": "ts-2018-06",
+    "page": 23,
+    "edition": "2018-06",
+    "text_preview": "15. Goods import growth decelerated to 9.5 percent (y/y) in the first four months of 2018 from 20.8 percent in 2017, in part due to a contraction in imports of "
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p038:para:001",
+    "score": 11.235473,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "11. This report uses the indicator \"trade across borders\" from the World Bank's 2018 Doing Business (DB) to compare Vietnam's trade competitiveness with other c"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p028:para:000",
+    "score": 10.767766,
+    "source_id": "ts-2018-06",
+    "page": 28,
+    "edition": "2018-06",
+    "text_preview": "To reap the full benefits of further trade integration, implementation of CPTPP commitments should be accompanied by further steps to enhance competitiveness an"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p027:para:002",
+    "score": 10.680824,
+    "source_id": "ts-2017-12",
+    "page": 27,
+    "edition": "2017-12",
+    "text_preview": "1.20. Vietnam's trade performance is underpinned by a diversified set of trade relationships. Vietnam is a member of 16 bilateral and multilateral trade agreeme"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p032:para:002",
+    "score": 9.862453,
+    "source_id": "ts-2017-12",
+    "page": 32,
+    "edition": "2017-12",
+    "text_preview": "1.30. While effective in the short term, the current composition of the fiscal adjustment is not necessarily sustainable over time. There continues to be a need"
+   }
+  ],
+  "hit1": false,
+  "hit3": false,
+  "hit5": false,
+  "hit10": false,
+  "rr10": 0.0,
+  "first_hit_rank": null,
+  "hit_ids_top10": [],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2017-12:p024:para:001",
+   "ts-2018-06:p046:para:000",
+   "ts-2018-06:p040:para:004"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 1.3,
+  "timing": {
+   "search_ms": 1.2829999905079603
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "type": "truc_tiep",
+  "multi_hop": false,
+  "question": "What system does the report recommend developing to address the lack of reliable logistics statistics in Vietnam?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p012:para:001",
+    "score": 28.001284,
+    "source_id": "ts-2018-06",
+    "page": 12,
+    "edition": "2018-06",
+    "text_preview": "Pillar 3: Building a competitive logistics service sector. Vietnam's logistics service providers (LSPs) often lack the scale, skills and technology to provide r"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p050:para:000",
+    "score": 15.446107,
+    "source_id": "ts-2018-06",
+    "page": 50,
+    "edition": "2018-06",
+    "text_preview": "What Are Reform Priorities to Improve Quality of Logistics Services (Pillar 3)?\nFigure 19. Limited Capacity and Competitiveness of Vietnam's LSP: LSPs by Capita"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p053:para:001",
+    "score": 12.636698,
+    "source_id": "ts-2018-06",
+    "page": 53,
+    "edition": "2018-06",
+    "text_preview": "• Pillar 2: Enhancing efficiency of trade-related infrastructure and the quality of connectivity: (i) Vietnam Development Report 2019 (VDR) \"Connecting Vietnam "
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p052:para:004",
+    "score": 10.286606,
+    "source_id": "ts-2018-06",
+    "page": 52,
+    "edition": "2018-06",
+    "text_preview": "From Vision to Actions What Are Appropriate Implementation Arrangements?\n44. The National Logistics Action Plan 15 has been issued as an initial effort to put f"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p022:para:000",
+    "score": 9.67744,
+    "source_id": "ts-2018-06",
+    "page": 22,
+    "edition": "2018-06",
+    "text_preview": "11. Resolving remaining asset quality problems in the banking sector remains a priority. A major step in resolving the NPLs in the banking system was the Nation"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p048:para:001",
+    "score": 8.750456,
+    "source_id": "ts-2018-06",
+    "page": 48,
+    "edition": "2018-06",
+    "text_preview": "32. Vietnam needs to improve infrastructure connectivity along key trade corridors by further developing high-quality, high-capacity and integrated multimodal t"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p017:para:004",
+    "score": 8.40802,
+    "source_id": "ts-2018-06",
+    "page": 17,
+    "edition": "2018-06",
+    "text_preview": "Despite this remarkable success, challenges remain. Overall, Vietnam's manufacturing sector remains relatively small. Most of the sector is driven by foreign di"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p036:para:000",
+    "score": 8.208006,
+    "source_id": "ts-2018-06",
+    "page": 36,
+    "edition": "2018-06",
+    "text_preview": "Strategic Context Why Are Trade Costs and Competitiveness Reform Priorities?\n1. Vietnam's economy stands at a critical juncture. The country's consistent policy"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p012:para:003",
+    "score": 7.836035,
+    "source_id": "ts-2018-06",
+    "page": 12,
+    "edition": "2018-06",
+    "text_preview": "The National Logistics Action Plan has been issued as an initial effort to put forward effective arrangements to implement integrated reform priorities on trade"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p039:para:000",
+    "score": 7.648373,
+    "source_id": "ts-2017-12",
+    "page": 39,
+    "edition": "2017-12",
+    "text_preview": "improvement in contract recording practices. Greater selectivity and stricter selection mechanisms will contribute to reducing the existing high levels of fragm"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p012:para:001"
+  ],
+  "context_ids": [
+   "ts-2018-06:p053:para:001"
+  ],
+  "dropped_from_context": [
+   "ts-2018-06:p012:para:001",
+   "ts-2018-06:p050:para:000"
+  ],
+  "context_chars": 581,
+  "context_hit": false,
+  "latency_ms": 1.3,
+  "timing": {
+   "search_ms": 1.2531999964267015
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "type": "metadata_filter",
+  "multi_hop": false,
+  "question": "According to the December 2017 Taking Stock report, what GDP growth rate was projected for Vietnam in 2017?",
+  "filter": {
+   "edition": "2017-12"
+  },
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p034:para:003",
+    "score": 22.866971,
+    "source_id": "ts-2017-12",
+    "page": 34,
+    "edition": "2017-12",
+    "text_preview": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected "
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p010:para:000",
+    "score": 20.849811,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has "
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p011:para:005",
+    "score": 20.687994,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1."
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p022:para:001",
+    "score": 13.080217,
+    "source_id": "ts-2017-12",
+    "page": 22,
+    "edition": "2017-12",
+    "text_preview": "1.14. amidst subdued price pressures, the authorities have proactively eased the monetary policy stance to support economic growth. With moderate inflation, the"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p010:para:002",
+    "score": 12.688853,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "amidst muted price pressures, monetary and credit policies continued to balance stability and growth objectives. Headline CPI remains moderate at 3.0 percent (y"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p016:para:000",
+    "score": 12.091374,
+    "source_id": "ts-2017-12",
+    "page": 16,
+    "edition": "2017-12",
+    "text_preview": "Figure 1.1: global gDP growth (%) Figure 1.2: Manufacturing PMi\n1.2. Developing East asia and the Pacific also continued to perform well in the first half of 20"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p020:para:001",
+    "score": 10.009002,
+    "source_id": "ts-2017-12",
+    "page": 20,
+    "edition": "2017-12",
+    "text_preview": "While the working age population and labor force will continue to expand for another two decades, the rate of increase has slowed to about 1 percent per annum -"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2017-12:p010:para:003",
+    "score": 9.782038,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "However, despite progress, the stock of unresolved NPLs remains sizable and capital buffers continue to be relatively thin in some banks compared to internation"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p030:para:001",
+    "score": 9.675943,
+    "source_id": "ts-2017-12",
+    "page": 30,
+    "edition": "2017-12",
+    "text_preview": "1.24. The budget deficit narrowed significantly in 2017. The budget deficit for the first 9 months of 2017 is estimated to less than 2 percent of GDP (annualize"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p019:para:000",
+    "score": 8.619842,
+    "source_id": "ts-2017-12",
+    "page": 19,
+    "edition": "2017-12",
+    "text_preview": "Figure 1.6: net employment creation by sector,\nFigure 1.7: Manufacturing output and Employment growth (%)\n1.9. strong labor demand also lifted real wages. Avera"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p034:para:003",
+   "ts-2017-12:p011:para:005"
+  ],
+  "context_ids": [
+   "ts-2017-12:p034:para:003"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p010:para:000",
+   "ts-2017-12:p011:para:005"
+  ],
+  "context_chars": 615,
+  "context_hit": true,
+  "latency_ms": 0.8,
+  "timing": {
+   "search_ms": 0.7707999902777374
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "multi_hop": false,
+  "question": "According to the June 2018 Taking Stock report, what real GDP growth rate is projected for Vietnam in 2018?",
+  "filter": {
+   "edition": "2018-06"
+  },
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p010:para:000",
+    "score": 16.035831,
+    "source_id": "ts-2018-06",
+    "page": 10,
+    "edition": "2018-06",
+    "text_preview": "Medium-term outlook, risks, and policy implications Vietnam's medium-term outlook has improved further since the last Taking Stock release in December 2017. Rea"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p032:para:001",
+    "score": 15.090927,
+    "source_id": "ts-2018-06",
+    "page": 32,
+    "edition": "2018-06",
+    "text_preview": "Table 5. Selected macroeconomic indicators 2016 2017e 2018f 2019f GDP growth (percent) 6.2 6.8 6.8 6.6 Consumer price index (annual average, percent) 2.7 3.5 4."
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p021:para:001",
+    "score": 13.436294,
+    "source_id": "ts-2018-06",
+    "page": 21,
+    "edition": "2018-06",
+    "text_preview": "10. Despite a slight deceleration in the first quarter 2018, credit growth remains elevated. Total banking sector lending is estimated to expand 3.6 percent (ye"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p014:para:002",
+    "score": 12.184465,
+    "source_id": "ts-2018-06",
+    "page": 14,
+    "edition": "2018-06",
+    "text_preview": "2. Growth in the East Asia and Pacific region is expected to gradually moderate from 6.3 percent in 2018 to 6.1 percent on average in 2019-2020. The modest slow"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p021:para:000",
+    "score": 12.05191,
+    "source_id": "ts-2018-06",
+    "page": 21,
+    "edition": "2018-06",
+    "text_preview": "real short-term interest rates are effectively zero or even negative (figure 15). Abundant liquidity could exacerbate volatility in Vietnam's financial markets,"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p009:para:000",
+    "score": 11.462732,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "OVERVIEW Recent Economic Developments The external environment remains broadly favorable but risks are rising. Global demand and trade growth remain robust but "
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p030:para:001",
+    "score": 11.32978,
+    "source_id": "ts-2018-06",
+    "page": 30,
+    "edition": "2018-06",
+    "text_preview": "25. Taking advantage of historically low domestic bond yields, the government continued to rely mostly on the domestic bond market to meet its financing needs. "
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p032:para:000",
+    "score": 11.135128,
+    "source_id": "ts-2018-06",
+    "page": 32,
+    "edition": "2018-06",
+    "text_preview": "imports of capital and intermediate goods will also continue to grow rapidly, as supporting industries remain underdeveloped.\n29. Fiscal consolidation is expect"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p020:para:004",
+    "score": 11.092047,
+    "source_id": "ts-2018-06",
+    "page": 20,
+    "edition": "2018-06",
+    "text_preview": "9. Against the backdrop of moderate inflationary pressures, monetary policy remains accommodative. Monetary policy targets for 2018 continue to aim at ensuring "
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p014:para:000",
+    "score": 11.044117,
+    "source_id": "ts-2018-06",
+    "page": 14,
+    "edition": "2018-06",
+    "text_preview": "1. Global growth has eased, but remains robust, and is projected to reach 3.1 percent in 2018. It will then slightly moderate to an average of 3 percent in 2019"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p010:para:000"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2018-06:p010:para:000",
+   "ts-2018-06:p032:para:001",
+   "ts-2018-06:p021:para:001"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 0.8,
+  "timing": {
+   "search_ms": 0.7692999788559973
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "multi_hop": false,
+  "question": "According to the June 2018 Taking Stock report, how large was Vietnam's overall fiscal deficit in 2017?",
+  "filter": {
+   "edition": "2018-06"
+  },
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p028:para:002",
+    "score": 14.047833,
+    "source_id": "ts-2018-06",
+    "page": 28,
+    "edition": "2018-06",
+    "text_preview": "22. Vietnam's fiscal stance improved further in 2017. The overall fiscal deficit is estimated to have narrowed to an estimated 4.5 percent of GDP in 2017 from 4"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p009:para:004",
+    "score": 13.966439,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "After public debt stabilized in 2017, maintaining fiscal discipline remains a priority. An expenditure-led adjustment reduced the overall fiscal deficit to 4.5 "
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p029:para:000",
+    "score": 13.949795,
+    "source_id": "ts-2018-06",
+    "page": 29,
+    "edition": "2018-06",
+    "text_preview": "23. After a decade of steady increases in the public-debt-to-GDP ratio, 2017 saw a welcome reversal in the public debt trajectory. The lower fiscal deficit in 2"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p010:para:000",
+    "score": 13.125448,
+    "source_id": "ts-2018-06",
+    "page": 10,
+    "edition": "2018-06",
+    "text_preview": "Medium-term outlook, risks, and policy implications Vietnam's medium-term outlook has improved further since the last Taking Stock release in December 2017. Rea"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p038:para:002",
+    "score": 11.799185,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "7 Non-tariff measures, referred in Vietnam's context as specialized controls, are state management regulations applied for import and export activities, consist"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p054:para:000",
+    "score": 11.578146,
+    "source_id": "ts-2018-06",
+    "page": 54,
+    "edition": "2018-06",
+    "text_preview": "How to Monitor Reform Progress?\n46. The progress of Vietnam's trade competitiveness can be monitored by comparing time and cost indicators from the annual Doing"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p032:para:000",
+    "score": 10.407552,
+    "source_id": "ts-2018-06",
+    "page": 32,
+    "edition": "2018-06",
+    "text_preview": "imports of capital and intermediate goods will also continue to grow rapidly, as supporting industries remain underdeveloped.\n29. Fiscal consolidation is expect"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p038:para:000",
+    "score": 10.358088,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p030:para:001",
+    "score": 10.344703,
+    "source_id": "ts-2018-06",
+    "page": 30,
+    "edition": "2018-06",
+    "text_preview": "25. Taking advantage of historically low domestic bond yields, the government continued to rely mostly on the domestic bond market to meet its financing needs. "
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p025:para:001",
+    "score": 9.377854,
+    "source_id": "ts-2018-06",
+    "page": 25,
+    "edition": "2018-06",
+    "text_preview": "17. While Vietnam continues to receive resilient remittance inflows, the outflows of investment income including repatriation of profits of FDI sector weigh on "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p028:para:002",
+   "ts-2018-06:p009:para:004"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2018-06:p028:para:002",
+   "ts-2018-06:p009:para:004",
+   "ts-2018-06:p029:para:000"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 0.7,
+  "timing": {
+   "search_ms": 0.6791999912820756
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q16",
+  "split": "dev",
+  "type": "metadata_filter",
+  "multi_hop": false,
+  "question": "According to the December 2017 Taking Stock report, what level did Vietnam's gross international reserves reach, and how many months of imports did they cover?",
+  "filter": {
+   "edition": "2017-12"
+  },
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p011:para:000",
+    "score": 20.199041,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "Bolstered by a robust foreign exchange inflows, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal U.S."
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p029:para:002",
+    "score": 19.41715,
+    "source_id": "ts-2017-12",
+    "page": 29,
+    "edition": "2017-12",
+    "text_preview": "1.23. Bolstered by the strong external position, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal US$"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p011:para:005",
+    "score": 14.673951,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1."
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p034:para:003",
+    "score": 14.472058,
+    "source_id": "ts-2017-12",
+    "page": 34,
+    "edition": "2017-12",
+    "text_preview": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected "
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p010:para:003",
+    "score": 13.992949,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "However, despite progress, the stock of unresolved NPLs remains sizable and capital buffers continue to be relatively thin in some banks compared to internation"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p010:para:000",
+    "score": 13.696754,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has "
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p027:para:000",
+    "score": 11.129576,
+    "source_id": "ts-2017-12",
+    "page": 27,
+    "edition": "2017-12",
+    "text_preview": "1.19. imports rebounded significantly in 2017 after sluggish growth in 2016. Imports, especially of capital and intermediate goods, continued to surge, reflecti"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2017-12:p059:para:000",
+    "score": 10.523955,
+    "source_id": "ts-2017-12",
+    "page": 59,
+    "edition": "2017-12",
+    "text_preview": "2.49. Various concerns about equity in the health sector highlight how costs are a barrier to equal access to high quality care. Health financing policy in Viet"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p038:para:001",
+    "score": 10.283281,
+    "source_id": "ts-2017-12",
+    "page": 38,
+    "edition": "2017-12",
+    "text_preview": "2.7. capital investment is currently spread too thinly across too many projects, resulting in limited annual allocations that only cover part of project investm"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p049:para:000",
+    "score": 10.103912,
+    "source_id": "ts-2017-12",
+    "page": 49,
+    "edition": "2017-12",
+    "text_preview": "improving Equity in Public spending\n2.28. Fiscal policy can be a powerful tool for reducing poverty and inequality. Through a combination of transfers, subsidie"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p011:para:000",
+   "ts-2017-12:p029:para:002"
+  ],
+  "context_ids": [
+   "ts-2017-12:p011:para:000"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p029:para:002",
+   "ts-2017-12:p011:para:005"
+  ],
+  "context_chars": 704,
+  "context_hit": true,
+  "latency_ms": 0.9,
+  "timing": {
+   "search_ms": 0.9263000101782382
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q17",
+  "split": "dev",
+  "type": "metadata_filter",
+  "multi_hop": false,
+  "question": "According to the June 2018 Taking Stock report, what was Vietnam's year-on-year consumer price inflation in early 2018, and what drove it?",
+  "filter": {
+   "edition": "2018-06"
+  },
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p020:para:001",
+    "score": 16.414423,
+    "source_id": "ts-2018-06",
+    "page": 20,
+    "edition": "2018-06",
+    "text_preview": "8. Despite a recent uptick in headline inflation, price pressures remain subdued. Vietnam's consumer price index has been ticking up slightly in the first four "
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p010:para:000",
+    "score": 16.116076,
+    "source_id": "ts-2018-06",
+    "page": 10,
+    "edition": "2018-06",
+    "text_preview": "Medium-term outlook, risks, and policy implications Vietnam's medium-term outlook has improved further since the last Taking Stock release in December 2017. Rea"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p030:para:001",
+    "score": 13.592256,
+    "source_id": "ts-2018-06",
+    "page": 30,
+    "edition": "2018-06",
+    "text_preview": "25. Taking advantage of historically low domestic bond yields, the government continued to rely mostly on the domestic bond market to meet its financing needs. "
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p009:para:003",
+    "score": 13.528046,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "Against the backdrop of low inflation, monetary policy remains accommodative. Vietnam's consumer price index has been ticking up slightly 2.8 percent (y/y) in t"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p038:para:002",
+    "score": 13.375712,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "7 Non-tariff measures, referred in Vietnam's context as specialized controls, are state management regulations applied for import and export activities, consist"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p020:para:000",
+    "score": 12.543103,
+    "source_id": "ts-2018-06",
+    "page": 20,
+    "edition": "2018-06",
+    "text_preview": "Source: GSO.\nFigure 14. Consumer price index (percent) Apr 12 Apr 13 Apr 14 Apr 15 Apr 16 Apr 17 Apr 18 Headline Food Core Against the backdrop of low inflation"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p019:para:001",
+    "score": 11.618719,
+    "source_id": "ts-2018-06",
+    "page": 19,
+    "edition": "2018-06",
+    "text_preview": "Source:GSO and WB estimates.\n2011 2012 2013 2014 2015 2016 2017e\nBox 2: Unleashing the full potential of Vietnam's Agriculture Sector After relatively weak agri"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p031:para:003",
+    "score": 11.304705,
+    "source_id": "ts-2018-06",
+    "page": 31,
+    "edition": "2018-06",
+    "text_preview": "2017. Reflecting stronger than expected momentum especially of export oriented manufacturing and agriculture, we revised our forecast upwards with real GDP now "
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p019:para:000",
+    "score": 10.131904,
+    "source_id": "ts-2018-06",
+    "page": 19,
+    "edition": "2018-06",
+    "text_preview": "7. While the growth uptick is partly driven by a cyclical improvement in global demand, it also reflects an underlying rise in potential growth. Potential growt"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p020:para:004",
+    "score": 10.046444,
+    "source_id": "ts-2018-06",
+    "page": 20,
+    "edition": "2018-06",
+    "text_preview": "9. Against the backdrop of moderate inflationary pressures, monetary policy remains accommodative. Monetary policy targets for 2018 continue to aim at ensuring "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p020:para:001",
+   "ts-2018-06:p009:para:003"
+  ],
+  "context_ids": [],
+  "dropped_from_context": [
+   "ts-2018-06:p020:para:001",
+   "ts-2018-06:p010:para:000",
+   "ts-2018-06:p030:para:001"
+  ],
+  "context_chars": 0,
+  "context_hit": false,
+  "latency_ms": 0.9,
+  "timing": {
+   "search_ms": 0.830300006782636
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q18",
+  "split": "dev",
+  "type": "ngoai_le",
+  "multi_hop": false,
+  "question": "Which trade document cannot be submitted electronically in Vietnam, and do traders still need paper copies of their documents?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p040:para:000",
+    "score": 19.434716,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "What and How Do Regulatory Compliance and Logistical Process Cost Vietnam's Traders?\n14. A detailed analysis of related indicators further breaking down the tim"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p040:para:002",
+    "score": 17.649802,
+    "source_id": "ts-2018-06",
+    "page": 40,
+    "edition": "2018-06",
+    "text_preview": "16. Documentary compliance reflects data including the entire time and cost of obtaining, preparing, processing, presenting and submitting all required document"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2018-06:p038:para:000",
+    "score": 12.009586,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p045:para:000",
+    "score": 10.658904,
+    "source_id": "ts-2018-06",
+    "page": 45,
+    "edition": "2018-06",
+    "text_preview": "high number of legal documents, measures, procedures, and forms to be processed - more than double compared with a selected set of peer countries10 (Figure 12)."
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p025:para:001",
+    "score": 9.747353,
+    "source_id": "ts-2017-12",
+    "page": 25,
+    "edition": "2017-12",
+    "text_preview": "In Vietnam, there is evidence that these linkages remain underdeveloped due to various constraints associated with the demand and supply side, quality, access t"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p038:para:001",
+    "score": 9.568366,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "11. This report uses the indicator \"trade across borders\" from the World Bank's 2018 Doing Business (DB) to compare Vietnam's trade competitiveness with other c"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p050:para:000",
+    "score": 9.211414,
+    "source_id": "ts-2018-06",
+    "page": 50,
+    "edition": "2018-06",
+    "text_preview": "What Are Reform Priorities to Improve Quality of Logistics Services (Pillar 3)?\nFigure 19. Limited Capacity and Competitiveness of Vietnam's LSP: LSPs by Capita"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p054:para:001",
+    "score": 9.104606,
+    "source_id": "ts-2018-06",
+    "page": 54,
+    "edition": "2018-06",
+    "text_preview": "47. Doing Business reports can also be used to benchmark Vietnam against peer countries, and therefore support a monitoring of the performance gaps between Viet"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p037:para:000",
+    "score": 9.052465,
+    "source_id": "ts-2018-06",
+    "page": 37,
+    "edition": "2018-06",
+    "text_preview": "7. The Government of Vietnam, through a series of Resolutions 196, has mandated a progressive improvement of the business environment and competitiveness to rea"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p026:para:003",
+    "score": 8.745908,
+    "source_id": "ts-2017-12",
+    "page": 26,
+    "edition": "2017-12",
+    "text_preview": "skills: Compared to non-linked firms, on average linked firms are found to (i) have a slightly higher proportion of skilled production workers, (ii) provide muc"
+   }
+  ],
+  "hit1": false,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 0.5,
+  "first_hit_rank": 2,
+  "hit_ids_top10": [
+   "ts-2018-06:p040:para:002"
+  ],
+  "context_ids": [
+   "ts-2018-06:p040:para:002"
+  ],
+  "dropped_from_context": [
+   "ts-2018-06:p040:para:000",
+   "ts-2018-06:p038:para:000"
+  ],
+  "context_chars": 754,
+  "context_hit": true,
+  "latency_ms": 1.5,
+  "timing": {
+   "search_ms": 1.4137000252958387
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q19",
+  "split": "dev",
+  "type": "dieu_kien",
+  "multi_hop": false,
+  "question": "What could happen to Vietnam's poorer provinces if proper incentives are not put in place?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p052:para:001",
+    "score": 31.871773,
+    "source_id": "ts-2017-12",
+    "page": 52,
+    "edition": "2017-12",
+    "text_preview": "2.34. in the future, it will be important to nurture growth in decentralized revenue and strengthen the operation of the transfer system. Drivers of growth shou"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p058:para:001",
+    "score": 22.625902,
+    "source_id": "ts-2017-12",
+    "page": 58,
+    "edition": "2017-12",
+    "text_preview": "Higher costs for accessing post-secondary education for the poor in remote areas are an additional impediment. These inequalities would be exacerbated in a fee-"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p053:para:001",
+    "score": 16.207594,
+    "source_id": "ts-2017-12",
+    "page": 53,
+    "edition": "2017-12",
+    "text_preview": "Under these arrangements, although budget revenues are not distributed evenly across provinces (about 80 percent of the national budget revenue is concentrated "
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p049:para:001",
+    "score": 14.758486,
+    "source_id": "ts-2017-12",
+    "page": 49,
+    "edition": "2017-12",
+    "text_preview": "Enhancing equitable resource allocation to promote development across provinces\n2.29. intergovernmental fiscal arrangements in Vietnam have helped to promote gr"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p044:para:002",
+    "score": 13.147479,
+    "source_id": "ts-2018-06",
+    "page": 44,
+    "edition": "2018-06",
+    "text_preview": "• Pillar Four on consolidating the institutional framework for inter-agency coordination and implementation arrangements involves actors including Government le"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p059:para:000",
+    "score": 12.238454,
+    "source_id": "ts-2017-12",
+    "page": 59,
+    "edition": "2017-12",
+    "text_preview": "2.49. Various concerns about equity in the health sector highlight how costs are a barrier to equal access to high quality care. Health financing policy in Viet"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2017-12:p043:para:002",
+    "score": 11.218901,
+    "source_id": "ts-2017-12",
+    "page": 43,
+    "edition": "2017-12",
+    "text_preview": "2.21. although the current size of the wage bill and overall public sector employment are not excessively high in comparison with other middle income countries,"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p033:para:004",
+    "score": 11.06651,
+    "source_id": "ts-2018-06",
+    "page": 33,
+    "edition": "2018-06",
+    "text_preview": "For example, carbon pricing and taxes on fossil fuels could help provide stronger incentives for green growth. Building effective financial and physical disaste"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p050:para:000",
+    "score": 11.042284,
+    "source_id": "ts-2017-12",
+    "page": 50,
+    "edition": "2017-12",
+    "text_preview": "Figure 2.10: Per capita spending before central transfers is higher in the wealthier eastern-coastal provinces\nFigure 2.11: Per capita spending after central tr"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p054:para:004",
+    "score": 10.376439,
+    "source_id": "ts-2017-12",
+    "page": 54,
+    "edition": "2017-12",
+    "text_preview": "Finding that more than 80 percent of government spending on direct transfers other than pensions are received by the bottom 40 percent of the population suggest"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p052:para:001"
+  ],
+  "context_ids": [
+   "ts-2017-12:p052:para:001"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p058:para:001",
+   "ts-2017-12:p053:para:001"
+  ],
+  "context_chars": 778,
+  "context_hit": true,
+  "latency_ms": 1.4,
+  "timing": {
+   "search_ms": 1.3426999794319272
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q20",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "multi_hop": false,
+  "question": "How many hours does it take to complete the paperwork for importing goods into Vietnam, compared with the average of the ASEAN-4 economies?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p039:para:001",
+    "score": 27.578704,
+    "source_id": "ts-2018-06",
+    "page": 39,
+    "edition": "2018-06",
+    "text_preview": "12. Vietnam's trade competitiveness in terms of time to trade remains behind peer economies in the region, particularly compared with the average of the ASEAN-4"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p039:para:002",
+    "score": 26.028603,
+    "source_id": "ts-2018-06",
+    "page": 39,
+    "edition": "2018-06",
+    "text_preview": "13. While it also lags the ASEAN-4 average, Vietnam's trade competitiveness in terms of its monetary cost to trade is better than for its time cost to trade. Do"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p013:para:003",
+    "score": 14.167525,
+    "source_id": "ts-2017-12",
+    "page": 13,
+    "edition": "2017-12",
+    "text_preview": "• In the education sector: (a) Review teachers working hours and consider increasing them to an internationally comparable level in association with education a"
+   },
+   {
+    "rank": 4,
+    "id": "ts-2018-06:p055:para:002",
+    "score": 14.074702,
+    "source_id": "ts-2018-06",
+    "page": 55,
+    "edition": "2018-06",
+    "text_preview": "19 The East Asia & Pacific regional average only captures developing countries in the region. No rank is indicated in the graph. Border Compliance to Import (Ho"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p033:para:003",
+    "score": 13.262634,
+    "source_id": "ts-2017-12",
+    "page": 33,
+    "edition": "2017-12",
+    "text_preview": "Singapore Malaysia Thailand Brunei Vietnam Indonesia Philippines Cambodia Lao PDR Myanmar Starting a Business Dealing with Construction Permits Getting Electric"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p057:para:002",
+    "score": 13.140176,
+    "source_id": "ts-2018-06",
+    "page": 57,
+    "edition": "2018-06",
+    "text_preview": "53. Government Resolutions 19 mandate a progressive reduction in time and costs for trade across borders, and have clearly set the target for Vietnam's performa"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p054:para:001",
+    "score": 13.026457,
+    "source_id": "ts-2018-06",
+    "page": 54,
+    "edition": "2018-06",
+    "text_preview": "47. Doing Business reports can also be used to benchmark Vietnam against peer countries, and therefore support a monitoring of the performance gaps between Viet"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p056:para:001",
+    "score": 12.480292,
+    "source_id": "ts-2018-06",
+    "page": 56,
+    "edition": "2018-06",
+    "text_preview": "LPI rank (best = 1, worst = 160) LPI score (min =1, max = 5) LPI Score LPI Rank Singapore China Malaysia Thailand ASEAN 4 average VietnamIndonesia Brunei Daruss"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2018-06:p038:para:001",
+    "score": 12.252438,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "11. This report uses the indicator \"trade across borders\" from the World Bank's 2018 Doing Business (DB) to compare Vietnam's trade competitiveness with other c"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p040:para:003",
+    "score": 12.118321,
+    "source_id": "ts-2017-12",
+    "page": 40,
+    "edition": "2017-12",
+    "text_preview": "2.17. Reallocation of resources within sectors could help enhance the effectiveness of spending and its impact on growth. This suggests the need to reconsider s"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p039:para:001"
+  ],
+  "context_ids": [
+   "ts-2018-06:p039:para:001"
+  ],
+  "dropped_from_context": [
+   "ts-2018-06:p039:para:002",
+   "ts-2017-12:p013:para:003"
+  ],
+  "context_chars": 763,
+  "context_hit": true,
+  "latency_ms": 1.8,
+  "timing": {
+   "search_ms": 1.8100000161211938
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q21",
+  "split": "dev",
+  "type": "multi_hop",
+  "multi_hop": true,
+  "question": "How did the 2017 GDP growth rate projected for Vietnam in the December 2017 Taking Stock report compare with the 2017 growth rate recorded according to the June 2018 report?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2017-12:p034:para:003",
+    "score": 22.866971,
+    "source_id": "ts-2017-12",
+    "page": 34,
+    "edition": "2017-12",
+    "text_preview": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected "
+   },
+   {
+    "rank": 2,
+    "id": "ts-2017-12:p010:para:000",
+    "score": 21.787779,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has "
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p011:para:005",
+    "score": 21.551789,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1."
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p010:para:002",
+    "score": 17.858139,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "amidst muted price pressures, monetary and credit policies continued to balance stability and growth objectives. Headline CPI remains moderate at 3.0 percent (y"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2018-06:p010:para:000",
+    "score": 17.512096,
+    "source_id": "ts-2018-06",
+    "page": 10,
+    "edition": "2018-06",
+    "text_preview": "Medium-term outlook, risks, and policy implications Vietnam's medium-term outlook has improved further since the last Taking Stock release in December 2017. Rea"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2018-06:p038:para:000",
+    "score": 16.928694,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7"
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p009:para:002",
+    "score": 15.819517,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "Vietnam's external position continued to improve owing to strong trade performance and FDI inflows. Thanks to robust manufacturing and agricultural exports outp"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p021:para:001",
+    "score": 15.320878,
+    "source_id": "ts-2018-06",
+    "page": 21,
+    "edition": "2018-06",
+    "text_preview": "10. Despite a slight deceleration in the first quarter 2018, credit growth remains elevated. Total banking sector lending is estimated to expand 3.6 percent (ye"
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p022:para:001",
+    "score": 14.289834,
+    "source_id": "ts-2017-12",
+    "page": 22,
+    "edition": "2017-12",
+    "text_preview": "1.14. amidst subdued price pressures, the authorities have proactively eased the monetary policy stance to support economic growth. With moderate inflation, the"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2018-06:p016:para:000",
+    "score": 13.924522,
+    "source_id": "ts-2018-06",
+    "page": 16,
+    "edition": "2018-06",
+    "text_preview": "Recent Economic Developments in Vietnam Coming off strong momentum in 2017, growth accelerated further in the first quarter of 2018\n4. Propelled by favorable do"
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2017-12:p034:para:003",
+   "ts-2017-12:p011:para:005",
+   "ts-2018-06:p016:para:000"
+  ],
+  "full3": false,
+  "full10": true,
+  "context_ids": [
+   "ts-2017-12:p034:para:003"
+  ],
+  "dropped_from_context": [
+   "ts-2017-12:p010:para:000",
+   "ts-2017-12:p011:para:005"
+  ],
+  "context_chars": 615,
+  "context_hit": false,
+  "latency_ms": 1.8,
+  "timing": {
+   "search_ms": 1.7858999781310558
+  },
+  "cost_usd": 0.0
+ },
+ {
+  "query_id": "q22",
+  "split": "dev",
+  "type": "multi_hop",
+  "multi_hop": true,
+  "question": "How did Vietnam's gross international reserves reported in the June 2018 Taking Stock report compare with the level reported in the December 2017 report, both in US dollars and in months of imports?",
+  "filter": null,
+  "config": "R1b_bm25raw_k3_b800",
+  "method": "bm25_raw",
+  "top_k": 3,
+  "budget_chars": 800,
+  "policy": "first",
+  "results": [
+   {
+    "rank": 1,
+    "id": "ts-2018-06:p026:para:003",
+    "score": 27.051925,
+    "source_id": "ts-2018-06",
+    "page": 26,
+    "edition": "2018-06",
+    "text_preview": "21. Supported by favorable external balances and a more flexible exchange-rate regime, the nominal exchange rate has been relatively stable and Vietnam's foreig"
+   },
+   {
+    "rank": 2,
+    "id": "ts-2018-06:p009:para:002",
+    "score": 26.926135,
+    "source_id": "ts-2018-06",
+    "page": 9,
+    "edition": "2018-06",
+    "text_preview": "Vietnam's external position continued to improve owing to strong trade performance and FDI inflows. Thanks to robust manufacturing and agricultural exports outp"
+   },
+   {
+    "rank": 3,
+    "id": "ts-2017-12:p011:para:000",
+    "score": 24.599468,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "Bolstered by a robust foreign exchange inflows, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal U.S."
+   },
+   {
+    "rank": 4,
+    "id": "ts-2017-12:p029:para:002",
+    "score": 24.535948,
+    "source_id": "ts-2017-12",
+    "page": 29,
+    "edition": "2017-12",
+    "text_preview": "1.23. Bolstered by the strong external position, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal US$"
+   },
+   {
+    "rank": 5,
+    "id": "ts-2017-12:p010:para:003",
+    "score": 18.900502,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "However, despite progress, the stock of unresolved NPLs remains sizable and capital buffers continue to be relatively thin in some banks compared to internation"
+   },
+   {
+    "rank": 6,
+    "id": "ts-2017-12:p011:para:005",
+    "score": 17.891649,
+    "source_id": "ts-2017-12",
+    "page": 11,
+    "edition": "2017-12",
+    "text_preview": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1."
+   },
+   {
+    "rank": 7,
+    "id": "ts-2018-06:p038:para:000",
+    "score": 16.310375,
+    "source_id": "ts-2018-06",
+    "page": 38,
+    "edition": "2018-06",
+    "text_preview": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7"
+   },
+   {
+    "rank": 8,
+    "id": "ts-2018-06:p023:para:001",
+    "score": 15.624602,
+    "source_id": "ts-2018-06",
+    "page": 23,
+    "edition": "2018-06",
+    "text_preview": "15. Goods import growth decelerated to 9.5 percent (y/y) in the first four months of 2018 from 20.8 percent in 2017, in part due to a contraction in imports of "
+   },
+   {
+    "rank": 9,
+    "id": "ts-2017-12:p028:para:002",
+    "score": 14.884417,
+    "source_id": "ts-2017-12",
+    "page": 28,
+    "edition": "2017-12",
+    "text_preview": "1.21. Foreign direct investment further accelerated in recent months, reflecting fundamental competitiveness and positive investor sentiment. In the first ten m"
+   },
+   {
+    "rank": 10,
+    "id": "ts-2017-12:p010:para:000",
+    "score": 14.724345,
+    "source_id": "ts-2017-12",
+    "page": 10,
+    "edition": "2017-12",
+    "text_preview": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has "
+   }
+  ],
+  "hit1": true,
+  "hit3": true,
+  "hit5": true,
+  "hit10": true,
+  "rr10": 1.0,
+  "first_hit_rank": 1,
+  "hit_ids_top10": [
+   "ts-2018-06:p026:para:003",
+   "ts-2018-06:p009:para:002",
+   "ts-2017-12:p011:para:000",
+   "ts-2017-12:p029:para:002"
+  ],
+  "full3": true,
+  "full10": true,
+  "context_ids": [
+   "ts-2018-06:p009:para:002"
+  ],
+  "dropped_from_context": [
+   "ts-2018-06:p026:para:003",
+   "ts-2017-12:p011:para:000"
+  ],
+  "context_chars": 777,
+  "context_hit": false,
+  "latency_ms": 1.8,
+  "timing": {
+   "search_ms": 1.7761999915819615
+  },
+  "cost_usd": 0.0
+ }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng và có [id] hợp lệ, nhưng model liệt kê thêm chunk Overview trùng nội dung (tr.17) mà không ghi [id] trong câu trả lời -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 16% so với 25%; cả hai chunk (tr.30, Overview tr.11) đều chứa evidence.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: loại trừ giá lương thực-thực phẩm, nhiên liệu và giá do Nhà nước quản lý; chunk tr.21 là gold (rerank đưa lên hạng 1).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng ý chính và ý rà soát phân cấp; chunk tr.38 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng điều kiện ở tr.60; ý phụ về giá dịch vụ theo thị trường cũng có trong chunk.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng: thấp nhất ASEAN, thấp hơn 25% (tr.43); số giờ các nước từ bảng tr.44.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng; ý so sánh với OECD (Anh 3.500, Pháp 4.500 USD/km) có trong chunk tr.47.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng và có [id] hợp lệ, nhưng model liệt kê thêm chunk Overview trùng nội dung (tr.9) mà không ghi [id] trong câu trả lời -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng giả định; chunk tr.32 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: model trả lời đúng nhưng liệt kê thêm citation tr.11 không được ghi [id] trong câu trả lời -> bị loại (lỗi định dạng, không phải thiếu evidence).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng port handling 39,5%; ý logistics chiếm 64% tổng chi phí nhập khẩu có trong chunk tr.41.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng VLSS; ý phụ có trong chunk tr.12.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng và có [id] hợp lệ, nhưng model liệt kê thêm chunk Overview trùng nội dung (tr.11) mà không ghi [id] trong câu trả lời -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng 6,8% có [id] hợp lệ (tr.31) nhưng model liệt kê thêm chunk không ghi [id] (tr.10; ở A4 sau lượt sửa vẫn liệt kê thêm tr.32) -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng và có [id] hợp lệ, nhưng model liệt kê thêm chunk Overview trùng nội dung (tr.9) mà không ghi [id] trong câu trả lời -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng và có [id] hợp lệ, nhưng model liệt kê thêm chunk Overview trùng nội dung (tr.11) mà không ghi [id] trong câu trả lời -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 2,8% tháng 4/2018 (từ 2,6% tháng 12/2017), do giá điện và y tế; hai chunk gold tr.20, tr.9.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng cả hai ý; chunk tr.40 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [
+   false,
+   false
+  ],
+  "reason": "Sai: không nêu việc phụ thuộc chuyển giao trung ương; context không có đoạn tr.52. Hai citation (tr.14 về cắt ngân sách dịch vụ cho người nghèo, tr.59 về y tế) không nói về hệ quả thiếu cơ chế khuyến khích với tỉnh nghèo.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 76 giờ so với 28 giờ; ý phụ 56 giờ bằng trung bình ASEAN-4 có trong chunk tr.39.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 6,7% và 6,8%, kết luận dự báo thấp hơn thực tế; đủ hai nhóm evidence.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng US$42 tỷ (dưới 3 tháng nhập khẩu) và US$63 tỷ (~3,6 tháng), đủ hai nhóm evidence; không nêu kỳ số liệu (cuối 9/2017, 4 tháng đầu 2018) nhưng câu hỏi đặt theo kỳ báo cáo.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "n01",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không đưa con số thất nghiệp nào.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n02",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không suy diễn từ các đoạn nhắc tới Nhật Bản trong thương mại.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n03",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không thay bằng số quý 1/2018 hay dự báo cả năm.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n04",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không dùng số tăng trưởng giá trị xuất khẩu gạo thay cho giá/tấn.",
+  "abstention_correct": true
+ }
+]

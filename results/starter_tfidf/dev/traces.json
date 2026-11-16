@@ -1,0 +1,2018 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "How much did Vietnam's real GDP grow, year on year, during the first nine months of 2017?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 10,
+        "evidence": "Real GDP expanded by 6.4 percent (y/y) during the first nine months of the year."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 17,
+        "evidence": "bringing y/y growth to 6.4 percent for the first nine months of the year."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p010:para:001",
+        "text": "Vietnam's economy also gathered momentum in 2017, reflecting strong domestic demand, robust export-oriented manufacturing, and a gradual rebound of agriculture. Real GDP expanded by 6.4 percent (y/y) during the first nine months of the year. Domestic demand and especially private consumption remained buoyant, fueled by low inflation and rising real wages. At the same time, the recovery in external demand helped Vietnam's export-oriented manufacturing and agricultural sectors. On the production side, manufacturing growth reached 12.8 percent during the first nine months of the year, offsetting a further contraction of oil production. Agriculture also continued to recover from last year's drought, expanding by 2.8 percent during first three quarters. Reflecting robust domestic consumption as well as strong performance of the tourism sector, the services sector expanded 7.3 percent.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 10,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 892,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "fbd251a557e0",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.35963100095264866,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p027:para:000",
+        "text": "1.19. imports rebounded significantly in 2017 after sluggish growth in 2016. Imports, especially of capital and intermediate goods, continued to surge, reflecting the uptick in investment activity and high import content of some of Vietnam's exports. The import bill for first ten months is estimated at $172 billion, up 21.6 percent year-on-year compared to 5.4 percent growth during 2016. Imports of the foreign-invested sector continue to grow solidly while imports of domestic companies, which were unusually weak last year, have gradually rebounded. Machinery, equipment, raw material and intermediate goods are among the biggest import items expanding by 22.7 percent during the first ten months of the year. Growth especially in imported capital goods is a positive development, indicating ongoing capacity extension of production facilities and contributing to higher potential growth and future export potential of Vietnam.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 27,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 932,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "e0b163b891bc",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.26421762158008744,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p011:para:001",
+        "text": "Fiscal consolidation is underway, but the quality and sustainability of the adjustment could be improved. The budget deficit narrowed significantly to less than 2 percent of GDP (annualized) during the first three quarters of the year, containing public debt accumulation and ensuring compliance with 65 percent of the GDP statutory debt limit. On the revenue side, deficit reduction was aided by buoyant revenue performance. On the spending side, the adjustment has fallen disproportionately on public investment, which declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent during 2012-16. While effective in the short term, this approach is not necessarily sustainable over time, as Vietnam needs significant infrastructure investment to support future growth.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 822,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "8ed8f4878123",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.23021687768993912,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 2.401100005954504,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "How did the share of public investment in total government spending in the first nine months of 2017 compare with its 2012-2016 average?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 30,
+        "evidence": "the adjustment has fallen disproportionately on public investment which declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent over 2012-2016."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 11,
+        "evidence": "the adjustment has fallen disproportionately on public investment, which declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent during 2012-16."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 31,
+        "evidence": "The share of investment spending in total expenditure declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent over 2012-2016."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p031:para:001",
+        "text": "resources tax Env.\nprotection tax 2007 2009 2011 2013 2015 9M-17 Share of CIT/ total taxes (%) Share of CIT/ total revenue (%) Trillion dong 9M-2016 Current Investment Interest payment Total expenditure 9M-2017 Change (y/y, %) Trillion dong Investment Interest payment Current\n1.27. Driven in large part by curtailment of public investment, public expenditure growth moderated. During the first nine months, total expenditure increased in nominal terms by 6.6 percent, with recurrent and investment spending increasing by 7 and 4 percent, respectively. The share of investment spending in total expenditure declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent over 2012-2016. However, interest payments continued to rise rapidly by 15.6 percent, reflecting the increased public debt burden.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 31,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 851,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "3f7ed6ed6f22",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.3871263127281875,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p030:para:001",
+        "text": "1.24. The budget deficit narrowed significantly in 2017. The budget deficit for the first 9 months of 2017 is estimated to less than 2 percent of GDP (annualized). This helped contain public debt accumulation and ensured compliance with 65 percent of GDP statutory debt limit. On the revenue side, deficit reduction was aided by buoyant revenue performance. On the spending side, the adjustment has fallen disproportionately on public investment which declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent over 2012-2016. While the focus on efficiency of public investment is welcome, across-the-board curtailment of investment spending raises concerns as Vietnam needs significant infrastructure investment to support future growth.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 30,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 793,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "81a84cb37335",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.3457180564273074,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p011:para:001",
+        "text": "Fiscal consolidation is underway, but the quality and sustainability of the adjustment could be improved. The budget deficit narrowed significantly to less than 2 percent of GDP (annualized) during the first three quarters of the year, containing public debt accumulation and ensuring compliance with 65 percent of the GDP statutory debt limit. On the revenue side, deficit reduction was aided by buoyant revenue performance. On the spending side, the adjustment has fallen disproportionately on public investment, which declined to 16 percent of total spending in the first nine months of 2017, compared with an average of 25 percent during 2012-16. While effective in the short term, this approach is not necessarily sustainable over time, as Vietnam needs significant infrastructure investment to support future growth.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 822,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "8ed8f4878123",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.27345715044293517,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 1.9953000009991229,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Which prices are excluded from the core inflation measure the report uses for Vietnam?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 21,
+        "evidence": "core inflation (excluding food, fuel and administrative-managed prices) remains stable at 1.3 percent (y/y)."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p021:para:002",
+        "text": "Figure 1.12: investment composition (% gDP) Figure 1.13: investment and saving (% of gDP) Amidst muted prices pressures, looser monetary conditions continue to fuel credit growth\n1.13. Reflecting low food prices and stable core inflation, headline consumer price inflation remains subdued. October headline CPI rose 0.41 percent (m/m), bringing the y/y CPI rate to a moderate 3.0 percent. Food prices remain subdued thanks to abundant supply. Administrative price hikes (mainly healthcare and education) have been coordinated relatively well among agencies and across provinces to help to smooth impacts at nationwide level. Meanwhile, core inflation (excluding food, fuel and administrative-managed prices) remains stable at 1.3 percent (y/y).",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 21,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 744,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "e86e8f3edd0e",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.1919132174537401,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p029:para:004",
+        "text": "4 The Government definition includes borrowings from government sources, including from the cash balance in the treasury account and the sinking fund. Since this constitutes intra-governmental debt, it is excluded in the definition used by the IMF and World Bank.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 29,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 263,
+          "chunk_kind": "para",
+          "chunk_index": 4,
+          "content_hash": "4c586d41f587",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.17177987934128916,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p020:para:001",
+        "text": "8. Despite a recent uptick in headline inflation, price pressures remain subdued. Vietnam's consumer price index has been ticking up slightly in the first four months of 2018, driven by hikes in administered prices (for electricity and health services). Headline CPI rose by 2.8 percent (y/y) in April 2018, up slightly from 2.6 percent in December 2017. However, core inflation slightly declined from 1.4 percent in to 1.3 percent during the same period. It is noteworthy that Vietnam has kept core inflation below 3 percent since November 2014 (figure 14). Aside of short-term fluctuations due to natural calamities and market conditions, diversification of agricultural production is boosting the sector's growth potential. The agricultural sector faces significant opportunities to contribute more strongly to growth, but also substantial challenges in terms modernizing production, raising productivity and linking more effectively with agribusiness value chains.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 20,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 968,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "29756364ac03",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.17114494049307785,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2018-06:p029:para:004 | starter/data/ts-2018-06.pdf | page 29]\n4 The Government definition includes borrowings from government sources, including from the cash balance in the treasury account and the sinking fund. Since this constitutes intra-governmental debt, it is excluded in the definition used by the IMF and World Bank.",
+    "context_ids": [
+      "ts-2018-06:p029:para:004"
+    ],
+    "context_chars": 330,
+    "elapsed_ms": 1.4235999842640013,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "According to the report, what is needed so that deciding a large share of investment at the sub-national level does not lead to fragmentation and lower investment efficiency?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 38,
+        "evidence": "Having such a large share of investment in Vietnam being decided at the sub-national level runs the risk of fragmentation resulting in lower investment efficiency, unless there is strong coordination around large infrastructure projects, including cross-provincial projects."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p038:para:000",
+        "text": "2.6. While devolution of public spending was intended to promote local governments to become stronger drivers of growth, the limited remaining share of central government's capital spending raises concerns about adequate investment in national infrastructure. Reduced investment by central government has diminished its capacity to concentrate resources on nationally important objectives and projects, particularly in the context of limited regional coordination. Having such a large share of investment in Vietnam being decided at the sub-national level runs the risk of fragmentation resulting in lower investment efficiency, unless there is strong coordination around large infrastructure projects, including cross-provincial projects. In the long term, it is important to review the socio-economic decentralization arrangements with a focus on their overall efficiency.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 38,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 874,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "c0e8f23e1a15",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.30283661647570054,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p037:para:003",
+        "text": "2.5. There has been a change in the proportion of central and local investment budgets. The proportion of central and sub-national total capital investment moved from 33:67 in the period 2006-10 to 27:73 in 2011-154. The change was attributed to rapidly increasing sub-national investment sourced from sub-national budget contingency provisions and over-realized budget revenues (i.e. land and lottery revenues) as well as central budget transfers to sub-national governments. This contrasted to the 2003-08 period, when capital from government bonds focused mainly on investment in transport and irrigation projects led by the central government. The 2009-14 period saw the targeting of mostly local priorities (66 percent in 2010) such as rural roads, small hydro-electric works and other social programs. Sub-national public investment now represents about 40 percent of provincial budgets.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 37,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 893,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "e9969706992b",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.21580368749126133,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p013:para:002",
+        "text": "• Public Investment prioritization and efficiency: Greater selectivity and stricter selection mechanisms could contribute to reducing the existing high levels of fragmentation of capital spending across a large number of projects. Quality and timeliness of reporting on public investment could also be improved through developing a centralized monitoring system and database on investment projects. One immediate step could be to receive information on project execution and commitment controls from the Treasury and Budget Management Information System (TABMIS).\nIn addition, there are also opportunities to enhance service delivery and spending efficiency through reallocation of resources within several sectors:",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 13,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 715,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "f27b2ae247e3",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.1806262967213733,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p013:para:002 | starter/data/ts-2017-12.pdf | page 13]\n• Public Investment prioritization and efficiency: Greater selectivity and stricter selection mechanisms could contribute to reducing the existing high levels of fragmentation of capital spending across a large number of projects. Quality and timeliness of reporting on public investment could also be improved through developing a centralized monitoring system and database on investment projects. One immediate step could be to receive information on project execution and commitment controls from the Treasury and Budget Management Information System (TABMIS).\nIn addition, there are also opportunities to enhance service delivery and spending efficiency through reallocation of resources within several sectors:",
+    "context_ids": [
+      "ts-2017-12:p013:para:002"
+    ],
+    "context_chars": 782,
+    "elapsed_ms": 2.1504000178538263,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "What precondition does the report set before socialization policies for public services are expanded?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 60,
+        "evidence": "any expansion of socialization policies should be conditional on having in place effective mechanisms to protect access to basic social services by the poor and near-poor."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p014:para:003",
+        "text": "Reduced budget financing to pro-poor services therefore entails a risk of widening inequities in access to basic services. Vietnam is actively pursuing a set of interrelated policies, including socialization, designed simultaneously to improve the performance of government service delivery, increase citizen choice, reduce the financial burden upon the state. The overall goal is to gradually rationalize the role of the state in the provision of public goods. While these reforms can enhance incentives for efficiency gains both for service providers and service users, it is crucial to assess and -if needed- mitigate the potential adverse distributional impacts of these policies on the poor and vulnerable.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 14,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 711,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "a5be4c9688cd",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.20600622494382365,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p056:para:001",
+        "text": "2.44. There is a risk of widening inequities in access to basic services if budget financing to pro -poor services is reduced. Vietnam is actively pursuing a set of interrelated policies, including socialization, designed simultaneously to improve the performance of government service delivery, increase citizen choice, reduce the financial burden upon the state. The overall goal is to gradually rationalize the role of the state in the provision of public goods. This package of reforms (coupled with autonomy policies) constitutes an ambitious reform agenda that has potential to benefit Vietnam's citizens. Significant progress has been made over the past 10 years, particularly in facilitating private sector participation in the provision of essential social services and development infrastructure and a gradual easing of subsidies from the state for these services.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 56,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 874,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "70b4ae4581e1",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.20348977392930742,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p024:para:001",
+        "text": "16. While lagging merchandise trade, Vietnam's trade in services has also expanded quickly. In 2017, exports (receipts) of commercial services increased 6.6 percent and accounted for an estimated 5.8 percent of total exports of goods and services. Similarly, imports (payments) of commercial services rose 1.6 percent and accounted for an estimated 9.8 percent of the total of imports of goods and services. In 2017, receipts from travel services and transportation account for 68 percent and 20 percent of total Vietnamese service exports, respectively. During the same period, payments for transportation services accounted for nearly half of Vietnam's imports of services, largely driven by logistics services related to global value chains around Vietnam's manufacturing sector. Vietnam has enormous potential to enhance its tourism and logistics sectors, but this would require further strengthening in the quality of service provision and liberalization of trade barriers to trade in services.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 24,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 999,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "d4eee9387ed0",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.12581288432308999,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p014:para:003 | starter/data/ts-2017-12.pdf | page 14]\nReduced budget financing to pro-poor services therefore entails a risk of widening inequities in access to basic services. Vietnam is actively pursuing a set of interrelated policies, including socialization, designed simultaneously to improve the performance of government service delivery, increase citizen choice, reduce the financial burden upon the state. The overall goal is to gradually rationalize the role of the state in the provision of public goods. While these reforms can enhance incentives for efficiency gains both for service providers and service users, it is crucial to assess and -if needed- mitigate the potential adverse distributional impacts of these policies on the poor and vulnerable.",
+    "context_ids": [
+      "ts-2017-12:p014:para:003"
+    ],
+    "context_chars": 778,
+    "elapsed_ms": 1.2600999907590449,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How does the amount of time Vietnamese teachers spend teaching compare with teachers in other ASEAN countries?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 43,
+        "evidence": "Average teaching time per teacher in general education is the lowest in ASEAN (and is 25 percent below the ASEAN average for primary schools)."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 13,
+        "evidence": "average teaching time per teacher in general education is the lowest in ASEAN and is 25 percent below the ASEAN average for primary schools"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p013:para:003",
+        "text": "• In the education sector: (a) Review teachers working hours and consider increasing them to an internationally comparable level in association with education and curricula reforms (average teaching time per teacher in general education is the lowest in ASEAN and is 25 percent below the ASEAN average for primary schools); (b) Provide financial incentives for schools to rationalize their work force; and (c) Simplify salaries and allowances schemes for teachers to reduce over reliance on seniority as a pay factor.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 13,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 517,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "13d5b2dbd93c",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.25355527382189347,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p043:para:003",
+        "text": "2.22. The efficiency of deployment of human resources in several sectors of public service delivery is not satisfactory, most notably in education and health. Average teaching time per teacher in general education is the lowest in ASEAN (and is 25 percent below the ASEAN average for primary schools). As observed in general education and particularly in lower-secondary education, there is room to restructure teachers' working time and programs to increase the teaching load. More efficient use of education resources, especially teacher deployment, would increase access to education without affecting its quality by providing more services with the same resources. Similarly, on average a doctor in Vietnam sees far fewer patients per year than in other countries, suggesting possible scope for more efficient use of human resources. Patient visits at grassroots levels (districts and communes) are inefficient due to the poor quality of health provision at these levels.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 43,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 975,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "df267ede18a2",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.1817842811147914,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p045:para:003",
+        "text": "• In the education sector, there are signs of inefficiencies in the deployment of human resources. There should be a human resource adjustment plan to increase teaching hours per teacher linked to curricula reforms intended to achieve compatibility with international levels. Provincial Departments of Education and Training (DoETs) could play a greater role in developing a human resource plan that would include existing teacher profiles, future enrolment projections and the professional development needs of teachers. There could be financial incentives for schools to rationalize the teaching force. These measures would help meet the target of full-day school for 90 percent of students at the primary level and 50 percent at the lower-secondary level by 2020. It would particularly benefit disadvantaged students who cannot afford to pay for after-school classes.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 45,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 870,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "e3356937ec80",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.13243808283378738,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p013:para:003 | starter/data/ts-2017-12.pdf | page 13]\n• In the education sector: (a) Review teachers working hours and consider increasing them to an internationally comparable level in association with education and curricula reforms (average teaching time per teacher in general education is the lowest in ASEAN and is 25 percent below the ASEAN average for primary schools); (b) Provide financial incentives for schools to rationalize their work force; and (c) Simplify salaries and allowances schemes for teachers to reduce over reliance on seniority as a pay factor.",
+    "context_ids": [
+      "ts-2017-12:p013:para:003"
+    ],
+    "context_chars": 584,
+    "elapsed_ms": 1.4118000108283013,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "How do Vietnam's road maintenance unit costs compare with those in Laos and Cambodia?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 47,
+        "evidence": "Routine maintenance costs are approximately USD3,000 per km per year; 3 times higher than in Laos, 1.5 times higher than in Cambodia"
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 14,
+        "evidence": "Reduce road maintenance unit costs (currently 3 times higher than in Laos, 1.5 times higher than in Cambodia"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p014:para:000",
+        "text": "care and health care delivery at grassroots level; and (d) Gradually move from the fee-for-service payment system to other health financing methods (including capitation and case based payment).\n• In the transport sector: (a) Avoid construction cost overrun through accelerating land acquisition and ensuring sufficient funds allocation for approved projects, while promoting more competition in bidding for road construction contracts and increasing the size of each contract; (b) Reduce road maintenance unit costs (currently 3 times higher than in Laos, 1.5 times higher than in Cambodia and closer to unit maintenance unit costs in OECD countries), which is critical particularly when the maintenance budget can only meet approximately 50 percent of estimated needs at the moment.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 14,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 784,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "a46179a5017b",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.3448356094013362,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p047:para:000",
+        "text": "Between 2009 and 2013 there was a 68 percent increase in the already high overall maintenance costs per km which led to under maintenance. Unit Maintenance costs are substantially higher than their equivalent costs elsewhere in the region. Routine maintenance costs are approximately USD3,000 per km per year; 3 times higher than in Laos, 1.5 times higher than in Cambodia and closer to unit maintenance unit costs in OECD countries (e.g. USD3,500 per km in the UK and approximately USD4,500 per km in France). This increase in recent years was due to increases in the price of oil and cement based inputs for works construction, and an annual increase of 10 percent in the wages of workers involved in road construction. As maintenance activities are comparatively more labor-intensive in Vietnam than in other countries, the increase in workers' wages has had a greater impact on maintenance costs.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 47,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 900,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "70640aff811a",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.34166556154976985,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p039:para:002",
+        "text": "Whilst Vietnam has a complete road network with a relatively high road density (of about 0.87 km of road per km2), the full potential of such a network is hindered by its poor condition due to low levels and financing of maintenance.\n2.12. government transport strategies and plans highlight maintenance as a priority. However, the amount of resources allocated to transport infrastructure maintenance indicate otherwise, with a shortfall of at least 50 percent in the necessary O&M expenditure at both national and local levels. In 2012, maintenance expenditure represented only about 18 percent of total transport expenditure. In the roads subsector, maintenance to total road expenditure ratio in Vietnam is only 11 percent, compared with 22 percent in Bangladesh, 30 percent in OECD countries, and 37 percent in Indonesia.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 39,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 826,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "a85774b31d02",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.2423271831084323,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 1.7416000191587955,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What was Vietnam's real GDP growth rate in the first quarter of 2018?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 16,
+        "evidence": "Having recorded 6.8 percent in 2017, real GDP expanded nearly 7.4 percent (y/y) during the first quarter of 2018."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 9,
+        "evidence": "Having recorded 6.8 percent in 2017, real GDP expanded nearly 7.4 percent (y/y) during the first quarter of 2018."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p016:para:000",
+        "text": "Recent Economic Developments in Vietnam Coming off strong momentum in 2017, growth accelerated further in the first quarter of 2018\n4. Propelled by favorable domestic and external factors, Vietnam's economy posted its strongest first-quarter growth in 10 years. Having recorded 6.8 percent in 2017, real GDP expanded nearly 7.4 percent (y/y) during the first quarter of 2018. The expansion was led by strong manufacturing growth of 13.6 percent (up from 8.6 percent in Q1 2017), reflecting a combination of statistical base effects due to relatively weak growth in the first quarter of 2017 and strong external demand which lifted electronics and other manufacturing exports. Agriculture also saw faster growth of 4.1 percent (up from 2.1 percent in Q1 2017) largely due to a good harvest, continued shifts to higher value crops and increased output in the fishery sector, which benefited from robust domestic and external demand.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 16,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 930,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "c761086bfa16",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.36665289830000186,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p021:para:001",
+        "text": "10. Despite a slight deceleration in the first quarter 2018, credit growth remains elevated. Total banking sector lending is estimated to expand 3.6 percent (year-to-date) in the first quarter of 2018 - equivalent to about 14 percent year-on-year in nominal terms, below the estimate of 18.2 percent cumulative credit growth in 2017 (figure 17). Vietnam credit cycle stands out from trends in most other countries of the region, including China, which have seen gradual tightening. Vietnam's overall credit to GDP is also relatively high - at about 130 percent of GDP in December 2017, and credit is expanding at around 1.4 times the growth rate of nominal GDP . This rapid pace of credit growth may present risks to banking sector stability, especially given remaining balance sheet weaknesses and thin capital buffers in some of the banks.\nFigure 17. Real credit growth in EAP countries (percent) China Indonesia Malaysia Philippines Thailand Vietnam 2013 2014 2015 2016 2017e\nSource: World Bank.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 21,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 998,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "858471594ba4",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.2983807429160525,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p017:para:001",
+        "text": "Recent Economic Developments in Vietnam Aided by favorable external and domestic conditions, Vietnam's economy gathered momentum\n1.4. Vietnam's economy gathered further momentum in 2017 reflecting strong domestic demand, robust export-oriented manufacturing, and a gradual rebound of agriculture. After a moderation during the first quarter, growth started to rebound to 6.2 percent (y/y) in the second quarter and accelerate to 7.5 percent in the third quarter, bringing y/y growth to 6.4 percent for the first nine months of the year. Low inflation and strengthening consumer confidence supported an uptick in private consumption while investment was bolstered by robust foreign direct investment and an expansion of credit growth. At the same time, the recovery in external demand helped Vietnam's export oriented manufacturing and agricultural sectors with exports up 21 percent in value term during the first three quarters of the year.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 17,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 941,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "331046753202",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.27733642373136225,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 1.5008000191301107,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Under what assumption does the report project Vietnam's poverty rate (US$3.2/day line) to fall to 7.4 percent in 2018?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 32,
+        "evidence": "Under the assumption that the responsiveness of the poverty rate to economic growth follows historical trends, the poverty rate-based on the lower middle-income poverty line of US$3.2/day-is projected to decline from about 10 percent in 2015 to 7.4 percent in 2018 and around 6 percent in 2020"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p032:para:001",
+        "text": "Table 5. Selected macroeconomic indicators 2016 2017e 2018f 2019f GDP growth (percent) 6.2 6.8 6.8 6.6 Consumer price index (annual average, percent) 2.7 3.5 4.0 4.0 Current account balance (percent of GDP) 2.9 2.1 2.3 2.2 Fiscal balance (percent of GDP , GFS definition) -4.8 -4.5 -4.5 -4.4 Public and PG debt (percent of GDP , GFS definition) 59.9 58.5 57.9 57.5 Public and PG debt (percent GDP , MOF definition) 63.6 61.4 61.2 61.1\nSource: GSO, MOF , SBV, IMF and World Bank.\n30. Strong growth accompanied by broad macroeconomic stability will continue to advance poverty reduction. Under the assumption that the responsiveness of the poverty rate to economic growth follows historical trends, the poverty rate-based on the lower middle-income poverty line of US$3.2/day-is projected to decline from about 10 percent in 2015 to 7.4 percent in 2018 and around 6 percent in 2020, as job creation and real wage growth boost household income and consumption growth.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 32,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 964,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "3a22e0700caa",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.3038770916999488,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p011:para:005",
+        "text": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1.90 per day).\nMedium-term outlook, risks, and policy implications Vietnam's near-term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is now projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize at around 6.5 percent, as the impact of some cyclical and one-off factors that propelled growth this year dissipates. Inflation is projected to remain moderate but to pick up somewhat over the medium term, as rapid credit and wage growth lift core inflation.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 777,
+          "chunk_kind": "para",
+          "chunk_index": 5,
+          "content_hash": "85e73239f9c8",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.22159546256210227,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p020:para:001",
+        "text": "While the working age population and labor force will continue to expand for another two decades, the rate of increase has slowed to about 1 percent per annum - markedly lower than average 2.5 percent expansion during 1990 to 2013. growth in wages across all sectors and a net shift of labor into the more productive non-agriculture sectors. The reduction in poverty is also expected to be broad based because wage growth was high across all sectors. Resultantly, poverty continued to decline with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1.9 per day).\nFigure 1.9: Real and Potential gDP growth (%) Figure 1.10: contributions to gDP growth\nFigure 1.11: Labor Productivity growth (output per worker, 3-year moving average)\nSource: Authors calculations based on GSO data.\nGDP Growth Trend GDP Growth CapitalLaborTotal Factor Productivity",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 20,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 904,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "ab51d35e4df6",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.19146163932054042,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 2.0457000064197928,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "According to the World Economic Forum estimate cited in the report, what would happen to global GDP and world trade if all countries reduced supply chain barriers halfway to Singapore's level?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 36,
+        "evidence": "if all countries reduced supply chain barriers halfway to that of Singapore, global GDP could increase by 4.7 percent or US$ 2.6 trillion, and world trade by 14.5 percent or US$ 1.6 trillion"
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 11,
+        "evidence": "if all countries reduced supply chain barriers halfway to that of Singapore, global GDP could increase by 4.7 percent or US$ 2.6 trillion, and world trade by 14.5 percent or US$ 1.6 trillion"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p036:para:003",
+        "text": "4. Inefficient trade facilitation undermines a country's comparative advantage and its ability to participate in global value chains. Global trends show that gains from improving trade facilitation outweigh gains from reducing tariffs. According to the World Economic Forum, if all countries reduced supply chain barriers halfway to that of Singapore, global GDP could increase by 4.7 percent or US$ 2.6 trillion, and world trade by 14.5 percent or US$ 1.6 trillion, far outweighing the benefits from the elimination of all import tariffs.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 36,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 539,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "86a72c440dff",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.44958261842679076,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p011:para:000",
+        "text": "Special Focus: Reform Priorities for Reducing Trade Costs and Enhancing Competitiveness in Vietnam Efficient trade facilitation and logistics are lynchpin of overall competitiveness. Global trends show that gains from improving trade facilitation now outweigh gains from reducing tariffs. According to the World Economic Forum, if all countries reduced supply chain barriers halfway to that of Singapore, global GDP could increase by 4.7 percent or US$ 2.6 trillion, and world trade by 14.5 percent or US$ 1.6 trillion, far outweighing the benefits from the elimination of all import tariffs. Other research has shown that better logistics performance is associated higher GDP growth and trade growth.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 701,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "06d287e47481",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.4138783227995615,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p036:para:000",
+        "text": "Strategic Context Why Are Trade Costs and Competitiveness Reform Priorities?\n1. Vietnam's economy stands at a critical juncture. The country's consistent policy of openness and export-led growth has paid off. The economic reforms undertaken since the late 1980s helped spur growth and reduced poverty. Vietnam reached the highest trade-to-GDP ratio in the developing world at 190 percent (2017), well above what is predicted for its income level. Vietnam's exports have consistently outperformed world export growth over the past decade. However, where connected to global supply chains, Vietnam often contributes the lower value-added inputs and limited technology embedded in production.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 36,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 689,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "7339df442723",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.2189697127468893,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2018-06:p036:para:003 | starter/data/ts-2018-06.pdf | page 36]\n4. Inefficient trade facilitation undermines a country's comparative advantage and its ability to participate in global value chains. Global trends show that gains from improving trade facilitation outweigh gains from reducing tariffs. According to the World Economic Forum, if all countries reduced supply chain barriers halfway to that of Singapore, global GDP could increase by 4.7 percent or US$ 2.6 trillion, and world trade by 14.5 percent or US$ 1.6 trillion, far outweighing the benefits from the elimination of all import tariffs.",
+    "context_ids": [
+      "ts-2018-06:p036:para:003"
+    ],
+    "context_chars": 606,
+    "elapsed_ms": 2.2473999997600913,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Which part of the import process accounts for the largest share of the money spent on importing goods into Vietnam?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 11,
+        "evidence": "the highest monetary cost to import is for port handling (39.5 percent of total cost to import)"
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 41,
+        "evidence": "The costs of port handling are the highest cost item (39.5 percent)."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p024:para:001",
+        "text": "1.18. Despite improved export performance of the domestic sector in 2017, exports continue to be dominated by the FDi sector. Vietnam's exports continue to gain global market share, in part reflecting overall cost competitiveness and the ability to attract export-oriented-foreign direct investments. Thus, the engine of strong export performance generally originated in the foreign-invested sector, which contributed 72.4 percent of total non-oil exports and grew at 23 percent in the first 10 months of 2017. The sector also boosted import demand for machinery and equipment for investment expansion as well as materials and intermediate goods for export processing and manufacturing. While the sector recorded a significant trade surplus (about 9 percent of GDP in 2016), its increasing share of imported intermediate inputs reflected the limited domestic value addition and weak linkages with local suppliers (see box 1 on constraints to linkages).",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 24,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 952,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "3dbe59652669",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.17379352214060054,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p027:para:000",
+        "text": "1.19. imports rebounded significantly in 2017 after sluggish growth in 2016. Imports, especially of capital and intermediate goods, continued to surge, reflecting the uptick in investment activity and high import content of some of Vietnam's exports. The import bill for first ten months is estimated at $172 billion, up 21.6 percent year-on-year compared to 5.4 percent growth during 2016. Imports of the foreign-invested sector continue to grow solidly while imports of domestic companies, which were unusually weak last year, have gradually rebounded. Machinery, equipment, raw material and intermediate goods are among the biggest import items expanding by 22.7 percent during the first ten months of the year. Growth especially in imported capital goods is a positive development, indicating ongoing capacity extension of production facilities and contributing to higher potential growth and future export potential of Vietnam.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 27,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 932,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "e0b163b891bc",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.16182255370433288,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p040:para:004",
+        "text": "18. For imports, regulatory compliance time consisting documentary compliance time (the time to comply with specialized controls outside the border), and customs and non-customs compliance at the border is significantly higher than logistics time comprising the time for domestic transport and port handling time.\nFigure 5 illustrates that, regulatory compliance time to import accounts for 72 percent of total time to import, whilst logistics time to import, accounts for 28 percent of total time to import. The time to comply with documentary compliance for specialized controls or non-tariff measures for import is the most time-consuming compliance (55 percent of total time to import). In further detail, the total time to import includes documentary compliance time",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 40,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 771,
+          "chunk_kind": "para",
+          "chunk_index": 4,
+          "content_hash": "ec628e4b1d6d",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.16082610566499342,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 1.7040999955497682,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "What system does the report recommend developing to address the lack of reliable logistics statistics in Vietnam?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 12,
+        "evidence": "the development of Vietnam Logistics Statistical System (VLSS) to collect, process and report officially on a reliable logistics database is important."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p012:para:001",
+        "text": "Pillar 3: Building a competitive logistics service sector. Vietnam's logistics service providers (LSPs) often lack the scale, skills and technology to provide reliable and efficient services. There is also a lack of reliable logistics statistical data to support state management agencies and the private sector to formulate appropriate policies and corporate strategies for the sector development. Among key prioritized actions to address logistics sector challenges, the development of Vietnam Logistics Statistical System (VLSS) to collect, process and report officially on a reliable logistics database is important. Successful implementation of VLSS requires learning international experience and the collaboration between Ministry of Transport, General Statistical Office, General Department of Vietnam Customs, and logistics businesses.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 12,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 843,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "54cf6d87f970",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.3637931314150906,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p050:para:000",
+        "text": "What Are Reform Priorities to Improve Quality of Logistics Services (Pillar 3)?\nFigure 19. Limited Capacity and Competitiveness of Vietnam's LSP: LSPs by Capital\nSource: Vietnam Logistics Business Association (2015).\n36. Vietnam's logistics service providers (LSP) generally offer low-cost and low-quality services, and cannot yet compete with their international counterparts. Most of them are small-sized with limited access to capital and lacks adequately trained human resources (Figure 19). The exception is found among the few LSPs serving major FDIs, which are typically joint ventures between international and Vietnamese providers, who can leverage international experiences and are driven by sophisticated demand of shippers for high-quality and reliable services. The overall inefficiency and lack of competitiveness of LSPs is observed across various sub-sectors.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 50,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 875,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "ab681d315c74",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.1585505525665259,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p053:para:001",
+        "text": "• Pillar 2: Enhancing efficiency of trade-related infrastructure and the quality of connectivity: (i) Vietnam Development Report 2019 (VDR) \"Connecting Vietnam for Growth and Shared Prosperity\"; and (ii) Develop and Implement Suitable Public-Private Partnership (PPP) Models.\n• Pillar 3: Building a competitive logistics service sector: (i) Support the establishment of Vietnam Logistics Statistical System (VLSS); and (ii) Transportation and logistics studies of key sub-sectors: trucking, railway and inland waterway.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 53,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 519,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "2c3d9420d908",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.14900810347844964,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2018-06:p053:para:001 | starter/data/ts-2018-06.pdf | page 53]\n• Pillar 2: Enhancing efficiency of trade-related infrastructure and the quality of connectivity: (i) Vietnam Development Report 2019 (VDR) \"Connecting Vietnam for Growth and Shared Prosperity\"; and (ii) Develop and Implement Suitable Public-Private Partnership (PPP) Models.\n• Pillar 3: Building a competitive logistics service sector: (i) Support the establishment of Vietnam Logistics Statistical System (VLSS); and (ii) Transportation and logistics studies of key sub-sectors: trucking, railway and inland waterway.",
+    "context_ids": [
+      "ts-2018-06:p053:para:001"
+    ],
+    "context_chars": 586,
+    "elapsed_ms": 1.47720001405105,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "According to the December 2017 Taking Stock report, what GDP growth rate was projected for Vietnam in 2017?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 34,
+        "evidence": "GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July)."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 11,
+        "evidence": "GDP growth is now projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July)."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p034:para:003",
+        "text": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 34,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 549,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "343fa1301a08",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.2828582566893233,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p010:para:000",
+        "text": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has picked up in major advanced and emerging economies, trade is rebounding, financing conditions remain favorable, and commodity prices have strengthened, albeit at a gradual pace. Global GDP growth is expected to accelerate to about 3 percent in 2017. Amidst a generally favorable global context, developing East Asia and the Pacific continued to perform well in 2017, with GDP growth in the region projected to pick up to 6.4 percent this year, bolstered by resilient domestic demand and accelerating exports, which benefited from improved global demand.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 10,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 713,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "9e4bb2f76e75",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.2680713695812683,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p011:para:005",
+        "text": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1.90 per day).\nMedium-term outlook, risks, and policy implications Vietnam's near-term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is now projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize at around 6.5 percent, as the impact of some cyclical and one-off factors that propelled growth this year dissipates. Inflation is projected to remain moderate but to pick up somewhat over the medium term, as rapid credit and wage growth lift core inflation.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 777,
+          "chunk_kind": "para",
+          "chunk_index": 5,
+          "content_hash": "85e73239f9c8",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.24246228532154587,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[ts-2017-12:p034:para:003 | starter/data/ts-2017-12.pdf | page 34]\n1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+    "context_ids": [
+      "ts-2017-12:p034:para:003"
+    ],
+    "context_chars": 616,
+    "elapsed_ms": 1.571700006024912,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "According to the June 2018 Taking Stock report, what real GDP growth rate is projected for Vietnam in 2018?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 31,
+        "evidence": "real GDP now projected to expand by 6.8 percent in 2018 (up from 6.5 percent in our previous projection)"
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 10,
+        "evidence": "Real GDP is now projected to expand by 6.8 percent in 2018 (up from 6.5 percent in our previous projection)"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p034:para:003",
+        "text": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 34,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 549,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "343fa1301a08",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.26562077862277084,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p011:para:005",
+        "text": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1.90 per day).\nMedium-term outlook, risks, and policy implications Vietnam's near-term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is now projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize at around 6.5 percent, as the impact of some cyclical and one-off factors that propelled growth this year dissipates. Inflation is projected to remain moderate but to pick up somewhat over the medium term, as rapid credit and wage growth lift core inflation.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 777,
+          "chunk_kind": "para",
+          "chunk_index": 5,
+          "content_hash": "85e73239f9c8",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.2243255969317562,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p010:para:000",
+        "text": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has picked up in major advanced and emerging economies, trade is rebounding, financing conditions remain favorable, and commodity prices have strengthened, albeit at a gradual pace. Global GDP growth is expected to accelerate to about 3 percent in 2017. Amidst a generally favorable global context, developing East Asia and the Pacific continued to perform well in 2017, with GDP growth in the region projected to pick up to 6.4 percent this year, bolstered by resilient domestic demand and accelerating exports, which benefited from improved global demand.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 10,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 713,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "9e4bb2f76e75",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.20039334253158242,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p034:para:003 | starter/data/ts-2017-12.pdf | page 34]\n1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+    "context_ids": [
+      "ts-2017-12:p034:para:003"
+    ],
+    "context_chars": 616,
+    "elapsed_ms": 1.501899998402223,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "According to the June 2018 Taking Stock report, how large was Vietnam's overall fiscal deficit in 2017?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 28,
+        "evidence": "The overall fiscal deficit is estimated to have narrowed to an estimated 4.5 percent of GDP in 2017 from 4.8 percent in 2016 and 5.5 percent in 2015 (IMF GFS definition)"
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 9,
+        "evidence": "An expenditure-led adjustment reduced the overall fiscal deficit to 4.5 percent of GDP in 2017."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p034:para:003",
+        "text": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 34,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 549,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "343fa1301a08",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.1690697020079991,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p032:para:000",
+        "text": "imports of capital and intermediate goods will also continue to grow rapidly, as supporting industries remain underdeveloped.\n29. Fiscal consolidation is expected to contain fiscal deficits and public debt over the projection period. The fiscal deficit is projected to remain at 4.5 percent of GDP in 2018, before narrowing in 2019 to 4.4 percent, reflecting continued implementation of the Government's fiscal consolidation plans and would support a further reduction in the debt-to-GDP ratio. Fiscal consolidation will be implemented against the backdrop of robust nominal GDP and consumption growth which is expected to bolster revenue performance while expenditure growth will be contained by the government's commitment to rein in inefficiencies.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 32,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 751,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "7de53c6ee7c8",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.1663165374038673,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p009:para:004",
+        "text": "After public debt stabilized in 2017, maintaining fiscal discipline remains a priority. An expenditure-led adjustment reduced the overall fiscal deficit to 4.5 percent of GDP in 2017. This together with a reduction in government guarantees and significant privatization proceeds resulted in a decline in public-debt-to-GDP ratio to 61.4 percent in 2017 from 63.7 percent in 2016. During first quarter of 2018, the government continued to contain expenditure growth to offset relatively weak revenue performance. Driven by low inflation and ample liquidity in the banking system, Government bond yields have trended downwards across the yield curve which allowed the government to meet its financing needs while extending the average maturity and lowering the cost of domestic government bonds.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 9,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 793,
+          "chunk_kind": "para",
+          "chunk_index": 4,
+          "content_hash": "b46f138e1834",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.16548344998428283,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[ts-2017-12:p034:para:003 | starter/data/ts-2017-12.pdf | page 34]\n1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+    "context_ids": [
+      "ts-2017-12:p034:para:003"
+    ],
+    "context_chars": 616,
+    "elapsed_ms": 1.5013999945949763,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "According to the December 2017 Taking Stock report, what level did Vietnam's gross international reserves reach, and how many months of imports did they cover?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 11,
+        "evidence": "bringing gross international reserves to around US$42 billion at the end of September, equal to just below three months of imports."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 29,
+        "evidence": "bringing gross international reserves to around US$ 42 billion 2 by the end of September, equal to just below 3 months of imports."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p011:para:000",
+        "text": "Bolstered by a robust foreign exchange inflows, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal U.S. dollar-dong exchange rate within a narrow trading band, with devaluation of the reference rate of 1.4 percent during the first 10 or 11 months of the year. This helped contain real effective exchange rate appreciation of the dong and allowed the SBV to continue to shore up foreign reserves of about US$5 billion during the first three quarters, bringing gross international reserves to around US$42 billion at the end of September, equal to just below three months of imports.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 638,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "e54194f04a71",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.16114375358132454,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p029:para:002",
+        "text": "1.23. Bolstered by the strong external position, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal US$ dong exchange rate within a narrow trading band with year to date devaluation of the reference rate of 1.4 percent. This helped contain real effective exchange rate appreciation of the dong and allowed the SBV continue to shore up foreign reserves of nearly US$ 5 billion during the first three quarters, bringing gross international reserves to around US$ 42 billion 2 by the end of September, equal to just below 3 months of imports.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 29,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 596,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "df798562c7ab",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.15307452407795702,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p026:para:003",
+        "text": "21. Supported by favorable external balances and a more flexible exchange-rate regime, the nominal exchange rate has been relatively stable and Vietnam's foreign reserve position continues to improve. In nominal terms the official dong exchange rate to the U.S. dollar has devaluated slightly by 1.2 percent in nominal term in 2016 and 2017 (figure 25), as the SBV took advantage of strong foreign exchange inflows to accumulate reserves. Due in large part to a weaker U.S. dollar, the real effective exchange rate of the dong has depreciated by about 2.7 percent since early 2017, although this trend has reversed in recent months as U.S. dollar has shown tentative signs of a recovery. Meanwhile, the State Bank of Vietnam reported a record-high foreign reserves of about US$63 billion3 in the first four month of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports (figure 26).\n1 Data provided by the State Bank of Vietnam.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 26,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 982,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "1bf0ce771e03",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.13304906225611854,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p011:para:000 | starter/data/ts-2017-12.pdf | page 11]\nBolstered by a robust foreign exchange inflows, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal U.S. dollar-dong exchange rate within a narrow trading band, with devaluation of the reference rate of 1.4 percent during the first 10 or 11 months of the year. This helped contain real effective exchange rate appreciation of the dong and allowed the SBV to continue to shore up foreign reserves of about US$5 billion during the first three quarters, bringing gross international reserves to around US$42 billion at the end of September, equal to just below three months of imports.",
+    "context_ids": [
+      "ts-2017-12:p011:para:000"
+    ],
+    "context_chars": 705,
+    "elapsed_ms": 2.0206999906804413,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "question": "According to the June 2018 Taking Stock report, what was Vietnam's year-on-year consumer price inflation in early 2018, and what drove it?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 9,
+        "evidence": "Vietnam's consumer price index has been ticking up slightly 2.8 percent (y/y) in the first four months of 2018, driven by hikes in administered prices (for electricity and health services)."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 20,
+        "evidence": "Vietnam's consumer price index has been ticking up slightly in the first four months of 2018, driven by hikes in administered prices (for electricity and health services). Headline CPI rose by 2.8 percent (y/y) in April 2018"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p020:para:001",
+        "text": "8. Despite a recent uptick in headline inflation, price pressures remain subdued. Vietnam's consumer price index has been ticking up slightly in the first four months of 2018, driven by hikes in administered prices (for electricity and health services). Headline CPI rose by 2.8 percent (y/y) in April 2018, up slightly from 2.6 percent in December 2017. However, core inflation slightly declined from 1.4 percent in to 1.3 percent during the same period. It is noteworthy that Vietnam has kept core inflation below 3 percent since November 2014 (figure 14). Aside of short-term fluctuations due to natural calamities and market conditions, diversification of agricultural production is boosting the sector's growth potential. The agricultural sector faces significant opportunities to contribute more strongly to growth, but also substantial challenges in terms modernizing production, raising productivity and linking more effectively with agribusiness value chains.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 20,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 968,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "29756364ac03",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.16894126909300836,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p034:para:003",
+        "text": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 34,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 549,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "343fa1301a08",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.14922422164381238,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p011:para:005",
+        "text": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1.90 per day).\nMedium-term outlook, risks, and policy implications Vietnam's near-term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is now projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize at around 6.5 percent, as the impact of some cyclical and one-off factors that propelled growth this year dissipates. Inflation is projected to remain moderate but to pick up somewhat over the medium term, as rapid credit and wage growth lift core inflation.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 777,
+          "chunk_kind": "para",
+          "chunk_index": 5,
+          "content_hash": "85e73239f9c8",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.14830975575001143,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p034:para:003 | starter/data/ts-2017-12.pdf | page 34]\n1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+    "context_ids": [
+      "ts-2017-12:p034:para:003"
+    ],
+    "context_chars": 616,
+    "elapsed_ms": 1.7593000084161758,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "question": "Which trade document cannot be submitted electronically in Vietnam, and do traders still need paper copies of their documents?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 40,
+        "evidence": "Although electronic submission of documents is allowed for all of the documents, except for the inspection report, hard copies are still required for all documents."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p040:para:002",
+        "text": "16. Documentary compliance reflects data including the entire time and cost of obtaining, preparing, processing, presenting and submitting all required documents. These documents include the bill of lading, commercial invoice, packing list, certificate of origin, cargo release order, import customs declaration, inspection report, and SOLAS certificate (for import). The most burdensome documents in terms of time and cost for private sector are certificate of origin, inspection report, bill of lading and technical standard. Although electronic submission of documents is allowed for all of the documents, except for the inspection report, hard copies are still required for all documents.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 40,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 692,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "ce1d874468f9",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.24004167067584925,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p040:para:000",
+        "text": "What and How Do Regulatory Compliance and Logistical Process Cost Vietnam's Traders?\n14. A detailed analysis of related indicators further breaking down the time and cost of trade across borders explains which costs and in what ways they burden traders in Vietnam. Doing Business 2018 provides an updated set of data on time and costs that defines clearly trade cost structure and breakdown, including time and costs for border compliance, documentary compliance, and domestic transport.\n15. The indicator on border compliance specifies the time and cost for customs procedures, procedures of other than customs, and port procedures.\n• Customs procedures: The data include the time and cost to complete customs clearance, including document checks by customs. The time also includes physical inspections by customs. The cost includes the cost related to physical inspections, document checks by customs, and hiring a customs broker.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 40,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 932,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "0a5c26a4f271",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.18685835103015747,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p038:para:000",
+        "text": "reducing trade costs clearly cannot rely only on tariff reductions any longer, but instead needs to focus on lowering costs associated with non-tariff measures7 and logistics.\nFigure 2. Average MFN\nSource: WDI (2017).\n10. This report aims at analyzing the structure of trade costs to benchmark Vietnam's trade competitiveness against other countries in the East Asia and Pacific (EAP) region. It also aims at identifying key actors responsible and accountable for various cost components, and at planning and monitoring the implementation of appropriate reform priorities to contribute to reducing trade costs and enhance competitiveness. Trade Costs Analysis How Do Vietnam's Trade Costs Compare Regionally?",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 38,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 708,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "d190b61f2f20",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.13722640744637485,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2018-06:p040:para:002 | starter/data/ts-2018-06.pdf | page 40]\n16. Documentary compliance reflects data including the entire time and cost of obtaining, preparing, processing, presenting and submitting all required documents. These documents include the bill of lading, commercial invoice, packing list, certificate of origin, cargo release order, import customs declaration, inspection report, and SOLAS certificate (for import). The most burdensome documents in terms of time and cost for private sector are certificate of origin, inspection report, bill of lading and technical standard. Although electronic submission of documents is allowed for all of the documents, except for the inspection report, hard copies are still required for all documents.",
+    "context_ids": [
+      "ts-2018-06:p040:para:002"
+    ],
+    "context_chars": 759,
+    "elapsed_ms": 1.6055000014603138,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "question": "What could happen to Vietnam's poorer provinces if proper incentives are not put in place?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 52,
+        "evidence": "Unless proper incentives are put in place, these poorer provinces may over time become relatively more dependent on central transfers."
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p052:para:001",
+        "text": "2.34. in the future, it will be important to nurture growth in decentralized revenue and strengthen the operation of the transfer system. Drivers of growth should be renewed by prioritizing investment in infrastructure and human capital development. These actions should help to sustain the drivers for the country's equitable growth, as well as assist the positive impact of redistribution policies across provinces. There is a risk that the gap between the poorer provinces and the more prosperous ones could widen as the poorer provinces tend to yield fewer public revenues. Unless proper incentives are put in place, these poorer provinces may over time become relatively more dependent on central transfers.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 52,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 712,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "4ac4c0e06fa3",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.3857341859359558,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p058:para:001",
+        "text": "Higher costs for accessing post-secondary education for the poor in remote areas are an additional impediment. These inequalities would be exacerbated in a fee-based system if mitigation measures are not put in place.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 58,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 217,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "afc895fb643c",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.27116611854760275,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p053:para:001",
+        "text": "Under these arrangements, although budget revenues are not distributed evenly across provinces (about 80 percent of the national budget revenue is concentrated in a quarter of provinces), the allocation of budget expenditure ensures that poorer provinces are resourceful in making apparent progress in socio-economic development due to the fiscal transfer system.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 53,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 363,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "9d239c68cc57",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.21555624353775096,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2017-12:p052:para:001 | starter/data/ts-2017-12.pdf | page 52]\n2.34. in the future, it will be important to nurture growth in decentralized revenue and strengthen the operation of the transfer system. Drivers of growth should be renewed by prioritizing investment in infrastructure and human capital development. These actions should help to sustain the drivers for the country's equitable growth, as well as assist the positive impact of redistribution policies across provinces. There is a risk that the gap between the poorer provinces and the more prosperous ones could widen as the poorer provinces tend to yield fewer public revenues. Unless proper incentives are put in place, these poorer provinces may over time become relatively more dependent on central transfers.",
+    "context_ids": [
+      "ts-2017-12:p052:para:001"
+    ],
+    "context_chars": 779,
+    "elapsed_ms": 1.4004000113345683,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "question": "How many hours does it take to complete the paperwork for importing goods into Vietnam, compared with the average of the ASEAN-4 economies?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2018-06",
+        "page": 39,
+        "evidence": "the time to import from Vietnam tied to documentary compliance (76 hours) is significantly higher than the ASEAN-4 average (28 hours)"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p039:para:001",
+        "text": "12. Vietnam's trade competitiveness in terms of time to trade remains behind peer economies in the region, particularly compared with the average of the ASEAN-4 (including Singapore, Malaysia, Thailand, and the Philippines). Figure 3 on the time costs of trade shows that the time to import from Vietnam tied to documentary compliance (76 hours) is significantly higher than the ASEAN-4 average (28 hours), while the border compliance time to import from Vietnam (56 hours) is equal to the ASEAN-4 average. Vietnam's time to export, both in terms of documentary compliance (50 hours) and border compliance (55 hours), is significantly higher than ASEAN-4 average (24 hours and 37 hours, respectively).",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 39,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 701,
+          "chunk_kind": "para",
+          "chunk_index": 1,
+          "content_hash": "3a64da10b84a",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.366316227837552,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p039:para:002",
+        "text": "13. While it also lags the ASEAN-4 average, Vietnam's trade competitiveness in terms of its monetary cost to trade is better than for its time cost to trade. Documentary compliance costs for both Vietnam's imports and exports are higher than the ASEAN-4 average (Figure 4). Further, compared with the ASEAN-4 averages, Vietnam's border compliance cost to import is higher, but its border compliance cost to export is lower.\nFigure 3. Time Cost to Trade:\nVietnam vs. ASEAN-4 Average\nFigure 4. Monetary Cost to Trade:\nVietnam vs. ASEAN-4 Average Time to Export: Border compliance (hours) Time to Export:\nDocumentary compliance (hours) Time to Import: Border compliance (hours) Time to Import:\nDocumentary compliance (hours) ASEAN-4 Average Vietnam Cost to Export: Border compliance (USD) Cost to Export:\nDocumentary Compliance (USD) Cost to Import: Border compliance (USD) Cost to Import:\nDocumentary Compliance (USD) ASEAN-4 Average Vietnam\nSource: Doing Business, World Bank (2018).",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 39,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 982,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "881c5cbbb1a1",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.24231543548128193,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2018-06:p055:para:002",
+        "text": "19 The East Asia & Pacific regional average only captures developing countries in the region. No rank is indicated in the graph. Border Compliance to Import (Hour) Vietnam ASEAN-4 Linear (Vietnam) Linear (ASEAN-4) Documentary Compliance to Import (Hour) Vietnam ASEAN-4 Linear (Vietnam) Linear (ASEAN-4)",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 55,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 303,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "fa5b3bdeb42f",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.1605567202761319,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[ts-2018-06:p039:para:001 | starter/data/ts-2018-06.pdf | page 39]\n12. Vietnam's trade competitiveness in terms of time to trade remains behind peer economies in the region, particularly compared with the average of the ASEAN-4 (including Singapore, Malaysia, Thailand, and the Philippines). Figure 3 on the time costs of trade shows that the time to import from Vietnam tied to documentary compliance (76 hours) is significantly higher than the ASEAN-4 average (28 hours), while the border compliance time to import from Vietnam (56 hours) is equal to the ASEAN-4 average. Vietnam's time to export, both in terms of documentary compliance (50 hours) and border compliance (55 hours), is significantly higher than ASEAN-4 average (24 hours and 37 hours, respectively).",
+    "context_ids": [
+      "ts-2018-06:p039:para:001"
+    ],
+    "context_chars": 768,
+    "elapsed_ms": 1.7727000231388956,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "question": "How did the 2017 GDP growth rate projected for Vietnam in the December 2017 Taking Stock report compare with the 2017 growth rate recorded according to the June 2018 report?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 34,
+        "evidence": "GDP growth is projected to accelerate to 6.7 percent in 2017"
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 11,
+        "evidence": "GDP growth is now projected to accelerate to 6.7 percent in 2017"
+      },
+      {
+        "group": "B",
+        "source_id": "ts-2018-06",
+        "page": 9,
+        "evidence": "Having recorded 6.8 percent in 2017"
+      },
+      {
+        "group": "B",
+        "source_id": "ts-2018-06",
+        "page": 16,
+        "evidence": "Having recorded 6.8 percent in 2017"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2017-12:p034:para:003",
+        "text": "1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 34,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 549,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "343fa1301a08",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.2555877917706445,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p010:para:000",
+        "text": "oVERViEW Recent Economic Developments as anticipated in the July Taking stock Report, the global economy continued to strengthen in 2017. Economic activity has picked up in major advanced and emerging economies, trade is rebounding, financing conditions remain favorable, and commodity prices have strengthened, albeit at a gradual pace. Global GDP growth is expected to accelerate to about 3 percent in 2017. Amidst a generally favorable global context, developing East Asia and the Pacific continued to perform well in 2017, with GDP growth in the region projected to pick up to 6.4 percent this year, bolstered by resilient domestic demand and accelerating exports, which benefited from improved global demand.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 10,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 713,
+          "chunk_kind": "para",
+          "chunk_index": 0,
+          "content_hash": "9e4bb2f76e75",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.24638410287638945,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "ts-2017-12:p011:para:005",
+        "text": "As a result, poverty continued to decline, with extreme poverty now estimated to have fallen to less than 2 percent, using the international poverty line (US$1.90 per day).\nMedium-term outlook, risks, and policy implications Vietnam's near-term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is now projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize at around 6.5 percent, as the impact of some cyclical and one-off factors that propelled growth this year dissipates. Inflation is projected to remain moderate but to pick up somewhat over the medium term, as rapid credit and wage growth lift core inflation.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 11,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 777,
+          "chunk_kind": "para",
+          "chunk_index": 5,
+          "content_hash": "85e73239f9c8",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.21780529821558287,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[ts-2017-12:p034:para:003 | starter/data/ts-2017-12.pdf | page 34]\n1.32. Vietnam's near term outlook has improved since the July Taking stock report. Aided by favorable external and domestic conditions, GDP growth is projected to accelerate to 6.7 percent in 2017 (compared to 6.3 percent forecast in July). Over the medium term, growth is projected to stabilize around 6.5 percent, as the impact of the current cyclical uptick dissipates. On the production side, growth is expected to continue to be led by service and manufacturing sectors, fueled by continued FDI inflows. Inflation is expected to remain moderate",
+    "context_ids": [
+      "ts-2017-12:p034:para:003"
+    ],
+    "context_chars": 616,
+    "elapsed_ms": 1.7300999897997826,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "question": "How did Vietnam's gross international reserves reported in the June 2018 Taking Stock report compare with the level reported in the December 2017 report, both in US dollars and in months of imports?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 11,
+        "evidence": "bringing gross international reserves to around US$42 billion at the end of September, equal to just below three months of imports."
+      },
+      {
+        "group": "A",
+        "source_id": "ts-2017-12",
+        "page": 29,
+        "evidence": "bringing gross international reserves to around US$ 42 billion 2 by the end of September, equal to just below 3 months of imports."
+      },
+      {
+        "group": "B",
+        "source_id": "ts-2018-06",
+        "page": 9,
+        "evidence": "reaching about US$63 billion in the first four months of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports"
+      },
+      {
+        "group": "B",
+        "source_id": "ts-2018-06",
+        "page": 26,
+        "evidence": "foreign reserves of about US$63 billion3 in the first four month of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports"
+      }
+    ],
+    "results": [
+      {
+        "id": "ts-2018-06:p026:para:003",
+        "text": "21. Supported by favorable external balances and a more flexible exchange-rate regime, the nominal exchange rate has been relatively stable and Vietnam's foreign reserve position continues to improve. In nominal terms the official dong exchange rate to the U.S. dollar has devaluated slightly by 1.2 percent in nominal term in 2016 and 2017 (figure 25), as the SBV took advantage of strong foreign exchange inflows to accumulate reserves. Due in large part to a weaker U.S. dollar, the real effective exchange rate of the dong has depreciated by about 2.7 percent since early 2017, although this trend has reversed in recent months as U.S. dollar has shown tentative signs of a recovery. Meanwhile, the State Bank of Vietnam reported a record-high foreign reserves of about US$63 billion3 in the first four month of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports (figure 26).\n1 Data provided by the State Bank of Vietnam.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 26,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 982,
+          "chunk_kind": "para",
+          "chunk_index": 3,
+          "content_hash": "1bf0ce771e03",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.24045936048020933,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2018-06:p009:para:002",
+        "text": "Vietnam's external position continued to improve owing to strong trade performance and FDI inflows. Thanks to robust manufacturing and agricultural exports outpacing import growth, Vietnam recorded a widening merchandize trade surplus in the first quarter of 2018. Foreign direct investment inflows also continued to surge as traditional greenfield FDI was supplemented by rising equity inflows reflecting in part a pick-up in SOE divestment. Supported by strong inflows, the exchange rate has been relatively stable while reserves continued to rise, reaching about US$63 billion in the first four months of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports.",
+        "source_id": "ts-2018-06",
+        "source": "starter/data/ts-2018-06.pdf",
+        "page": 9,
+        "metadata": {
+          "title": "Taking Stock, June 2018",
+          "edition": "2018-06",
+          "char_len": 716,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "a10ce2844db7",
+          "source_url": "https://hdl.handle.net/10986/29959",
+          "day6_strategy": "B"
+        },
+        "score": 0.22696331157993668,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "ts-2017-12:p029:para:002",
+        "text": "1.23. Bolstered by the strong external position, the exchange rate has been stable and foreign reserves continue to accumulate. The SBV has kept the nominal US$ dong exchange rate within a narrow trading band with year to date devaluation of the reference rate of 1.4 percent. This helped contain real effective exchange rate appreciation of the dong and allowed the SBV continue to shore up foreign reserves of nearly US$ 5 billion during the first three quarters, bringing gross international reserves to around US$ 42 billion 2 by the end of September, equal to just below 3 months of imports.",
+        "source_id": "ts-2017-12",
+        "source": "starter/data/ts-2017-12.pdf",
+        "page": 29,
+        "metadata": {
+          "title": "Taking Stock, December 2017",
+          "edition": "2017-12",
+          "char_len": 596,
+          "chunk_kind": "para",
+          "chunk_index": 2,
+          "content_hash": "df798562c7ab",
+          "source_url": "https://hdl.handle.net/10986/29032",
+          "day6_strategy": "B"
+        },
+        "score": 0.20288794957429404,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[ts-2018-06:p009:para:002 | starter/data/ts-2018-06.pdf | page 9]\nVietnam's external position continued to improve owing to strong trade performance and FDI inflows. Thanks to robust manufacturing and agricultural exports outpacing import growth, Vietnam recorded a widening merchandize trade surplus in the first quarter of 2018. Foreign direct investment inflows also continued to surge as traditional greenfield FDI was supplemented by rising equity inflows reflecting in part a pick-up in SOE divestment. Supported by strong inflows, the exchange rate has been relatively stable while reserves continued to rise, reaching about US$63 billion in the first four months of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports.",
+    "context_ids": [
+      "ts-2018-06:p009:para:002"
+    ],
+    "context_chars": 782,
+    "elapsed_ms": 1.971399993635714,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

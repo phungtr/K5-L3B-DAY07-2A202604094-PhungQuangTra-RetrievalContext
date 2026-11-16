@@ -1,0 +1,35 @@
+{
+  "corpus": "World Bank - Taking Stock: An Update on Vietnam's Recent Economic Developments",
+  "counting_rule": "Đếm trang PDF vật lý có nội dung phân tích. Loại: bìa, trang trắng, lời cảm ơn/nhóm tác giả, viết tắt, mục lục, danh mục hình/bảng, trang tiêu đề phần, tài liệu tham khảo, trang giấy phép xuất bản, bìa sau.",
+  "char_count_rule": "Số ký tự sau chuẩn hóa (starter/src/ingestion.py: normalize_text + clean_page, đã bỏ header lặp và dòng chỉ có số), chỉ tính các trang được tính. Số ký tự từng trang: results/ingest_report.json.",
+  "sources": [
+    {
+      "source_id": "ts-2017-12",
+      "title": "Taking Stock, December 2017",
+      "edition": "2017-12",
+      "source_url": "https://hdl.handle.net/10986/29032",
+      "pdf_url": "https://documents.worldbank.org/curated/en/908691513140456658/pdf/122037-12-12-2017-18-19-0-VietnamTakingStockDecENGfinal.pdf",
+      "local_path": "starter/data/ts-2017-12.pdf",
+      "license_or_permission": "CC BY 3.0 IGO",
+      "accessed_at": "2026-11-14",
+      "physical_pages": 62,
+      "counted_pages": "10-60",
+      "excluded_pages": "1-9, 61-62",
+      "char_count": 135500
+    },
+    {
+      "source_id": "ts-2018-06",
+      "title": "Taking Stock, June 2018",
+      "edition": "2018-06",
+      "source_url": "https://hdl.handle.net/10986/29959",
+      "pdf_url": "https://documents.worldbank.org/curated/en/536421528929689515/pdf/127168-WP-TakingStockENG-PUBLIC.pdf",
+      "local_path": "starter/data/ts-2018-06.pdf",
+      "license_or_permission": "CC BY 3.0 IGO",
+      "accessed_at": "2026-11-14",
+      "physical_pages": 62,
+      "counted_pages": "9-12, 14-33, 36-58",
+      "excluded_pages": "1-8, 13, 34-35, 59-62",
+      "char_count": 125323
+    }
+  ]
+}

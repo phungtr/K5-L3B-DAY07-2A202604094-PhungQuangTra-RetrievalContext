@@ -1,0 +1,194 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 6,4% (y/y) 9 tháng đầu 2017; chunk tr.10 chứa nguyên văn evidence.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 16% tổng chi so với trung bình 25% giai đoạn 2012-2016; chunk tr.30 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [],
+  "reason": "Từ chối; 2 lượt search dense không lấy được đoạn gold tr.21 (dense xếp hạng 6 với query gốc).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 'strong coordination ... cross-provincial projects'; ý phụ rà soát phân cấp cũng có trong chunk tr.38.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng điều kiện ở tr.60; ý phụ về giá dịch vụ theo thị trường cũng có trong chunk.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng: thấp nhất ASEAN, thấp hơn 25% trung bình ASEAN ở tiểu học (tr.43); số giờ lấy từ bảng tr.44.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: gấp 3 lần Lào, 1,5 lần Campuchia (~3.000 USD/km/năm); chunk tr.47 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng gần 7,4% (y/y) quý 1/2018; chunk tr.16 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng giả định 'mức phản ứng của tỷ lệ nghèo với tăng trưởng theo xu hướng lịch sử'; ý phụ có trong chunk tr.32.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: model trả lời đúng nhưng liệt kê thêm citation tr.11 không được ghi [id] trong câu trả lời -> bị loại (lỗi định dạng, không phải thiếu evidence).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: model viết sai ID 'ts-2018-06:p041:000' (thiếu 'para:') dù nội dung port handling 39,5% đúng.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng VLSS; các ý phụ (hỗ trợ cơ quan quản lý và doanh nghiệp, phối hợp Bộ GTVT/TCTK/Hải quan) đều có trong chunk tr.12.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 6,7% theo bản 12/2017; chunk tr.34 là gold (filter edition đúng kỳ).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [],
+  "reason": "Từ chối do luật citation của starter: câu trả lời đúng 6,8% có [id] hợp lệ (tr.31) nhưng model liệt kê thêm chunk không ghi [id] (tr.10; ở A4 sau lượt sửa vẫn liệt kê thêm tr.32) -> bị loại.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 4,5% GDP (giảm từ 4,8% năm 2016); chunk tr.28 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [],
+  "reason": "Từ chối; 2 lượt dense đều không lấy được chunk US$42 billion (dense xếp hạng 8 với query gốc).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng; ý phụ 2,6% tháng 12/2017 có trong chunk tr.20.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng cả hai ý; chunk tr.40 là gold.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [],
+  "reason": "Từ chối; 3 lượt dense không lấy được đoạn tr.52 (hạng 7 với query gốc).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 76 giờ so với 28 giờ; ý phụ 56 giờ bằng trung bình ASEAN-4 có trong chunk tr.39.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng 6,7% (dự báo, bản 12/2017) và 6,8% (thực tế, bản 06/2018); hai citation phủ đủ hai nhóm evidence.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng US$42 tỷ (dưới 3 tháng nhập khẩu) và US$63 tỷ (~3,6 tháng), đủ hai nhóm evidence; không nêu kỳ số liệu (cuối 9/2017, 4 tháng đầu 2018) nhưng câu hỏi đặt theo kỳ báo cáo.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "n01",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không đưa con số thất nghiệp nào.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n02",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không suy diễn từ các đoạn nhắc tới Nhật Bản trong thương mại.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n03",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không thay bằng số quý 1/2018 hay dự báo cả năm.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "n04",
+  "citation_support": [],
+  "reason": "Từ chối đúng; không dùng số tăng trưởng giá trị xuất khẩu gạo thay cho giá/tấn.",
+  "abstention_correct": true
+ }
+]

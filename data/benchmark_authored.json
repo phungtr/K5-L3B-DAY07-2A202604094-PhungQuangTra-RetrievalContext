@@ -1,0 +1,534 @@
+{
+  "version": "day7-1.0",
+  "created_at": "2026-11-16",
+  "notes": {
+    "split": "Chia trước mọi thử nghiệm. Dev = toàn bộ 20 câu Day 6 (q01-q20; q16-q20 là test cũ của Day 6, đã bị phân tích lỗi top-40 và gợi ý hybrid/rerank nên không còn độc lập) + 2 câu multi-hop mới + 4 câu thiếu evidence. Test = 11 câu có đáp án hoàn toàn mới (t01-t11, gồm 2 multi-hop) + 3 câu thiếu evidence mới, soạn ngày 2026-11-16 trước khi viết code retrieval/agent.",
+    "types": "truc_tiep, dien_dat_lai, dieu_kien, ngoai_le, metadata_filter như Day 6; multi_hop = cần evidence từ hai kỳ báo cáo.",
+    "filter": "filter là input người dùng chọn trước (kỳ báo cáo). Chỉ câu nêu rõ kỳ báo cáo mới có filter; câu multi-hop không có filter vì cần cả hai kỳ.",
+    "gold": "gold là các evidence thay thế; trường group phân nhóm evidence bắt buộc. Câu thường chỉ có group A (đủ khi có một evidence bất kỳ). Câu multi-hop có group A (bản 12/2017) và group B (bản 06/2018): đủ evidence khi mỗi group có ít nhất một evidence.",
+    "answer_points": "Regex các ý bắt buộc để chấm câu trả lời đúng và đủ; chỉ dùng khi chấm, không bao giờ đưa vào agent hay retrieval.",
+    "leakage": "Test không trùng đáp án với dev. Một số gold thay thế của test nằm ở trang Overview (ts-2017-12 tr.10-11), cũng là trang gold của vài câu dev, nhưng khác đoạn và khác đáp án.",
+    "drafting": "Câu mới soạn nháp với hỗ trợ của Claude Code từ text pypdf; evidence được kiểm tra tự động là nằm trọn trong một chunk đúng nguồn/trang. Học viên đã tự mở PDF đối chiếu và xác nhận toàn bộ câu mới (human_verified=true, 2026-11-16)."
+  },
+  "day6_answer_points": {
+    "q01": [
+      "6\\.4"
+    ],
+    "q02": [
+      "16 percent|16%",
+      "25 percent|25%"
+    ],
+    "q03": [
+      "food",
+      "fuel",
+      "administ"
+    ],
+    "q04": [
+      "coordinat",
+      "cross-provincial|large infrastructure"
+    ],
+    "q05": [
+      "mechanism",
+      "poor"
+    ],
+    "q06": [
+      "lowest",
+      "25 percent|25%"
+    ],
+    "q07": [
+      "3 times|three times|3x",
+      "1\\.5 times|1\\.5x"
+    ],
+    "q08": [
+      "7\\.4"
+    ],
+    "q09": [
+      "historical"
+    ],
+    "q10": [
+      "4\\.7",
+      "14\\.5"
+    ],
+    "q11": [
+      "port handling",
+      "39\\.5"
+    ],
+    "q12": [
+      "Logistics Statistical System|VLSS"
+    ],
+    "q13": [
+      "6\\.7"
+    ],
+    "q14": [
+      "6\\.8"
+    ],
+    "q15": [
+      "4\\.5"
+    ],
+    "q16": [
+      "42 billion",
+      "three months|3 months"
+    ],
+    "q17": [
+      "2\\.8",
+      "administ",
+      "electricity",
+      "health"
+    ],
+    "q18": [
+      "inspection report",
+      "hard cop|paper"
+    ],
+    "q19": [
+      "dependent|depend",
+      "central transfer"
+    ],
+    "q20": [
+      "76",
+      "28"
+    ]
+  },
+  "answerable": [
+    {
+      "id": "q21",
+      "split": "dev",
+      "type": "multi_hop",
+      "question": "How did the 2017 GDP growth rate projected for Vietnam in the December 2017 Taking Stock report compare with the 2017 growth rate recorded according to the June 2018 report?",
+      "expected_answer": "The December 2017 report projected 6.7 percent growth for 2017; the June 2018 report says growth was recorded at 6.8 percent in 2017, slightly above the projection.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 34,
+          "evidence": "GDP growth is projected to accelerate to 6.7 percent in 2017"
+        },
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 11,
+          "evidence": "GDP growth is now projected to accelerate to 6.7 percent in 2017"
+        },
+        {
+          "group": "B",
+          "source_id": "ts-2018-06",
+          "page": 9,
+          "evidence": "Having recorded 6.8 percent in 2017"
+        },
+        {
+          "group": "B",
+          "source_id": "ts-2018-06",
+          "page": 16,
+          "evidence": "Having recorded 6.8 percent in 2017"
+        }
+      ],
+      "answer_points": [
+        "6\\.7",
+        "6\\.8"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "q22",
+      "split": "dev",
+      "type": "multi_hop",
+      "question": "How did Vietnam's gross international reserves reported in the June 2018 Taking Stock report compare with the level reported in the December 2017 report, both in US dollars and in months of imports?",
+      "expected_answer": "December 2017 report: around US$42 billion at the end of September 2017, just below three months of imports. June 2018 report: about US$63 billion in the first four months of 2018, around 3.6 months of imports.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 11,
+          "evidence": "bringing gross international reserves to around US$42 billion at the end of September, equal to just below three months of imports."
+        },
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 29,
+          "evidence": "bringing gross international reserves to around US$ 42 billion 2 by the end of September, equal to just below 3 months of imports."
+        },
+        {
+          "group": "B",
+          "source_id": "ts-2018-06",
+          "page": 9,
+          "evidence": "reaching about US$63 billion in the first four months of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports"
+        },
+        {
+          "group": "B",
+          "source_id": "ts-2018-06",
+          "page": 26,
+          "evidence": "foreign reserves of about US$63 billion3 in the first four month of 2018, more than twice the nominal level reported in December 2015 and equal to around 3.6 months of imports"
+        }
+      ],
+      "answer_points": [
+        "42 billion",
+        "63 billion",
+        "3\\.6"
+      ],
+      "notes": "Ở ts-2018-06 tr.26, số 3 sau 'US$63 billion' là số chú thích bị pypdf trích ra.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t01",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "How many net new manufacturing jobs did Vietnam add over the past three years, and in what kind of sectors were these jobs mainly created?",
+      "expected_answer": "About 1.6 million net new manufacturing jobs, created mainly in export-oriented sectors (such as textiles and electronics).",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 18,
+          "evidence": "Over the past three years Vietnam added 1.6 million new manufacturing jobs (net) - a significant pick up in manufacturing job creation. Within manufacturing, jobs were primarily created in export oriented sectors i.e. textiles and electronics."
+        },
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 11,
+          "evidence": "Over the last three years, Vietnam added 1.6 million new manufacturing jobs (net), especially in export-oriented sectors."
+        }
+      ],
+      "answer_points": [
+        "1\\.6 million",
+        "export"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t02",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "How fast did average wages in Vietnam's public sector grow compared with the domestic and FDI private sector between Q1 2014 and Q1 2017, and what explains the difference?",
+      "expected_answer": "Public-sector wages grew only about 3 percent on average, versus about 8.4 percent in the domestic and FDI private sector, reflecting the government's efforts to rein in the public-sector wage bill.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 19,
+          "evidence": "Average monthly nominal wages in the domestic and FDI private sector grew rapidly expanding at an average rate of 8.4 percent. Meanwhile wages in the public sector grew only by an average 3 percent, reflecting the government's efforts in reining in the public-sector wage bill."
+        }
+      ],
+      "answer_points": [
+        "8\\.4",
+        "3 percent|3%",
+        "wage bill"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t03",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "According to the December 2017 Taking Stock report, how did the State Bank of Vietnam change its rediscount and refinancing rates in July 2017?",
+      "expected_answer": "It cut both rates by 25 basis points, to 4.25 percent (rediscount) and 6.25 percent (refinancing), its first rate adjustment in three years.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 22,
+          "evidence": "cutting its rediscount rate and refinancing rate by 25 basis points to 4.25 and 6.25 percent respectively"
+        },
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 10,
+          "evidence": "cut its rediscount rate and refinancing rate by 25 basis points to 4.25 and 6.25 percent respectively"
+        }
+      ],
+      "filter": {
+        "edition": "2017-12"
+      },
+      "answer_points": [
+        "25 basis points|25 bps|0\\.25",
+        "4\\.25",
+        "6\\.25"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t04",
+      "split": "test",
+      "type": "ngoai_le",
+      "question": "What share of outstanding loans did Vietnam officially report as non-performing in December 2017, and what is the estimated share once NPLs held by VAMC and potential bad debts are included?",
+      "expected_answer": "Officially about 2.3 percent of total outstanding loans (December 2017); about 7.36 percent once VAMC's NPLs and potential bad debts are included.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2018-06",
+          "page": 22,
+          "evidence": "NPLs in the banking system are officially reported equivalent to 2.3 percent of total outstanding loans of the banking sector as of December 2017, however, this only partly reflects asset quality challenges in the banking system, as the measure does not include the non-performing assets held by the VAMC. Including VAMC's NPLs and potential bad debts, total non-performing assets in the banking system are estimated at about 7.36 percent."
+        }
+      ],
+      "answer_points": [
+        "2\\.3",
+        "7\\.36"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t05",
+      "split": "test",
+      "type": "ngoai_le",
+      "question": "Why did Vietnam's oil export earnings fall in the first four months of 2018 even though oil prices were higher?",
+      "expected_answer": "Because export volumes declined substantially: oil production is constrained by technical capacity limits of Vietnam's maturing oil fields. Although oil prices rose 26.3 percent (y/y), oil export earnings contracted by 27 percent.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2018-06",
+          "page": 22,
+          "evidence": "Oil production and hence exports continue to be constrained by technical capacity constraints related to Vietnam's maturing oil fields. While oil prices are up by 26.3 percent (y/y), a substantial decline in volumes caused oil export earnings to contract by 27 percent in the first four months of 2018."
+        }
+      ],
+      "answer_points": [
+        "volume",
+        "27 percent|27%",
+        "matur|technical capacity|capacity constraint"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t06",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "How old is Vietnam's active trucking fleet on average compared with Australia's, and what share of truck miles are driven empty?",
+      "expected_answer": "About 17 years on average versus 14 years in Australia; about 35 percent of truck miles are empty (World Bank study, 2010).",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2018-06",
+          "page": 50,
+          "evidence": "about 35 percent of truck miles are empty according to a World Bank study in 2010, and the average age of Vietnam's active trucking fleet is 17 years, much greater than 14 years in Australia"
+        }
+      ],
+      "answer_points": [
+        "17 years|17-year",
+        "14 years|14 in Australia|Australia \\(14",
+        "35 percent|35%"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t07",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "According to 2010 claims data from the Vietnam Social Security Fund, how much did procurement prices for the same drug vary across public hospitals?",
+      "expected_answer": "There was up to a fivefold difference in procurement prices for the same drug across public hospitals.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 46,
+          "evidence": "claims data from the Vietnam Social Security Fund (VSSF) in 2010 indicated up to a fivefold difference in procurement prices for the same drug across public hospitals."
+        }
+      ],
+      "answer_points": [
+        "fivefold|five-fold|five times|5 times|5-fold"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t08",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "According to the June 2018 Taking Stock report, how much foreign direct investment did foreign investors disburse in Vietnam in 2017?",
+      "expected_answer": "A record US$17.5 billion.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2018-06",
+          "page": 26,
+          "evidence": "In 2017, foreign investors disbursed a record US$17.5 billion to Vietnam"
+        }
+      ],
+      "filter": {
+        "edition": "2018-06"
+      },
+      "answer_points": [
+        "17\\.5"
+      ],
+      "notes": "Bẫy khi không lọc: ts-2017-12 tr.28 ghi giải ngân US$14.2 billion cho 10 tháng đầu 2017.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t09",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "How unevenly is Vietnam's national budget revenue distributed across provinces?",
+      "expected_answer": "Very unevenly: about 80 percent of national budget revenue is concentrated in a quarter of the provinces.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 53,
+          "evidence": "about 80 percent of the national budget revenue is concentrated in a quarter of provinces"
+        }
+      ],
+      "answer_points": [
+        "80 percent|80%",
+        "quarter|25 percent|25%"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t10",
+      "split": "test",
+      "type": "multi_hop",
+      "question": "How did Vietnam's year-on-year credit growth reported for October 2017 in the December 2017 Taking Stock report compare with the year-on-year rate estimated for the first quarter of 2018 in the June 2018 report?",
+      "expected_answer": "About 18.5 percent (y/y) in October 2017 versus about 14 percent (y/y, nominal) in the first quarter of 2018: credit growth slowed but remained elevated.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 22,
+          "evidence": "Credit expansion remained elevated at around 18.5 percent (y/y) in October 2017"
+        },
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 10,
+          "evidence": "Credit growth remained elevated at around 18.5 percent (y/y) in October 2017"
+        },
+        {
+          "group": "B",
+          "source_id": "ts-2018-06",
+          "page": 21,
+          "evidence": "equivalent to about 14 percent year-on-year in nominal terms"
+        }
+      ],
+      "answer_points": [
+        "18\\.5",
+        "14 percent|14%"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "t11",
+      "split": "test",
+      "type": "multi_hop",
+      "question": "Compare Vietnam's merchandise export growth in January-October 2017, as reported in the December 2017 Taking Stock report, with export growth over the first four months of 2018 reported in the June 2018 report.",
+      "expected_answer": "Exports grew 21.3 percent (y/y) in January-October 2017, to about US$174.5 billion, versus 19.2 percent (y/y, value terms) in the first four months of 2018.",
+      "gold": [
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 23,
+          "evidence": "Vietnam's total export turnover between January and October 2017 is estimated at $174.5 billion, up 21.3 percent from the same period last year."
+        },
+        {
+          "group": "A",
+          "source_id": "ts-2017-12",
+          "page": 10,
+          "evidence": "export turnover reached US$174.5 billion (about 86 percent of GDP) in the first 10 months of 2017, up 21.3 percent from the same period last year"
+        },
+        {
+          "group": "B",
+          "source_id": "ts-2018-06",
+          "page": 22,
+          "evidence": "Over the first four months of 2018, Vietnamese export growth accelerated 19.2 percent in value terms (y/y)."
+        }
+      ],
+      "answer_points": [
+        "21\\.3",
+        "19\\.2"
+      ],
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    }
+  ],
+  "unanswerable": [
+    {
+      "id": "n01",
+      "split": "dev",
+      "question": "What was Vietnam's unemployment rate in 2017 according to the Taking Stock reports?",
+      "near_topic": "Thị trường lao động: tạo việc làm, tăng lương (ts-2017-12 tr.18-19; ts-2018-06 tr.18).",
+      "absence_reason": "Không có tỷ lệ thất nghiệp. Regex /unemploy/ trên toàn văn 124 trang PDF (cả trang không index) chỉ khớp nhãn 'Unemployment payments' và 'unemployment benefits' trong hình 2.17-2.18 (ts-2017-12 tr.54-55); /jobless/ không khớp.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "n02",
+      "split": "dev",
+      "question": "How much official development assistance (ODA) did Japan commit to Vietnam in 2017?",
+      "near_topic": "Japan xuất hiện 13 lần: đối tác thương mại, FTA, tăng trưởng (ts-2017-12 tr.15, 27; ts-2018-06 tr.17, 30-31).",
+      "absence_reason": "Regex /\\bODA\\b|development assistance/ chỉ khớp danh mục viết tắt ts-2017-12 tr.5 (trang không index). Không có số liệu ODA nào, của Nhật Bản hay nước khác.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "n03",
+      "split": "dev",
+      "question": "What real GDP growth rate did Vietnam record in the third quarter of 2018?",
+      "near_topic": "Tăng trưởng Q1/2018 7,4% và dự báo cả năm 2018 6,8% (ts-2018-06 tr.9-10, 16, 31).",
+      "absence_reason": "Bản mới nhất phát hành 06/2018, số liệu thực tế tới Q1/2018 và 4-5 tháng đầu năm. Regex /third quarter of 2018|Q3[- ]?2018|q3-18|2018 Q3/ không khớp trang nào.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "n04",
+      "split": "dev",
+      "question": "What was the average export price of Vietnamese rice per tonne in 2017?",
+      "near_topic": "Bảng 1.2 (ts-2017-12 tr.24) có tỷ trọng và tăng trưởng giá trị xuất khẩu gạo (+23,2% 10 tháng 2017); bảng 2.3 (tr.48) có sản lượng USD/ha.",
+      "absence_reason": "Regex /tonne|\\btons?\\b/ chỉ khớp tấn hàng qua cảng và kích thước sà lan (ts-2018-06 tr.49-50). /\\brice\\b/ khớp 23 lần (sản xuất, tưới tiêu, bảng xuất khẩu) nhưng không có giá gạo theo tấn.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "n05",
+      "split": "test",
+      "question": "What GDP growth rate does the World Bank forecast for Vietnam in 2021?",
+      "near_topic": "Dự báo 2018-2020 (6,8%, 6,6%, 6,5%; ts-2018-06 tr.10, 15, 31) và bảng chỉ tiêu ts-2017-12 tr.12.",
+      "absence_reason": "Dự báo chỉ tới năm 2020. Regex /2021/ không khớp trang nào trong hai PDF.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "n06",
+      "split": "test",
+      "question": "How much money did the government raise from selling its stake in Sabeco?",
+      "near_topic": "Thoái vốn Vinamilk/Sabeco hỗ trợ thị trường chứng khoán (ts-2017-12 tr.23); 'significant privatization proceeds' giúp giảm nợ công (ts-2018-06 tr.9, 29).",
+      "absence_reason": "Regex /Sabeco/ chỉ khớp ts-2017-12 tr.23 (không có số tiền); /proceeds/ chỉ khớp ts-2018-06 tr.9 và 29, không nêu số tiền hay tên doanh nghiệp.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    },
+    {
+      "id": "n07",
+      "split": "test",
+      "question": "By how much did Vietnam raise its regional minimum wage for 2018?",
+      "near_topic": "Tăng trưởng lương bình quân 8%, 8,4% và 3% (ts-2017-12 tr.19), lương thực tế tăng 5% năm 2017 (ts-2018-06 tr.18).",
+      "absence_reason": "Regex /minimum wage|wage floor|basic salary/ không khớp trang nào; /minimum/ chỉ khớp 'minimum quality standards' (ts-2018-06 tr.17); 'base wage' chỉ có trong tiêu đề hình 2.4 về quỹ lương khu vực công (ts-2017-12 tr.42), không phải lương tối thiểu vùng. Báo cáo chỉ nêu tăng trưởng lương bình quân.",
+      "human_verified": true,
+      "verified_by": "Phùng Quang Trà (học viên)",
+      "verified_at": "2026-11-16"
+    }
+  ]
+}

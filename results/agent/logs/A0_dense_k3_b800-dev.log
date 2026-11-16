@@ -1,0 +1,78 @@
+q01  abstain  searches=3  61.6s $0.00065  'The evidence does not specify the exact year-on-year real GDP growth rate for Vietnam duri'
+q02  abstain  searches=3  39.2s $0.00069  'The evidence does not provide specific figures for the share of public investment in total'
+Lỗi mạng (<urlopen error [Errno 11001] getaddrinfo failed>), thử lại sau 1 giây
+Lỗi mạng (<urlopen error [Errno 11001] getaddrinfo failed>), thử lại sau 2 giây
+q03  abstain  searches=3  95.2s $0.00060  'The evidence does not specify which prices are excluded from the core inflation measure us'
+q04  answered searches=4  47.4s $0.00065  'To prevent fragmentation and lower investment efficiency when a large share of investment '
+q05  answered searches=3  14.2s $0.00065  'The report indicates that before expanding socialization policies for public services, it '
+q06  answered searches=4  42.4s $0.00074  'Vietnamese teachers spend 1,015 hours teaching in grade 5, which is the shortest among ASE'
+q07  abstain  searches=3  97.0s $0.00054  "There is no evidence in the reports regarding a comparison of Vietnam's road maintenance u"
+q08  abstain  searches=3  10.2s $0.00057  "The evidence does not provide Vietnam's real GDP growth rate for the first quarter of 2018"
+q09  abstain  searches=1  36.4s $0.00060  "There is no evidence in the provided reports regarding the assumption under which Vietnam'"
+q10  answered searches=1  28.1s $0.00029  'According to the World Economic Forum estimate cited in the report, if all countries reduc'
+q11  abstain  searches=3  24.1s $0.00071  'The evidence does not specify which part of the import process accounts for the largest sh'
+q12  abstain  searches=4  16.9s $0.00058  'The evidence does not specify a recommended system for developing reliable logistics stati'
+q13  answered searches=1  25.4s $0.00027  'The GDP growth rate projected for Vietnam in 2017 was 6.7 percent according to the Decembe'
+q14  abstain  searches=4  34.8s $0.00057  'There is no evidence in the provided passages regarding the projected real GDP growth rate'
+q15  abstain  searches=4   8.2s $0.00065  "The evidence does not provide the specific size of Vietnam's overall fiscal deficit in 201"
+q16  abstain  searches=2   6.8s $0.00073  "The evidence regarding the level of Vietnam's gross international reserves and the number "
+q17  answered searches=1   4.0s $0.00028  "In early 2018, Vietnam's year-on-year consumer price inflation was 2.8 percent, driven by "
+q18  answered searches=1   7.8s $0.00028  'In Vietnam, the inspection report is the trade document that cannot be submitted electroni'
+Lỗi mạng (<urlopen error [Errno 11001] getaddrinfo failed>), thử lại sau 1 giây
+q19  abstain  searches=3 103.0s $0.00061  "The evidence does not specifically address the consequences for Vietnam's poorer provinces"
+q20  abstain  searches=1  15.1s $0.00027  'Không đủ bằng chứng để trả lời.'
+q21  abstain  searches=3  58.9s $0.00069  "The December 2017 report projected Vietnam's GDP growth rate for 2017 at 6.7 percent [ts-2"
+q22  abstain  searches=3  21.1s $0.00069  "The evidence does not provide specific figures for Vietnam's gross international reserves "
+n01  abstain  searches=2   7.1s $0.00059  'The evidence does not provide a specific unemployment rate for Vietnam in 2017 according t'
+n02  abstain  searches=3   6.5s $0.00060  'The evidence does not provide information on the amount of official development assistance'
+n03  abstain  searches=3  18.4s $0.00063  'The evidence does not provide the real GDP growth rate for Vietnam in the third quarter of'
+n04  abstain  searches=3  29.3s $0.00061  'The evidence does not provide the average export price of Vietnamese rice per tonne for 20'
+{
+ "status": {
+  "abstain": 19,
+  "answered": 7
+ },
+ "tool_use": {
+  "n": 26,
+  "N": 26,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 6,
+  "2": 2,
+  "3": 13,
+  "4": 5
+ },
+ "context_evidence_rate": {
+  "n": 5,
+  "N": 22,
+  "rate": 0.227
+ },
+ "auto_cited_evidence": {
+  "n": 4,
+  "N": 22,
+  "rate": 0.182
+ },
+ "auto_all_points": {
+  "n": 4,
+  "N": 22,
+  "rate": 0.182
+ },
+ "abstain_on_unanswerable": {
+  "n": 4,
+  "N": 4,
+  "rate": 1.0
+ },
+ "abstain_on_answerable": {
+  "n": 15,
+  "N": 22,
+  "rate": 0.682
+ },
+ "latency_s": {
+  "mean": 33.03,
+  "median": 24.75,
+  "max": 102.98
+ },
+ "cost_usd_total": 0.014745
+}
+Trace: C:\Users\ADMIN\Documents\res1\K5-L3B-DAY07-2A202604094-PhungQuangTra-RetrievalContext\results\agent\A0_dense_k3_b800-dev\traces.json
